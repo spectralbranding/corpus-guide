@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
-  "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status.",
+  "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
   "generated": "Generated projection as of 2026-06-28. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
   "as_of": "2026-06-28",
   "counts": {
@@ -134,31 +134,91 @@
   ],
   "by_paper": {
     "2026a": [
-      "01_there_is_no_brand_in_itself",
-      "02_strongest_weak_brand",
-      "SBT-C4_coo_brand_strategist",
-      "standalone_ai_brand_audit",
-      "standalone_brand_is_one_interface"
+      {
+        "slug": "02_strongest_weak_brand",
+        "title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4",
+        "url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand"
+      },
+      {
+        "slug": "01_there_is_no_brand_in_itself",
+        "title": "What Is Brand Perception? A Multi-Dimensional Framework",
+        "url": "https://spectralbranding.substack.com/p/there-is-no-brand-in-itself"
+      },
+      {
+        "slug": "SBT-C4_coo_brand_strategist",
+        "title": "Why COO and Brand Strategist Should Report to Each Other",
+        "url": "https://spectralbranding.substack.com/p/why-your-coo-should-report-to-your"
+      },
+      {
+        "slug": "standalone_brand_is_one_interface",
+        "title": "Brand Is One Interface of the Specification",
+        "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      },
+      {
+        "slug": "standalone_ai_brand_audit",
+        "title": "The $0.80 AI Brand Audit",
+        "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+      }
     ],
     "2026aa": [
-      "standalone_ai_brand_audit"
+      {
+        "slug": "standalone_ai_brand_audit",
+        "title": "The $0.80 AI Brand Audit",
+        "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+      }
     ],
     "2026ag": [
-      "standalone_brand_is_one_interface",
-      "standalone_marketing_is_push_demand_is_pull",
-      "standalone_push_loses_pull_conserves"
+      {
+        "slug": "standalone_push_loses_pull_conserves",
+        "title": "Push Systems Lose Energy. Pull Systems Conserve.",
+        "url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve"
+      },
+      {
+        "slug": "standalone_brand_is_one_interface",
+        "title": "Brand Is One Interface of the Specification",
+        "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      },
+      {
+        "slug": "standalone_marketing_is_push_demand_is_pull",
+        "title": "Marketing Is the Push, Demand Is the Pull",
+        "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
+      }
     ],
     "2026ah": [
-      "standalone_brand_is_one_interface",
-      "standalone_marketing_is_push_demand_is_pull",
-      "standalone_push_loses_pull_conserves"
+      {
+        "slug": "standalone_push_loses_pull_conserves",
+        "title": "Push Systems Lose Energy. Pull Systems Conserve.",
+        "url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve"
+      },
+      {
+        "slug": "standalone_marketing_is_push_demand_is_pull",
+        "title": "Marketing Is the Push, Demand Is the Pull",
+        "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
+      },
+      {
+        "slug": "standalone_brand_is_one_interface",
+        "title": "Brand Is One Interface of the Specification",
+        "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      }
     ],
     "2026aw": [
-      "standalone_marketing_is_push_demand_is_pull"
+      {
+        "slug": "standalone_marketing_is_push_demand_is_pull",
+        "title": "Marketing Is the Push, Demand Is the Pull",
+        "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
+      }
     ],
     "2026v": [
-      "standalone_ai_brand_audit",
-      "standalone_comparator_trap"
+      {
+        "slug": "standalone_comparator_trap",
+        "title": "The Comparator Trap: When the Right Competitor Hurts",
+        "url": "https://spectralbranding.substack.com/p/the-comparator-trap"
+      },
+      {
+        "slug": "standalone_ai_brand_audit",
+        "title": "The $0.80 AI Brand Audit",
+        "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+      }
     ]
   }
 }

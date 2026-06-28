@@ -31,6 +31,18 @@
         "brand-spectrometer",
         "sbt-framework"
       ],
+      "articles": [
+        {
+          "slug": "01_there_is_no_brand_in_itself",
+          "title": "What Is Brand Perception? A Multi-Dimensional Framework",
+          "url": "https://spectralbranding.substack.com/p/there-is-no-brand-in-itself"
+        },
+        {
+          "slug": "standalone_ai_brand_audit",
+          "title": "The $0.80 AI Brand Audit",
+          "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+        }
+      ],
       "decisions": [
         {
           "id": "diagnose-perception",
@@ -72,7 +84,9 @@
           "key": "2026a",
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
+          "article_url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
+          "article_title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4"
         },
         {
           "key": "2026au",
@@ -142,7 +156,9 @@
             "key": "2026v",
             "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
             "doi_url": "https://doi.org/10.5281/zenodo.19422427",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
+            "article_url": "https://spectralbranding.substack.com/p/the-comparator-trap",
+            "article_title": "The Comparator Trap: When the Right Competitor Hurts"
           },
           {
             "key": "2026k",
@@ -186,6 +202,18 @@
         "orgschema-toolkit",
         "schema-consult"
       ],
+      "articles": [
+        {
+          "slug": "standalone_brand_is_one_interface",
+          "title": "Brand Is One Interface of the Specification",
+          "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+        },
+        {
+          "slug": "SBT-C4_coo_brand_strategist",
+          "title": "Why COO and Brand Strategist Should Report to Each Other",
+          "url": "https://spectralbranding.substack.com/p/why-your-coo-should-report-to-your"
+        }
+      ],
       "decisions": [
         {
           "id": "specify-operations",
@@ -210,7 +238,9 @@
           "key": "2026ag",
           "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
           "doi_url": "https://doi.org/10.5281/zenodo.19895813",
-          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
+          "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+          "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
         },
         {
           "key": "2026ar",
@@ -327,13 +357,25 @@
       ],
       "one_liner": "Direction, not intensity, is the consequential bet — which tier and which dimension you point the firm at.",
       "jtbd": "Set strategy and portfolio; evaluate an M&A or a reorg at the tier grain, not the logo.",
-      "entry_explorable": null,
+      "entry_explorable": "tier-allocation",
       "next_action": "Ask schema-consult the decision (invest / acquire / reorganize); it routes to the measured basis.",
       "byoai_cta": "Point your agent at the tier-allocation + tier-rotation spines and the six-tier ontology.",
       "instruments": [
         "brand-spectrometer",
         "orgschema-toolkit",
         "schema-consult"
+      ],
+      "articles": [
+        {
+          "slug": "standalone_bottleneck_rotates",
+          "title": "The Bottleneck Rotates: Why AI Supply Surprises",
+          "url": "https://spectralbranding.substack.com/p/the-bottleneck-rotates-why-ai-supply"
+        },
+        {
+          "slug": "standalone_which_tier_did_your_ai_land_on",
+          "title": "Which Tier Did Your AI Land On? The CFO Test",
+          "url": "https://spectralbranding.substack.com/p/which-tier-did-your-ai-land-on"
+        }
       ],
       "decisions": [
         {
@@ -445,13 +487,17 @@
             "key": "2026ag",
             "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
             "doi_url": "https://doi.org/10.5281/zenodo.19895813",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
+            "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+            "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
           },
           {
             "key": "2026ah",
             "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
             "doi_url": "https://doi.org/10.5281/zenodo.19930157",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer",
+            "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+            "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
           },
           {
             "key": "2026al",
@@ -494,12 +540,24 @@
       ],
       "one_liner": "Turn 'where should we invest?' into a measurement: where does resolvable perception headroom actually sit?",
       "jtbd": "Evaluate a business case; direct incremental investment across tiers and dimensions by measured demand, not intuition.",
-      "entry_explorable": null,
+      "entry_explorable": "tier-allocation",
       "next_action": "Measure the alignment gap per dimension (Brand Spectrometer), then weight by tier-specific decay.",
       "byoai_cta": "Point your agent at the where-to-invest + resource-allocation spines.",
       "instruments": [
         "brand-spectrometer",
         "schema-consult"
+      ],
+      "articles": [
+        {
+          "slug": "standalone_which_tier_did_your_ai_land_on",
+          "title": "Which Tier Did Your AI Land On? The CFO Test",
+          "url": "https://spectralbranding.substack.com/p/which-tier-did-your-ai-land-on"
+        },
+        {
+          "slug": "standalone_marketing_is_push_demand_is_pull",
+          "title": "Marketing Is the Push, Demand Is the Pull",
+          "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
+        }
       ],
       "decisions": [
         {
@@ -606,13 +664,17 @@
             "key": "2026ag",
             "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
             "doi_url": "https://doi.org/10.5281/zenodo.19895813",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
+            "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+            "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
           },
           {
             "key": "2026ah",
             "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
             "doi_url": "https://doi.org/10.5281/zenodo.19930157",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer",
+            "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+            "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
           }
         ]
       }
@@ -630,10 +692,17 @@
       ],
       "one_liner": "The formal spine: brand perception as geometry — projection bounds, metamerism, concentration.",
       "jtbd": "Read and extend the formal results (metric geometry, projection bounds, packing, dynamics).",
-      "entry_explorable": null,
+      "entry_explorable": "spectral-metamerism",
       "next_action": "Read the LaTeX spines; the proofs and bounds live at L2 (SPINE.yaml), not the prose.",
       "byoai_cta": "Point your agent at the geometry papers' spines (claims + methods), drill to paper.md only for proofs.",
       "instruments": [],
+      "articles": [
+        {
+          "slug": "standalone_probability_measurement_artifact",
+          "title": "Probability Is a Measurement Artifact",
+          "url": "https://spectralbranding.substack.com/p/probability-is-a-measurement-artifact"
+        }
+      ],
       "decisions": [],
       "seeds": [
         {
@@ -734,11 +803,23 @@
       ],
       "one_liner": "Reproducible cohort-resolved measurement with explicit noise floors and published data.",
       "jtbd": "Reproduce the studies, inspect the instrument, reuse the datasets.",
-      "entry_explorable": null,
+      "entry_explorable": "cohort-separability",
       "next_action": "Run reproduce.sh against the published HF datasets; inspect the instrument's noise-floor gating.",
       "byoai_cta": "Point your agent at the instrument paper's spine + the dataset DOIs.",
       "instruments": [
         "brand-spectrometer"
+      ],
+      "articles": [
+        {
+          "slug": "standalone_ai_brand_audit",
+          "title": "The $0.80 AI Brand Audit",
+          "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+        },
+        {
+          "slug": "standalone_comparator_trap",
+          "title": "The Comparator Trap: When the Right Competitor Hurts",
+          "url": "https://spectralbranding.substack.com/p/the-comparator-trap"
+        }
       ],
       "decisions": [
         {
@@ -770,7 +851,9 @@
           "key": "2026aa",
           "title": "Optimal Response Formats for AI Brand Perception Measurement: Evidence for a J-Shaped Rate-Distortion Curve",
           "doi_url": "https://doi.org/10.5281/zenodo.19528833",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion",
+          "article_url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit",
+          "article_title": "The $0.80 AI Brand Audit"
         }
       ],
       "gh_deeplinks": [
@@ -830,7 +913,9 @@
             "key": "2026v",
             "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
             "doi_url": "https://doi.org/10.5281/zenodo.19422427",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
+            "article_url": "https://spectralbranding.substack.com/p/the-comparator-trap",
+            "article_title": "The Comparator Trap: When the Right Competitor Hurts"
           }
         ]
       }
@@ -852,6 +937,18 @@
       "byoai_cta": "Point your agent at the OST spine cluster (six-tier, cascade, spec-readiness).",
       "instruments": [
         "orgschema-toolkit"
+      ],
+      "articles": [
+        {
+          "slug": "standalone_brand_is_one_interface",
+          "title": "Brand Is One Interface of the Specification",
+          "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+        },
+        {
+          "slug": "standalone_marketing_is_push_demand_is_pull",
+          "title": "Marketing Is the Push, Demand Is the Pull",
+          "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
+        }
       ],
       "decisions": [
         {
@@ -877,7 +974,9 @@
           "key": "2026ag",
           "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
           "doi_url": "https://doi.org/10.5281/zenodo.19895813",
-          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
+          "article_url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+          "article_title": "Push Systems Lose Energy. Pull Systems Conserve."
         },
         {
           "key": "2026m",
@@ -979,17 +1078,31 @@
       ],
       "one_liner": "LLM-as-observer and link-time ontology negotiation: how machines read and reconcile meaning.",
       "jtbd": "Engage the LLM-mediated measurement and the federated ontology-negotiation results.",
-      "entry_explorable": null,
+      "entry_explorable": "rendering-equivalence",
       "next_action": "Read the dimensional-collapse and link-time-negotiation spines; the negotiation tooling is runnable.",
       "byoai_cta": "Point your agent at the AI-observer + negotiation spines (claims + methods).",
       "instruments": [],
+      "articles": [
+        {
+          "slug": "standalone_comparator_trap",
+          "title": "The Comparator Trap: When the Right Competitor Hurts",
+          "url": "https://spectralbranding.substack.com/p/the-comparator-trap"
+        },
+        {
+          "slug": "standalone_ai_brand_audit",
+          "title": "The $0.80 AI Brand Audit",
+          "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
+        }
+      ],
       "decisions": [],
       "seeds": [
         {
           "key": "2026v",
           "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
           "doi_url": "https://doi.org/10.5281/zenodo.19422427",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
+          "article_url": "https://spectralbranding.substack.com/p/the-comparator-trap",
+          "article_title": "The Comparator Trap: When the Right Competitor Hurts"
         },
         {
           "key": "2026at",
@@ -1049,7 +1162,9 @@
             "key": "2026aa",
             "title": "Optimal Response Formats for AI Brand Perception Measurement: Evidence for a J-Shaped Rate-Distortion Curve",
             "doi_url": "https://doi.org/10.5281/zenodo.19528833",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion",
+            "article_url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit",
+            "article_title": "The $0.80 AI Brand Audit"
           },
           {
             "key": "2026as",
@@ -1079,10 +1194,22 @@
       ],
       "one_liner": "The substrate-vs-rendering program: meaning vs meaningfulness, research as a repository.",
       "jtbd": "Engage the meta-scientific program — one substrate, many renderings; spine preservation; canon as repository.",
-      "entry_explorable": null,
+      "entry_explorable": "rendering-equivalence",
       "next_action": "Read research-as-repository + same-meaning-different-prose; this guide is itself an instance.",
       "byoai_cta": "Point your agent at the meta-science spines (research-as-repository, rendering-equivalence).",
       "instruments": [],
+      "articles": [
+        {
+          "slug": "standalone_cinema_dies_theater_survives",
+          "title": "Cinema Dies. Theater Survives. Cinema-as-Craft Compounds.",
+          "url": "https://spectralbranding.substack.com/p/cinema-dies-theater-survives"
+        },
+        {
+          "slug": "standalone_three_types_of_books",
+          "title": "The Three Types of Books That AI Will Transform Differently",
+          "url": "https://spectralbranding.substack.com/p/the-three-types-of-books-that-ai-will-transform-differently"
+        }
+      ],
       "decisions": [],
       "seeds": [
         {
@@ -1180,13 +1307,27 @@
       "next_action": "Try the 8-dimension explorable, then read the published article on the same idea.",
       "byoai_cta": "Ask your assistant to summarize the SBT framing from the open corpus.",
       "instruments": [],
+      "articles": [
+        {
+          "slug": "01_there_is_no_brand_in_itself",
+          "title": "What Is Brand Perception? A Multi-Dimensional Framework",
+          "url": "https://spectralbranding.substack.com/p/there-is-no-brand-in-itself"
+        },
+        {
+          "slug": "02_strongest_weak_brand",
+          "title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4",
+          "url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand"
+        }
+      ],
       "decisions": [],
       "seeds": [
         {
           "key": "2026a",
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
+          "article_url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
+          "article_title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4"
         }
       ],
       "gh_deeplinks": [
@@ -1241,6 +1382,7 @@
       "instruments": [
         "schema-consult"
       ],
+      "articles": [],
       "decisions": [
         {
           "id": "diagnose-perception",
@@ -1393,6 +1535,7 @@
       "instruments": [
         "schema-consult"
       ],
+      "articles": [],
       "decisions": [],
       "seeds": [],
       "gh_deeplinks": [],
