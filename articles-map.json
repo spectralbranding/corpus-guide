@@ -1,0 +1,164 @@
+{
+  "schema_version": "0.1.0",
+  "title": "Spectral-branding articles map — published article <-> corpus paper",
+  "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status.",
+  "generated": "Generated projection as of 2026-06-28. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-06-28",
+  "counts": {
+    "published_articles": 13,
+    "articles_linking_papers": 8,
+    "papers_with_articles": 6,
+    "withheld_paper_edges_dropped": 1,
+    "excluded": {
+      "no_url": 83,
+      "no_date": 11,
+      "future_dated": 19,
+      "no_papers": 5
+    }
+  },
+  "by_article": [
+    {
+      "slug": "01_there_is_no_brand_in_itself",
+      "title": "What Is Brand Perception? A Multi-Dimensional Framework",
+      "url": "https://spectralbranding.substack.com/p/there-is-no-brand-in-itself",
+      "date": "2026-03-15",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
+      "slug": "02_strongest_weak_brand",
+      "title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4",
+      "url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
+      "date": "2026-03-17",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
+      "slug": "SBT-C4_coo_brand_strategist",
+      "title": "Why COO and Brand Strategist Should Report to Each Other",
+      "url": "https://spectralbranding.substack.com/p/why-your-coo-should-report-to-your",
+      "date": "2026-03-15",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
+      "slug": "standalone_ai_brand_audit",
+      "title": "The $0.80 AI Brand Audit",
+      "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit",
+      "date": "2026-04-12",
+      "covers": [
+        "2026a",
+        "2026aa",
+        "2026v"
+      ]
+    },
+    {
+      "slug": "standalone_bottleneck_rotates",
+      "title": "The Bottleneck Rotates: Why AI Supply Surprises",
+      "url": "https://spectralbranding.substack.com/p/the-bottleneck-rotates-why-ai-supply",
+      "date": "2026-05-24",
+      "covers": []
+    },
+    {
+      "slug": "standalone_brand_is_one_interface",
+      "title": "Brand Is One Interface of the Specification",
+      "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification",
+      "date": "2026-06-25",
+      "covers": [
+        "2026a",
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_cinema_dies_theater_survives",
+      "title": "Cinema Dies. Theater Survives. Cinema-as-Craft Compounds.",
+      "url": "https://spectralbranding.substack.com/p/cinema-dies-theater-survives",
+      "date": "2026-06-06",
+      "covers": []
+    },
+    {
+      "slug": "standalone_comparator_trap",
+      "title": "The Comparator Trap: When the Right Competitor Hurts",
+      "url": "https://spectralbranding.substack.com/p/the-comparator-trap",
+      "date": "2026-05-28",
+      "covers": [
+        "2026v"
+      ]
+    },
+    {
+      "slug": "standalone_marketing_is_push_demand_is_pull",
+      "title": "Marketing Is the Push, Demand Is the Pull",
+      "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull",
+      "date": "2026-06-27",
+      "covers": [
+        "2026ag",
+        "2026ah",
+        "2026aw"
+      ]
+    },
+    {
+      "slug": "standalone_probability_measurement_artifact",
+      "title": "Probability Is a Measurement Artifact",
+      "url": "https://spectralbranding.substack.com/p/probability-is-a-measurement-artifact",
+      "date": "2026-06-13",
+      "covers": []
+    },
+    {
+      "slug": "standalone_push_loses_pull_conserves",
+      "title": "Push Systems Lose Energy. Pull Systems Conserve.",
+      "url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve",
+      "date": "2026-06-20",
+      "covers": [
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_three_types_of_books",
+      "title": "The Three Types of Books That AI Will Transform Differently",
+      "url": "https://spectralbranding.substack.com/p/the-three-types-of-books-that-ai-will-transform-differently",
+      "date": "2026-05-23",
+      "covers": []
+    },
+    {
+      "slug": "standalone_which_tier_did_your_ai_land_on",
+      "title": "Which Tier Did Your AI Land On? The CFO Test",
+      "url": "https://spectralbranding.substack.com/p/which-tier-did-your-ai-land-on",
+      "date": "2026-06-03",
+      "covers": []
+    }
+  ],
+  "by_paper": {
+    "2026a": [
+      "01_there_is_no_brand_in_itself",
+      "02_strongest_weak_brand",
+      "SBT-C4_coo_brand_strategist",
+      "standalone_ai_brand_audit",
+      "standalone_brand_is_one_interface"
+    ],
+    "2026aa": [
+      "standalone_ai_brand_audit"
+    ],
+    "2026ag": [
+      "standalone_brand_is_one_interface",
+      "standalone_marketing_is_push_demand_is_pull",
+      "standalone_push_loses_pull_conserves"
+    ],
+    "2026ah": [
+      "standalone_brand_is_one_interface",
+      "standalone_marketing_is_push_demand_is_pull",
+      "standalone_push_loses_pull_conserves"
+    ],
+    "2026aw": [
+      "standalone_marketing_is_push_demand_is_pull"
+    ],
+    "2026v": [
+      "standalone_ai_brand_audit",
+      "standalone_comparator_trap"
+    ]
+  }
+}

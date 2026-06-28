@@ -1,0 +1,1406 @@
+{
+  "schema_version": "0.1.0",
+  "title": "Spectral-branding /guide routing — role accelerators over the open corpus",
+  "description": "Generated role map for the /guide page and machine signpost. Routes a visitor (cohort) to a fast path through the corpus, reusing the consult decision routes. An accelerator, not a gate: every role carries the `other` fallback and an expand_via neighbourhood; seeds are entry points, not answer sets.",
+  "canonical_url": "https://spectralbranding.com/guide",
+  "generated": "Generated projection of the shared decision/role taxonomy over the open corpus substrate. Do not hand-edit; regenerated from source.",
+  "fallback": {
+    "readme_index": "https://github.com/spectralbranding",
+    "semantic_router": "https://consult.orgschema.com",
+    "corpus_map": "https://raw.githubusercontent.com/spectralbranding/corpus-guide/main/corpus-map.json"
+  },
+  "roles": [
+    {
+      "role_id": "cmo",
+      "label": "CMO / Brand lead",
+      "symbol": "◆",
+      "aliases": [
+        "marketing director",
+        "brand manager",
+        "head of growth",
+        "brand strategist",
+        "CBO",
+        "CMO"
+      ],
+      "one_liner": "A brand, like colour, is completed in the observer — measure the perception you do not control.",
+      "jtbd": "Diagnose a brand's perception, find perception gaps across audiences, and act on them.",
+      "entry_explorable": "spectral-profile-8d",
+      "next_action": "See your brand's shape in minutes (Brand Spectrometer), then read it back through the anchor claims.",
+      "byoai_cta": "Point your agent at the SBT reading path on GitHub (spine + claims), not the PDFs.",
+      "instruments": [
+        "brand-spectrometer",
+        "sbt-framework"
+      ],
+      "decisions": [
+        {
+          "id": "diagnose-perception",
+          "decision": "Diagnose a brand's perception and find perception gaps across audiences.",
+          "persona": [
+            "CMO",
+            "brand lead",
+            "brand strategist"
+          ],
+          "framework": "SBT",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/diagnose-perception.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "reach-an-audience",
+          "decision": "Reach a perceptual cohort that has no mailing address.",
+          "persona": [
+            "CMO",
+            "growth lead",
+            "media planner"
+          ],
+          "framework": "SBT",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/reach-an-audience.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026a",
+          "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
+          "doi_url": "https://doi.org/10.5281/zenodo.18945912",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+        },
+        {
+          "key": "2026au",
+          "title": "The Correspondence Principle of Brand Management",
+          "doi_url": "https://doi.org/10.5281/zenodo.20757596",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-correspondence-principle"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026a",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+        },
+        {
+          "key": "2026au",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-correspondence-principle"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "perception-cloud",
+            "label": "perception cloud"
+          },
+          {
+            "key": "cohort",
+            "label": "cohort"
+          },
+          {
+            "key": "spectral-metamerism",
+            "label": "Spectral Metamerism"
+          },
+          {
+            "key": "observer-spectral-profile",
+            "label": "observer spectral profile"
+          },
+          {
+            "key": "reflection",
+            "label": "Reflection (per-artifact spectral measurement)"
+          },
+          {
+            "key": "spectral-dimensions",
+            "label": "the 8 dimensions"
+          }
+        ],
+        "reading_path": "sbt-brand-perception",
+        "related_papers": [
+          {
+            "key": "2026av",
+            "title": "Reaching a Perception: From Perceptual Cohort to Reachable Audience",
+            "doi_url": "https://doi.org/10.5281/zenodo.20765556",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/reaching-a-perception"
+          },
+          {
+            "key": "2026p",
+            "title": "Dimensional Activation and Cohort Divergence: A Longitudinal Decomposition of Purpose Advertising Effectiveness",
+            "doi_url": "https://doi.org/10.5281/zenodo.19139258",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r10-dove-case-study"
+          },
+          {
+            "key": "2026s",
+            "title": "Coherence Type Over Coherence Score: A Stochastic Differential Equation Derivation of Brand Resilience",
+            "doi_url": "https://doi.org/10.5281/zenodo.19208107",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r12-coherence-resilience"
+          },
+          {
+            "key": "2026v",
+            "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
+            "doi_url": "https://doi.org/10.5281/zenodo.19422427",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+          },
+          {
+            "key": "2026k",
+            "title": "Spectral Resource Allocation: Demand-Driven Investment in Multi-Dimensional Brand Space",
+            "doi_url": "https://doi.org/10.5281/zenodo.19009268",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r7-spectral-resource-allocation"
+          },
+          {
+            "key": "2026ad",
+            "title": "Restoring Perceptual Separability After Coherence Shocks: A μ > λ Threshold Inequality in Brand Perception",
+            "doi_url": "https://doi.org/10.5281/zenodo.19778549",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r22-spectral-gap-restoration"
+          },
+          {
+            "key": "2026ax",
+            "title": "The Brand Spectrometer: A Reproducible Instrument for Cohort-Resolved, Multi-Dimensional Brand-Perception Measurement from Public Artifacts",
+            "doi_url": "https://doi.org/10.5281/zenodo.20775963",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "coo",
+      "label": "COO / Operations",
+      "symbol": "▣",
+      "aliases": [
+        "operations lead",
+        "operating partner",
+        "head of ops",
+        "GM",
+        "COO",
+        "chief of staff"
+      ],
+      "one_liner": "Make the operating model you DO control explicit, testable, and validated layer by layer.",
+      "jtbd": "Specify or stress-test the operating model; diagnose dysfunction as a specification defect, not an execution failure.",
+      "entry_explorable": "six-tier-cascade",
+      "next_action": "Specify your business top-down (orgschema-toolkit), or run a six-level OrgSchema Audit for stress-test.",
+      "byoai_cta": "Point your agent at the OST reading path on GitHub (six-tier spine + audit claims).",
+      "instruments": [
+        "orgschema-toolkit",
+        "schema-consult"
+      ],
+      "decisions": [
+        {
+          "id": "specify-operations",
+          "decision": "Specify or stress-test an operating model.",
+          "persona": [
+            "CEO",
+            "COO",
+            "operations lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/specify-operations.md",
+          "instrument": {
+            "name": "OrgSchema Toolkit",
+            "url": "https://github.com/spectralbranding/orgschema-toolkit",
+            "kind": "specification"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026ag",
+          "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
+          "doi_url": "https://doi.org/10.5281/zenodo.19895813",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+        },
+        {
+          "key": "2026ar",
+          "title": "The OrgSchema Audit: A Six-Level Diagnostic for Specification-Driven Organizations",
+          "doi_url": "https://doi.org/10.5281/zenodo.19555201",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/orgschema-audit"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026ag",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+        },
+        {
+          "key": "2026ar",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/orgschema-audit"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "six-tier-ontology",
+            "label": "six-tier ontology"
+          },
+          {
+            "key": "projection-cascade",
+            "label": "Projection Cascade"
+          },
+          {
+            "key": "specification-coherence-index",
+            "label": "Specification Coherence Index"
+          },
+          {
+            "key": "organizational-metamerism",
+            "label": "Organizational Metamerism"
+          },
+          {
+            "key": "verification-as-operator",
+            "label": "Verification as Operator"
+          },
+          {
+            "key": "coverage-impossibility",
+            "label": "Coverage Impossibility"
+          },
+          {
+            "key": "re-collapse",
+            "label": "re-collapse"
+          }
+        ],
+        "reading_path": "ost-how-businesses-are-specified",
+        "related_papers": [
+          {
+            "key": "2026m",
+            "title": "The Projection Cascade: Why Reorganizations Fail When the Specification Cascade Doesn't",
+            "doi_url": "https://doi.org/10.5281/zenodo.19145205",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/projection-paper"
+          },
+          {
+            "key": "2026an",
+            "title": "Specification Readiness: Measuring an Architectural Antecedent of Functional Friction and AI Returns",
+            "doi_url": "https://doi.org/10.5281/zenodo.20384084",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical"
+          },
+          {
+            "key": "2026am",
+            "title": "Specification Readiness and Endogenous Friction: An Information-Theoretic Model of Multi-Interface Organizational Architecture",
+            "doi_url": "https://doi.org/10.5281/zenodo.20379981",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness"
+          },
+          {
+            "key": "2026h",
+            "title": "Specification Impossibility in Organizational Design: A High-Dimensional Geometric Analysis",
+            "doi_url": "https://doi.org/10.5281/zenodo.18945591",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r5-specification-impossibility"
+          },
+          {
+            "key": "2026ae",
+            "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
+            "doi_url": "https://doi.org/10.5281/zenodo.19778588",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          },
+          {
+            "key": "2026af",
+            "title": "Organizational Metamerism: Observer-Relative State Equivalence in Organizational Configurations",
+            "doi_url": "https://doi.org/10.5281/zenodo.19869871",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/org-as-metadata"
+          },
+          {
+            "key": "2026al",
+            "title": "Capability as Projection of an Append-Only Organizational Log: An Event-Sourced Substrate Theory of Organizational Capability and Transfer Failure",
+            "doi_url": "https://doi.org/10.5281/zenodo.20367459",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/capability-as-projection"
+          },
+          {
+            "key": "2026at",
+            "title": "Negotiating Vocabularies at Link Time: A Deterministic Six-Class Compatibility Check for Federated Ontology Modules",
+            "doi_url": "https://doi.org/10.5281/zenodo.20751395",
+            "github_url": "https://github.com/spectralbranding/federated-negotiation/tree/main"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "ceo",
+      "label": "CEO / Board",
+      "symbol": "◁",
+      "aliases": [
+        "founder",
+        "managing director",
+        "chair",
+        "board member",
+        "corp dev",
+        "CEO"
+      ],
+      "one_liner": "Direction, not intensity, is the consequential bet — which tier and which dimension you point the firm at.",
+      "jtbd": "Set strategy and portfolio; evaluate an M&A or a reorg at the tier grain, not the logo.",
+      "entry_explorable": null,
+      "next_action": "Ask schema-consult the decision (invest / acquire / reorganize); it routes to the measured basis.",
+      "byoai_cta": "Point your agent at the tier-allocation + tier-rotation spines and the six-tier ontology.",
+      "instruments": [
+        "brand-spectrometer",
+        "orgschema-toolkit",
+        "schema-consult"
+      ],
+      "decisions": [
+        {
+          "id": "decide-investment",
+          "decision": "Decide where to invest across tiers; evaluate a business case.",
+          "persona": [
+            "CFO",
+            "CEO",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/decide-investment.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "evaluate-ma",
+          "decision": "Evaluate an acquisition or merger for perceptual and operating fit.",
+          "persona": [
+            "CFO",
+            "corp dev",
+            "strategy lead"
+          ],
+          "framework": "SBT+OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/evaluate-ma.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "specify-operations",
+          "decision": "Specify or stress-test an operating model.",
+          "persona": [
+            "CEO",
+            "COO",
+            "operations lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/specify-operations.md",
+          "instrument": {
+            "name": "OrgSchema Toolkit",
+            "url": "https://github.com/spectralbranding/orgschema-toolkit",
+            "kind": "specification"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026aj",
+          "title": "Where to Invest Within the Firm: Organizational Tiers, Discount Rates, and AI Penetration",
+          "doi_url": "https://doi.org/10.5281/zenodo.20072288",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-allocation"
+        },
+        {
+          "key": "2026ai",
+          "title": "The Tier-Rotation Curve: A Theory of Brand-Substrate Decoupling and Its M&A-Value Geometry",
+          "doi_url": "https://doi.org/10.5281/zenodo.20069605",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-rotation"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026aj",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-allocation"
+        },
+        {
+          "key": "2026ai",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-rotation"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "tier-allocation",
+            "label": "Tier allocation"
+          },
+          {
+            "key": "tier-rotation-curve",
+            "label": "Tier-Rotation Curve"
+          },
+          {
+            "key": "six-tier-ontology",
+            "label": "six-tier ontology"
+          },
+          {
+            "key": "brand-as-tier-4-projection",
+            "label": "Brand as Tier-4 projection"
+          },
+          {
+            "key": "capability-as-projection",
+            "label": "Capability as projection"
+          },
+          {
+            "key": "alignment-gap",
+            "label": "Alignment Gap"
+          }
+        ],
+        "reading_path": "ost-where-to-bet",
+        "related_papers": [
+          {
+            "key": "2026ag",
+            "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
+            "doi_url": "https://doi.org/10.5281/zenodo.19895813",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+          },
+          {
+            "key": "2026ah",
+            "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
+            "doi_url": "https://doi.org/10.5281/zenodo.19930157",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer"
+          },
+          {
+            "key": "2026al",
+            "title": "Capability as Projection of an Append-Only Organizational Log: An Event-Sourced Substrate Theory of Organizational Capability and Transfer Failure",
+            "doi_url": "https://doi.org/10.5281/zenodo.20367459",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/capability-as-projection"
+          },
+          {
+            "key": "2026au",
+            "title": "The Correspondence Principle of Brand Management",
+            "doi_url": "https://doi.org/10.5281/zenodo.20757596",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-correspondence-principle"
+          },
+          {
+            "key": "2026at",
+            "title": "Negotiating Vocabularies at Link Time: A Deterministic Six-Class Compatibility Check for Federated Ontology Modules",
+            "doi_url": "https://doi.org/10.5281/zenodo.20751395",
+            "github_url": "https://github.com/spectralbranding/federated-negotiation/tree/main"
+          },
+          {
+            "key": "2026aq",
+            "title": "Value Headroom Moderates Whether Specification Beats Style in LLM Negotiation",
+            "doi_url": "https://doi.org/10.5281/zenodo.20595996",
+            "github_url": "https://github.com/spectralbranding/negotiation-spec-experiment/tree/main"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "cfo",
+      "label": "CFO / Strategy",
+      "symbol": "▦",
+      "aliases": [
+        "strategy lead",
+        "finance director",
+        "corp dev",
+        "investment committee",
+        "FP&A",
+        "CFO"
+      ],
+      "one_liner": "Turn 'where should we invest?' into a measurement: where does resolvable perception headroom actually sit?",
+      "jtbd": "Evaluate a business case; direct incremental investment across tiers and dimensions by measured demand, not intuition.",
+      "entry_explorable": null,
+      "next_action": "Measure the alignment gap per dimension (Brand Spectrometer), then weight by tier-specific decay.",
+      "byoai_cta": "Point your agent at the where-to-invest + resource-allocation spines.",
+      "instruments": [
+        "brand-spectrometer",
+        "schema-consult"
+      ],
+      "decisions": [
+        {
+          "id": "decide-investment",
+          "decision": "Decide where to invest across tiers; evaluate a business case.",
+          "persona": [
+            "CFO",
+            "CEO",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/decide-investment.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "evaluate-ma",
+          "decision": "Evaluate an acquisition or merger for perceptual and operating fit.",
+          "persona": [
+            "CFO",
+            "corp dev",
+            "strategy lead"
+          ],
+          "framework": "SBT+OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/evaluate-ma.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026aj",
+          "title": "Where to Invest Within the Firm: Organizational Tiers, Discount Rates, and AI Penetration",
+          "doi_url": "https://doi.org/10.5281/zenodo.20072288",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-allocation"
+        },
+        {
+          "key": "2026k",
+          "title": "Spectral Resource Allocation: Demand-Driven Investment in Multi-Dimensional Brand Space",
+          "doi_url": "https://doi.org/10.5281/zenodo.19009268",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r7-spectral-resource-allocation"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026aj",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-allocation"
+        },
+        {
+          "key": "2026k",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r7-spectral-resource-allocation"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "tier-allocation",
+            "label": "Tier allocation"
+          },
+          {
+            "key": "value-headroom",
+            "label": "Value Headroom"
+          },
+          {
+            "key": "alignment-gap",
+            "label": "Alignment Gap"
+          },
+          {
+            "key": "concentration-premium",
+            "label": "Concentration Premium"
+          },
+          {
+            "key": "tier-specific-decay-rate",
+            "label": "Tier-specific decay rate"
+          },
+          {
+            "key": "blind-spend",
+            "label": "Blind spend"
+          }
+        ],
+        "reading_path": "ost-where-to-bet",
+        "related_papers": [
+          {
+            "key": "2026ai",
+            "title": "The Tier-Rotation Curve: A Theory of Brand-Substrate Decoupling and Its M&A-Value Geometry",
+            "doi_url": "https://doi.org/10.5281/zenodo.20069605",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-rotation"
+          },
+          {
+            "key": "2026aq",
+            "title": "Value Headroom Moderates Whether Specification Beats Style in LLM Negotiation",
+            "doi_url": "https://doi.org/10.5281/zenodo.20595996",
+            "github_url": "https://github.com/spectralbranding/negotiation-spec-experiment/tree/main"
+          },
+          {
+            "key": "2026ag",
+            "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
+            "doi_url": "https://doi.org/10.5281/zenodo.19895813",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+          },
+          {
+            "key": "2026ah",
+            "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
+            "doi_url": "https://doi.org/10.5281/zenodo.19930157",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "math",
+      "label": "Researcher — mathematician / geometer",
+      "symbol": "∑",
+      "aliases": [
+        "mathematician",
+        "geometer",
+        "applied math",
+        "formal methods",
+        "theory researcher"
+      ],
+      "one_liner": "The formal spine: brand perception as geometry — projection bounds, metamerism, concentration.",
+      "jtbd": "Read and extend the formal results (metric geometry, projection bounds, packing, dynamics).",
+      "entry_explorable": null,
+      "next_action": "Read the LaTeX spines; the proofs and bounds live at L2 (SPINE.yaml), not the prose.",
+      "byoai_cta": "Point your agent at the geometry papers' spines (claims + methods), drill to paper.md only for proofs.",
+      "instruments": [],
+      "decisions": [],
+      "seeds": [
+        {
+          "key": "2026d",
+          "title": "Brand Space Geometry: A Formal Metric for Multi-Dimensional Brand Perception",
+          "doi_url": "https://doi.org/10.5281/zenodo.18945295",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r1-formal-metric"
+        },
+        {
+          "key": "2026e",
+          "title": "Spectral Metamerism in Brand Perception: Projection Bounds from High-Dimensional Geometry",
+          "doi_url": "https://doi.org/10.5281/zenodo.18945352",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r2-spectral-metamerism"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026d",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r1-formal-metric"
+        },
+        {
+          "key": "2026e",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r2-spectral-metamerism"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "spectral-metamerism",
+            "label": "Spectral Metamerism"
+          },
+          {
+            "key": "metamerism-set",
+            "label": "Metamerism Set"
+          },
+          {
+            "key": "cohort-separability",
+            "label": "Cohort Separability"
+          },
+          {
+            "key": "distributional-separation-metric",
+            "label": "Distribution-level separation metric"
+          },
+          {
+            "key": "projection-operator",
+            "label": "Projection operator"
+          },
+          {
+            "key": "spectral-dimensions",
+            "label": "the 8 dimensions"
+          }
+        ],
+        "reading_path": "sbt-formal-spine",
+        "related_papers": [
+          {
+            "key": "2026f",
+            "title": "Geometric Necessity of Fuzzy Cohort Boundaries: A Concentration Analysis of the 7-Simplex",
+            "doi_url": "https://doi.org/10.5281/zenodo.18945477",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r3-cohort-boundaries"
+          },
+          {
+            "key": "2026g",
+            "title": "How Many Brands Can a Market Hold? Sphere Packing Bounds for Multi-Dimensional Positioning",
+            "doi_url": "https://doi.org/10.5281/zenodo.18945522",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r4-sphere-packing"
+          },
+          {
+            "key": "2026y",
+            "title": "Brand Triangulation: A Geometric Framework for Multi-Observer Brand Positioning",
+            "doi_url": "https://doi.org/10.5281/zenodo.19482547",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r17-brand-triangulation"
+          },
+          {
+            "key": "2026c",
+            "title": "Geometric Approaches to Brand Perception: A Critical Survey and Research Agenda",
+            "doi_url": "https://doi.org/10.5281/zenodo.18945217",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r0-literature-survey"
+          },
+          {
+            "key": "2026z",
+            "title": "Spectral Dynamics: Velocity, Acceleration, and Phase Space in Multi-Dimensional Brand Perception",
+            "doi_url": "https://doi.org/10.5281/zenodo.19468204",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r18-spectral-dynamics"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "empirical",
+      "label": "Researcher — empirical / marketing science",
+      "symbol": "▤",
+      "aliases": [
+        "marketing science",
+        "quant researcher",
+        "psychometrician",
+        "measurement researcher",
+        "data scientist"
+      ],
+      "one_liner": "Reproducible cohort-resolved measurement with explicit noise floors and published data.",
+      "jtbd": "Reproduce the studies, inspect the instrument, reuse the datasets.",
+      "entry_explorable": null,
+      "next_action": "Run reproduce.sh against the published HF datasets; inspect the instrument's noise-floor gating.",
+      "byoai_cta": "Point your agent at the instrument paper's spine + the dataset DOIs.",
+      "instruments": [
+        "brand-spectrometer"
+      ],
+      "decisions": [
+        {
+          "id": "diagnose-perception",
+          "decision": "Diagnose a brand's perception and find perception gaps across audiences.",
+          "persona": [
+            "CMO",
+            "brand lead",
+            "brand strategist"
+          ],
+          "framework": "SBT",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/diagnose-perception.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026ax",
+          "title": "The Brand Spectrometer: A Reproducible Instrument for Cohort-Resolved, Multi-Dimensional Brand-Perception Measurement from Public Artifacts",
+          "doi_url": "https://doi.org/10.5281/zenodo.20775963",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods"
+        },
+        {
+          "key": "2026aa",
+          "title": "Optimal Response Formats for AI Brand Perception Measurement: Evidence for a J-Shaped Rate-Distortion Curve",
+          "doi_url": "https://doi.org/10.5281/zenodo.19528833",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026ax",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods"
+        },
+        {
+          "key": "2026aa",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "brand-spectrometer",
+            "label": "Brand Spectrometer"
+          },
+          {
+            "key": "operator-noise-floor",
+            "label": "Operator-noise floor"
+          },
+          {
+            "key": "artifact-noise-floor",
+            "label": "Artifact-noise floor"
+          },
+          {
+            "key": "signal-source-clustering",
+            "label": "Signal-source clustering"
+          },
+          {
+            "key": "substrate-floor",
+            "label": "Substrate floor"
+          }
+        ],
+        "reading_path": "sbt-measurement",
+        "related_papers": [
+          {
+            "key": "2026p",
+            "title": "Dimensional Activation and Cohort Divergence: A Longitudinal Decomposition of Purpose Advertising Effectiveness",
+            "doi_url": "https://doi.org/10.5281/zenodo.19139258",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r10-dove-case-study"
+          },
+          {
+            "key": "2026as",
+            "title": "PRISM: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
+            "doi_url": "https://doi.org/10.5281/zenodo.19555265",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-instrument"
+          },
+          {
+            "key": "2026ay",
+            "title": "The Substrate Floor: Nested Noise Floors for Auditable Abstention Across Heterogeneous Instruments",
+            "doi_url": "https://doi.org/10.5281/zenodo.20840422",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/substrate-floor"
+          },
+          {
+            "key": "2026v",
+            "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
+            "doi_url": "https://doi.org/10.5281/zenodo.19422427",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "org",
+      "label": "Researcher — org / strategy theorist",
+      "symbol": "▥",
+      "aliases": [
+        "organization theory",
+        "strategy researcher",
+        "management scholar",
+        "org design"
+      ],
+      "one_liner": "The OST contribution: an organization as a six-tier stack of specifications, not an org chart.",
+      "jtbd": "Engage the organizational-schema theory, specification readiness, and the projection cascade.",
+      "entry_explorable": "six-tier-cascade",
+      "next_action": "Read the six-tier ontology + projection-cascade spines; the audit operationalizes them.",
+      "byoai_cta": "Point your agent at the OST spine cluster (six-tier, cascade, spec-readiness).",
+      "instruments": [
+        "orgschema-toolkit"
+      ],
+      "decisions": [
+        {
+          "id": "specify-operations",
+          "decision": "Specify or stress-test an operating model.",
+          "persona": [
+            "CEO",
+            "COO",
+            "operations lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/specify-operations.md",
+          "instrument": {
+            "name": "OrgSchema Toolkit",
+            "url": "https://github.com/spectralbranding/orgschema-toolkit",
+            "kind": "specification"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026ag",
+          "title": "Dual Hierarchies of Organizational Transferability: A Six-Tier Ontology and Theory of Acquisition Failure Propagation",
+          "doi_url": "https://doi.org/10.5281/zenodo.19895813",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+        },
+        {
+          "key": "2026m",
+          "title": "The Projection Cascade: Why Reorganizations Fail When the Specification Cascade Doesn't",
+          "doi_url": "https://doi.org/10.5281/zenodo.19145205",
+          "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/projection-paper"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026ag",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology"
+        },
+        {
+          "key": "2026m",
+          "folder": "https://github.com/spectralbranding/orgschema-papers/tree/main/projection-paper"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "six-tier-ontology",
+            "label": "six-tier ontology"
+          },
+          {
+            "key": "specification-readiness",
+            "label": "Specification Readiness"
+          },
+          {
+            "key": "organizational-metamerism",
+            "label": "Organizational Metamerism"
+          },
+          {
+            "key": "projection-cascade",
+            "label": "Projection Cascade"
+          },
+          {
+            "key": "coverage-impossibility",
+            "label": "Coverage Impossibility"
+          }
+        ],
+        "reading_path": "ost-how-businesses-are-specified",
+        "related_papers": [
+          {
+            "key": "2026ar",
+            "title": "The OrgSchema Audit: A Six-Level Diagnostic for Specification-Driven Organizations",
+            "doi_url": "https://doi.org/10.5281/zenodo.19555201",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/orgschema-audit"
+          },
+          {
+            "key": "2026an",
+            "title": "Specification Readiness: Measuring an Architectural Antecedent of Functional Friction and AI Returns",
+            "doi_url": "https://doi.org/10.5281/zenodo.20384084",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical"
+          },
+          {
+            "key": "2026am",
+            "title": "Specification Readiness and Endogenous Friction: An Information-Theoretic Model of Multi-Interface Organizational Architecture",
+            "doi_url": "https://doi.org/10.5281/zenodo.20379981",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness"
+          },
+          {
+            "key": "2026h",
+            "title": "Specification Impossibility in Organizational Design: A High-Dimensional Geometric Analysis",
+            "doi_url": "https://doi.org/10.5281/zenodo.18945591",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r5-specification-impossibility"
+          },
+          {
+            "key": "2026af",
+            "title": "Organizational Metamerism: Observer-Relative State Equivalence in Organizational Configurations",
+            "doi_url": "https://doi.org/10.5281/zenodo.19869871",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/org-as-metadata"
+          },
+          {
+            "key": "2026ae",
+            "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
+            "doi_url": "https://doi.org/10.5281/zenodo.19778588",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          },
+          {
+            "key": "2026al",
+            "title": "Capability as Projection of an Append-Only Organizational Log: An Event-Sourced Substrate Theory of Organizational Capability and Transfer Failure",
+            "doi_url": "https://doi.org/10.5281/zenodo.20367459",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/capability-as-projection"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "aiml",
+      "label": "Researcher — AI / ML",
+      "symbol": "◈",
+      "aliases": [
+        "machine learning",
+        "AI researcher",
+        "NLP",
+        "LLM researcher",
+        "agents researcher"
+      ],
+      "one_liner": "LLM-as-observer and link-time ontology negotiation: how machines read and reconcile meaning.",
+      "jtbd": "Engage the LLM-mediated measurement and the federated ontology-negotiation results.",
+      "entry_explorable": null,
+      "next_action": "Read the dimensional-collapse and link-time-negotiation spines; the negotiation tooling is runnable.",
+      "byoai_cta": "Point your agent at the AI-observer + negotiation spines (claims + methods).",
+      "instruments": [],
+      "decisions": [],
+      "seeds": [
+        {
+          "key": "2026v",
+          "title": "Dimensional Collapse in AI-Mediated Search: Large Language Models as Metameric Observers of Brand Advertising",
+          "doi_url": "https://doi.org/10.5281/zenodo.19422427",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+        },
+        {
+          "key": "2026at",
+          "title": "Negotiating Vocabularies at Link Time: A Deterministic Six-Class Compatibility Check for Federated Ontology Modules",
+          "doi_url": "https://doi.org/10.5281/zenodo.20751395",
+          "github_url": "https://github.com/spectralbranding/federated-negotiation/tree/main"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026v",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism"
+        },
+        {
+          "key": "2026at",
+          "folder": "https://github.com/spectralbranding/federated-negotiation/tree/main"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "metameric-observer",
+            "label": "Metameric observer (LLM)"
+          },
+          {
+            "key": "dimensional-collapse",
+            "label": "Dimensional Collapse"
+          },
+          {
+            "key": "federated-ontology-negotiation",
+            "label": "Federated ontology negotiation"
+          },
+          {
+            "key": "link-time-compatibility-check",
+            "label": "Link-time compatibility check"
+          },
+          {
+            "key": "rendering-equivalence",
+            "label": "Rendering-Equivalence under Spine-Preservation"
+          }
+        ],
+        "reading_path": "sbt-ai-observer",
+        "related_papers": [
+          {
+            "key": "2026af",
+            "title": "Organizational Metamerism: Observer-Relative State Equivalence in Organizational Configurations",
+            "doi_url": "https://doi.org/10.5281/zenodo.19869871",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/org-as-metadata"
+          },
+          {
+            "key": "2026ap",
+            "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
+            "doi_url": "https://doi.org/10.5281/zenodo.20409701",
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+          },
+          {
+            "key": "2026aa",
+            "title": "Optimal Response Formats for AI Brand Perception Measurement: Evidence for a J-Shaped Rate-Distortion Curve",
+            "doi_url": "https://doi.org/10.5281/zenodo.19528833",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r19-rate-distortion"
+          },
+          {
+            "key": "2026as",
+            "title": "PRISM: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
+            "doi_url": "https://doi.org/10.5281/zenodo.19555265",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-instrument"
+          },
+          {
+            "key": "2026ae",
+            "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
+            "doi_url": "https://doi.org/10.5281/zenodo.19778588",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "philosophy",
+      "label": "Philosophy of science / meta-science",
+      "symbol": "◇",
+      "aliases": [
+        "philosophy of science",
+        "meta-science",
+        "science studies",
+        "epistemology",
+        "STS"
+      ],
+      "one_liner": "The substrate-vs-rendering program: meaning vs meaningfulness, research as a repository.",
+      "jtbd": "Engage the meta-scientific program — one substrate, many renderings; spine preservation; canon as repository.",
+      "entry_explorable": null,
+      "next_action": "Read research-as-repository + same-meaning-different-prose; this guide is itself an instance.",
+      "byoai_cta": "Point your agent at the meta-science spines (research-as-repository, rendering-equivalence).",
+      "instruments": [],
+      "decisions": [],
+      "seeds": [
+        {
+          "key": "2026u",
+          "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
+          "doi_url": "https://doi.org/10.5281/zenodo.19294864",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+        },
+        {
+          "key": "2026ap",
+          "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
+          "doi_url": "https://doi.org/10.5281/zenodo.20409701",
+          "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026u",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+        },
+        {
+          "key": "2026ap",
+          "folder": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "meaning-vs-meaningfulness",
+            "label": "Meaning vs Meaningfulness (structural)"
+          },
+          {
+            "key": "research-as-repository",
+            "label": "Research as Repository"
+          },
+          {
+            "key": "rendering-equivalence",
+            "label": "Rendering-Equivalence under Spine-Preservation"
+          },
+          {
+            "key": "snapshot-versus-rendering",
+            "label": "Snapshot versus rendering"
+          },
+          {
+            "key": "canon-as-repository",
+            "label": "Canon as Repository"
+          },
+          {
+            "key": "audience-as-renderer",
+            "label": "The Audience as Renderer"
+          },
+          {
+            "key": "levels-of-reading",
+            "label": "Levels of Reading"
+          }
+        ],
+        "reading_path": "meaning-and-meaningfulness",
+        "related_papers": [
+          {
+            "key": "2026w",
+            "title": "Canon as Repository: A Specification-Driven Architecture for Transmedia Intellectual Property",
+            "doi_url": "https://doi.org/10.5281/zenodo.19355800",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/canon-as-repository"
+          },
+          {
+            "key": "2026ao",
+            "title": "Spec-Based Research in the Post-AI Era: A Cost-Asymmetry Theory of Meaning and Meaningfulness in Organizational Knowledge Work",
+            "doi_url": "https://doi.org/10.5281/zenodo.20409683",
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness"
+          },
+          {
+            "key": "2026ae",
+            "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
+            "doi_url": "https://doi.org/10.5281/zenodo.19778588",
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "press",
+      "label": "Press / curious public",
+      "symbol": "○",
+      "aliases": [
+        "journalist",
+        "press",
+        "public",
+        "curious reader",
+        "student",
+        "non-specialist"
+      ],
+      "one_liner": "There is no brand-in-itself: a brand is completed in whoever perceives it.",
+      "jtbd": "Get the idea in one sentence, then one accessible read deeper.",
+      "entry_explorable": "spectral-profile-8d",
+      "next_action": "Try the 8-dimension explorable, then read the published article on the same idea.",
+      "byoai_cta": "Ask your assistant to summarize the SBT framing from the open corpus.",
+      "instruments": [],
+      "decisions": [],
+      "seeds": [
+        {
+          "key": "2026a",
+          "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
+          "doi_url": "https://doi.org/10.5281/zenodo.18945912",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026a",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "perception-cloud",
+            "label": "perception cloud"
+          },
+          {
+            "key": "cohort",
+            "label": "cohort"
+          },
+          {
+            "key": "brand-conviction",
+            "label": "brand conviction"
+          }
+        ],
+        "reading_path": "sbt-brand-perception",
+        "related_papers": [
+          {
+            "key": "2026au",
+            "title": "The Correspondence Principle of Brand Management",
+            "doi_url": "https://doi.org/10.5281/zenodo.20757596",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-correspondence-principle"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "agent",
+      "label": "AI agent (self-serve)",
+      "symbol": "▶",
+      "aliases": [
+        "agent",
+        "bot",
+        "ai assistant",
+        "crawler",
+        "llm",
+        "automated reader"
+      ],
+      "one_liner": "Consume the corpus at the meaning level: spine + claims + instruments, paper.md on demand.",
+      "jtbd": "Ground an answer in the corpus correctly — seeds are entry points; traverse to the full scope before answering.",
+      "entry_explorable": null,
+      "next_action": "Read the org README + per-repo AGENTS.md; expand seeds via corpus-map.json; state what you cannot resolve.",
+      "byoai_cta": "Fetch consult.json + corpus-map.json; route by decision, expand by terms, abstain where unresolved.",
+      "instruments": [
+        "schema-consult"
+      ],
+      "decisions": [
+        {
+          "id": "diagnose-perception",
+          "decision": "Diagnose a brand's perception and find perception gaps across audiences.",
+          "persona": [
+            "CMO",
+            "brand lead",
+            "brand strategist"
+          ],
+          "framework": "SBT",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/diagnose-perception.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "specify-operations",
+          "decision": "Specify or stress-test an operating model.",
+          "persona": [
+            "CEO",
+            "COO",
+            "operations lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/specify-operations.md",
+          "instrument": {
+            "name": "OrgSchema Toolkit",
+            "url": "https://github.com/spectralbranding/orgschema-toolkit",
+            "kind": "specification"
+          }
+        },
+        {
+          "id": "decide-investment",
+          "decision": "Decide where to invest across tiers; evaluate a business case.",
+          "persona": [
+            "CFO",
+            "CEO",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/decide-investment.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "evaluate-ma",
+          "decision": "Evaluate an acquisition or merger for perceptual and operating fit.",
+          "persona": [
+            "CFO",
+            "corp dev",
+            "strategy lead"
+          ],
+          "framework": "SBT+OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/evaluate-ma.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "reach-an-audience",
+          "decision": "Reach a perceptual cohort that has no mailing address.",
+          "persona": [
+            "CMO",
+            "growth lead",
+            "media planner"
+          ],
+          "framework": "SBT",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/reach-an-audience.md",
+          "instrument": {
+            "name": "Brand Spectrometer",
+            "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        }
+      ],
+      "seeds": [
+        {
+          "key": "2026u",
+          "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
+          "doi_url": "https://doi.org/10.5281/zenodo.19294864",
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+        }
+      ],
+      "gh_deeplinks": [
+        {
+          "key": "2026u",
+          "folder": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+        }
+      ],
+      "expand_via": {
+        "terms": [
+          {
+            "key": "research-as-repository",
+            "label": "Research as Repository"
+          },
+          {
+            "key": "levels-of-reading",
+            "label": "Levels of Reading"
+          },
+          {
+            "key": "substrate-as-repository",
+            "label": "Substrate as repository"
+          }
+        ],
+        "reading_path": "agents-start-here",
+        "related_papers": [
+          {
+            "key": "2026w",
+            "title": "Canon as Repository: A Specification-Driven Architecture for Transmedia Intellectual Property",
+            "doi_url": "https://doi.org/10.5281/zenodo.19355800",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/canon-as-repository"
+          },
+          {
+            "key": "2026ao",
+            "title": "Spec-Based Research in the Post-AI Era: A Cost-Asymmetry Theory of Meaning and Meaningfulness in Organizational Knowledge Work",
+            "doi_url": "https://doi.org/10.5281/zenodo.20409683",
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness"
+          },
+          {
+            "key": "2026ap",
+            "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
+            "doi_url": "https://doi.org/10.5281/zenodo.20409701",
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+          }
+        ]
+      }
+    },
+    {
+      "role_id": "other",
+      "label": "Something else (unmapped)",
+      "symbol": "?",
+      "aliases": [],
+      "one_liner": "Not your role? The full index and the semantic router will route you.",
+      "jtbd": "Anything not above — never a dead end.",
+      "entry_explorable": null,
+      "next_action": "Browse the org README index, or ask schema-consult your question in natural language.",
+      "byoai_cta": "Hand your raw task to schema-consult (consult.orgschema.com); it routes to the corpus and instruments.",
+      "instruments": [
+        "schema-consult"
+      ],
+      "decisions": [],
+      "seeds": [],
+      "gh_deeplinks": [],
+      "expand_via": {
+        "terms": [],
+        "reading_path": null,
+        "related_papers": []
+      }
+    }
+  ]
+}

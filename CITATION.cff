@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "corpus-guide — machine-fetchable navigation for the open Spectral Branding corpus"
+version: "0.1.0"
+authors:
+  - family-names: "Zharnikov"
+    given-names: "Dmitry"
+    orcid: "0009-0000-6893-9231"
+date-released: "2026-06-28"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/spectralbranding/corpus-guide"
+url: "https://spectralbranding.com/guide"
+abstract: >-
+  The structured, machine-readable navigation layer for the open Spectral
+  Branding research corpus (Spectral Brand Theory, Organizational Schema
+  Theory, and the meaning/meaningfulness program). Three generated projections
+  of the corpus substrate: a papers-terms-claims graph for seed-to-scope
+  expansion (corpus-map.json), a 12-role accelerator map (guide-routing.json),
+  and published article-to-paper edges (articles-map.json). The data layer
+  behind the human guide at spectralbranding.com/guide.
