@@ -25,6 +25,13 @@
       "one_liner": "A brand, like colour, is completed in the observer — measure the perception you do not control.",
       "jtbd": "Diagnose a brand's perception, find perception gaps across audiences, and act on them.",
       "entry_explorable": "spectral-profile-8d",
+      "explorables": [
+        "spectral-profile-8d",
+        "signed-profile-8d",
+        "strength-and-valence",
+        "spectral-metamerism",
+        "cohort-separability"
+      ],
       "next_action": "See your brand's shape in minutes (Brand Spectrometer), then read it back through the anchor claims.",
       "byoai_cta": "Point your agent at the SBT reading path on GitHub (spine + claims), not the PDFs.",
       "instruments": [
@@ -196,6 +203,10 @@
       "one_liner": "Make the operating model you DO control explicit, testable, and validated layer by layer.",
       "jtbd": "Specify or stress-test the operating model; diagnose dysfunction as a specification defect, not an execution failure.",
       "entry_explorable": "six-tier-cascade",
+      "explorables": [
+        "six-tier-cascade",
+        "tier-allocation"
+      ],
       "next_action": "Specify your business top-down (orgschema-toolkit), or run a six-level OrgSchema Audit for stress-test.",
       "byoai_cta": "Point your agent at the OST reading path on GitHub (six-tier spine + audit claims).",
       "instruments": [
@@ -358,6 +369,10 @@
       "one_liner": "Direction, not intensity, is the consequential bet — which tier and which dimension you point the firm at.",
       "jtbd": "Set strategy and portfolio; evaluate an M&A or a reorg at the tier grain, not the logo.",
       "entry_explorable": "tier-allocation",
+      "explorables": [
+        "tier-allocation",
+        "six-tier-cascade"
+      ],
       "next_action": "Ask schema-consult the decision (invest / acquire / reorganize); it routes to the measured basis.",
       "byoai_cta": "Point your agent at the tier-allocation + tier-rotation spines and the six-tier ontology.",
       "instruments": [
@@ -541,6 +556,10 @@
       "one_liner": "Turn 'where should we invest?' into a measurement: where does resolvable perception headroom actually sit?",
       "jtbd": "Evaluate a business case; direct incremental investment across tiers and dimensions by measured demand, not intuition.",
       "entry_explorable": "tier-allocation",
+      "explorables": [
+        "tier-allocation",
+        "six-tier-cascade"
+      ],
       "next_action": "Measure the alignment gap per dimension (Brand Spectrometer), then weight by tier-specific decay.",
       "byoai_cta": "Point your agent at the where-to-invest + resource-allocation spines.",
       "instruments": [
@@ -693,6 +712,13 @@
       "one_liner": "The formal spine: brand perception as geometry — projection bounds, metamerism, concentration.",
       "jtbd": "Read and extend the formal results (metric geometry, projection bounds, packing, dynamics).",
       "entry_explorable": "spectral-metamerism",
+      "explorables": [
+        "spectral-metamerism",
+        "signed-profile-8d",
+        "strength-and-valence",
+        "cohort-separability",
+        "rendering-equivalence"
+      ],
       "next_action": "Read the LaTeX spines; the proofs and bounds live at L2 (SPINE.yaml), not the prose.",
       "byoai_cta": "Point your agent at the geometry papers' spines (claims + methods), drill to paper.md only for proofs.",
       "instruments": [],
@@ -804,6 +830,11 @@
       "one_liner": "Reproducible cohort-resolved measurement with explicit noise floors and published data.",
       "jtbd": "Reproduce the studies, inspect the instrument, reuse the datasets.",
       "entry_explorable": "cohort-separability",
+      "explorables": [
+        "cohort-separability",
+        "spectral-metamerism",
+        "spectral-profile-8d"
+      ],
       "next_action": "Run reproduce.sh against the published HF datasets; inspect the instrument's noise-floor gating.",
       "byoai_cta": "Point your agent at the instrument paper's spine + the dataset DOIs.",
       "instruments": [
@@ -933,6 +964,11 @@
       "one_liner": "The OST contribution: an organization as a six-tier stack of specifications, not an org chart.",
       "jtbd": "Engage the organizational-schema theory, specification readiness, and the projection cascade.",
       "entry_explorable": "six-tier-cascade",
+      "explorables": [
+        "six-tier-cascade",
+        "tier-allocation",
+        "rendering-equivalence"
+      ],
       "next_action": "Read the six-tier ontology + projection-cascade spines; the audit operationalizes them.",
       "byoai_cta": "Point your agent at the OST spine cluster (six-tier, cascade, spec-readiness).",
       "instruments": [
@@ -1079,6 +1115,10 @@
       "one_liner": "LLM-as-observer and link-time ontology negotiation: how machines read and reconcile meaning.",
       "jtbd": "Engage the LLM-mediated measurement and the federated ontology-negotiation results.",
       "entry_explorable": "rendering-equivalence",
+      "explorables": [
+        "rendering-equivalence",
+        "corpus-as-specification"
+      ],
       "next_action": "Read the dimensional-collapse and link-time-negotiation spines; the negotiation tooling is runnable.",
       "byoai_cta": "Point your agent at the AI-observer + negotiation spines (claims + methods).",
       "instruments": [],
@@ -1195,6 +1235,10 @@
       "one_liner": "The substrate-vs-rendering program: meaning vs meaningfulness, research as a repository.",
       "jtbd": "Engage the meta-scientific program — one substrate, many renderings; spine preservation; canon as repository.",
       "entry_explorable": "corpus-as-specification",
+      "explorables": [
+        "corpus-as-specification",
+        "rendering-equivalence"
+      ],
       "next_action": "Read research-as-repository + same-meaning-different-prose; this guide is itself an instance.",
       "byoai_cta": "Point your agent at the meta-science spines (research-as-repository, rendering-equivalence).",
       "instruments": [],
@@ -1304,6 +1348,10 @@
       "one_liner": "There is no brand-in-itself: a brand is completed in whoever perceives it.",
       "jtbd": "Get the idea in one sentence, then one accessible read deeper.",
       "entry_explorable": "spectral-profile-8d",
+      "explorables": [
+        "spectral-profile-8d",
+        "spectral-metamerism"
+      ],
       "next_action": "Try the 8-dimension explorable, then read the published article on the same idea.",
       "byoai_cta": "Ask your assistant to summarize the SBT framing from the open corpus.",
       "instruments": [],
@@ -1377,6 +1425,9 @@
       "one_liner": "Consume the corpus at the meaning level: spine + claims + instruments, paper.md on demand.",
       "jtbd": "Ground an answer in the corpus correctly — seeds are entry points; traverse to the full scope before answering.",
       "entry_explorable": "corpus-as-specification",
+      "explorables": [
+        "corpus-as-specification"
+      ],
       "next_action": "Read the org README + per-repo AGENTS.md; expand seeds via corpus-map.json; state what you cannot resolve.",
       "byoai_cta": "Fetch consult.json + corpus-map.json; route by decision, expand by terms, abstain where unresolved.",
       "instruments": [
@@ -1530,6 +1581,7 @@
       "one_liner": "Not your role? The full index and the semantic router will route you.",
       "jtbd": "Anything not above — never a dead end.",
       "entry_explorable": null,
+      "explorables": [],
       "next_action": "Browse the org README index, or ask schema-consult your question in natural language.",
       "byoai_cta": "Hand your raw task to schema-consult (consult.orgschema.com); it routes to the corpus and instruments.",
       "instruments": [
