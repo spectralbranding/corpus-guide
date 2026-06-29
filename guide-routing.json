@@ -1194,7 +1194,7 @@
       ],
       "one_liner": "The substrate-vs-rendering program: meaning vs meaningfulness, research as a repository.",
       "jtbd": "Engage the meta-scientific program — one substrate, many renderings; spine preservation; canon as repository.",
-      "entry_explorable": "rendering-equivalence",
+      "entry_explorable": "corpus-as-specification",
       "next_action": "Read research-as-repository + same-meaning-different-prose; this guide is itself an instance.",
       "byoai_cta": "Point your agent at the meta-science spines (research-as-repository, rendering-equivalence).",
       "instruments": [],
@@ -1376,7 +1376,7 @@
       ],
       "one_liner": "Consume the corpus at the meaning level: spine + claims + instruments, paper.md on demand.",
       "jtbd": "Ground an answer in the corpus correctly — seeds are entry points; traverse to the full scope before answering.",
-      "entry_explorable": null,
+      "entry_explorable": "corpus-as-specification",
       "next_action": "Read the org README + per-repo AGENTS.md; expand seeds via corpus-map.json; state what you cannot resolve.",
       "byoai_cta": "Fetch consult.json + corpus-map.json; route by decision, expand by terms, abstain where unresolved.",
       "instruments": [
