@@ -14,7 +14,7 @@
   "counts": {
     "papers": 49,
     "terms": 206,
-    "citation_edges": 393
+    "citation_edges": 396
   },
   "papers": [
     {
@@ -628,9 +628,14 @@
           "cohort",
           "observer-spectral-profile",
           "perception-cloud",
+          "prism-c",
+          "prism-m",
+          "prism-t",
           "spectral-brand-theory",
           "spectral-dimensions",
-          "spectral-metamerism"
+          "spectral-metamerism",
+          "version-epoch",
+          "version-floor"
         ],
         "refines": [
           "brand-metrology"
@@ -3498,7 +3503,9 @@
         "owns": [
           "2026bb"
         ],
-        "imports": [],
+        "imports": [
+          "2026ax"
+        ],
         "refines": []
       },
       "relations": []
@@ -3548,7 +3555,9 @@
         "owns": [
           "2026az"
         ],
-        "imports": [],
+        "imports": [
+          "2026ax"
+        ],
         "refines": []
       },
       "relations": []
@@ -3562,7 +3571,9 @@
         "owns": [
           "2026ba"
         ],
-        "imports": [],
+        "imports": [
+          "2026ax"
+        ],
         "refines": []
       },
       "relations": []
@@ -4705,7 +4716,9 @@
         "owns": [
           "2026ba"
         ],
-        "imports": [],
+        "imports": [
+          "2026ax"
+        ],
         "refines": []
       },
       "relations": []
@@ -4719,7 +4732,9 @@
         "owns": [
           "2026ba"
         ],
-        "imports": [],
+        "imports": [
+          "2026ax"
+        ],
         "refines": []
       },
       "relations": [
@@ -5550,6 +5565,24 @@
     {
       "from": "2026ax",
       "to": "2026au",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ax",
+      "to": "2026az",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ax",
+      "to": "2026ba",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ax",
+      "to": "2026bb",
       "role": "unclassified",
       "criticality": "supportive"
     },
