@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 45,
-    "terms": 188,
-    "citation_edges": 354
+    "papers": 49,
+    "terms": 206,
+    "citation_edges": 393
   },
   "papers": [
     {
@@ -664,6 +664,39 @@
       }
     },
     {
+      "key": "2026az",
+      "title": "Measuring Perceptual Indistinguishability: A Pre-Registered Metamerism Instrument for AI Brand Perception (PRISM-M)",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21125785",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-m-metamerism",
+      "thesis": "Indistinguishability under a coarse readout is measurable, not assertable. PRISM-M supplies a general dual-floor procedure for testing observational equivalence in any high-dimensional perceptual instrument — a pair of entities counts as a measured metamer only when the full readout resolves them beyond the instrument's own operator noise floor while the coarse readout (its own floor measured separately) does not — and demonstrates the procedure end-to-end on AI brand perception, where the eight-dimension profile is the full readout and a brand-health score, a recommendation ranking, and a binary pick are the aggregators under test. The pre-registered campaign returns a boundary result that showcases the discipline: with four cross-family operator pairs, one renderer reads brands so differently that every brand's operator floor swallows every pairwise distinction — the instrument reports wholesale sub-resolution rather than manufacturing findings (the no-rescue rule), while its diagnostics localize the discordance to a single operator role and its exploratory concordant-triplet analysis shows the predicted metameric structure (half of resolvable distinctions destroyed by the scalar score; the binary pick destroying nearly all; the ranking fewest) below confirmatory strength. The metameric fraction is thereby delivered as an instrument: frozen protocol, measured floors, planted-positive and same-brand-negative controls, seeded estimator, and a concordance diagnostic that tells the consumer of any aggregate metric exactly when the question \"what did this number destroy?\" can and cannot be answered.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "aggregator-battery",
+          "garbling-severity-ladder",
+          "metamer-pair",
+          "metameric-fraction",
+          "prism-m"
+        ],
+        "imports": [
+          "behavioral-metamerism",
+          "coherence-type",
+          "cohort",
+          "dimensional-collapse-index",
+          "incumbent-garbling-operator",
+          "metameric-observer",
+          "operator-noise-floor",
+          "per-pair-resolution-criterion",
+          "prism-five-layer-scaffold",
+          "prism-instrument",
+          "spectral-dimensions",
+          "spectral-metamerism"
+        ],
+        "refines": []
+      }
+    },
+    {
       "key": "2026b",
       "title": "The Atom-Cloud-Fact Epistemological Pipeline: From Financial Document Processing to Brand Perception Modeling",
       "status": "active",
@@ -686,6 +719,89 @@
           "perception-cloud",
           "re-collapse",
           "spectral-brand-theory"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026ba",
+      "title": "Separating Instrument Drift from Brand Signal: A Pre-Registered Model-Version Tracking Instrument for AI Brand Perception (PRISM-T)",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21128779",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor",
+      "thesis": "Every longitudinal claim made with an LLM-observer instrument is confounded by the instrument itself: when a brand's eight-dimension reading moves between epochs, either the brand's public signal changed or the vendor shipped a model version that reads the same artifacts differently — and practice cannot tell the two apart. PRISM-T resolves the confound with a two-panel identification strategy: a pinned panel (public artifacts captured once, hash-sealed, byte-identical at every reading — so ALL movement is apparatus drift) and a live panel (fresh artifacts each epoch — apparatus drift PLUS brand signal), yielding a version floor that extends the operator floor of the Brand Spectrometer from a same-time cross-model band to an across-time cross-version band, with the no-rescue nesting rule (operator inside version) making \"the brand moved\" a claim that must clear the version floor. The instrument is grounded metrologically — the version floor is classical test-retest dispersion with the locus of error inverted from respondent to apparatus, a non-parametric bound on longitudinal measurement non-invariance, and the mirror image of concept-drift monitoring (data fixed by construction, model moving) — and delivered empirically at epoch VE-1 across three real shipped version ladders (five Anthropic Opus versions, three OpenAI snapshots spanning eighteen months, three Alibaba Qwen releases) read against a sealed 160-artifact panel under cross-family operator pairs, with a same-version negative control, a designated distant-pair positive control, a pre-registered mechanical operator-exclusion rule that replicated the known discordant renderer a third time, and a simulation power analysis that fixes ex ante what drift magnitude the design can certify. Both outcomes are results: drift makes the version floor mandatory equipment for longitudinal LLM measurement; the null makes version-robustness a measured, citable property with an interval rather than an assumption.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "live-panel",
+          "pinned-panel",
+          "prism-t",
+          "version-epoch",
+          "version-floor"
+        ],
+        "imports": [
+          "artifact-noise-floor",
+          "coherence-type",
+          "floor-nesting",
+          "operator-noise-floor",
+          "per-pair-resolution-criterion",
+          "prism-five-layer-scaffold",
+          "prism-instrument",
+          "reflection",
+          "spectral-dimensions",
+          "substrate-floor"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bb",
+      "title": "From Stated Perception to Revealed Choice: A Pre-Registered Instrument for the Choice-Perception Gap in AI Brand Perception (PRISM-C)",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21128342",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-c-choice",
+      "thesis": "What an AI observer says about brands does not predict what it does when it chooses among them — and the size and structure of that wedge is measurable, not assertable. PRISM-C measures the choice-perception gap: the rate at which a model's revealed pick in a simulated agentic choice task diverges from the pick its own stated eight-dimension readings predict, evaluated against the choice elicitation's own cross-family operator floor. The pre-registered campaign returns an unusually clean verdict: four chooser families are near-unanimous with one another (mean within-scenario pick unanimity.972; choice floor.044) yet diverge from the cosine-predicted pick on.633 of 1,144 trials — a gap fourteen times the instrument's noise floor, surviving counterbalancing, threshold and metric alternates, and both controls. The dimensional choice-weight model localizes the wedge: choice weights the stated dimensions unequally, with sign reversals, and a pre-registered mechanism battery rules out presentation order and tie-breaking noise while implicating a systematic brand-level choice policy the stated profile only partially carries. The practical payload is a validity bound the agentic-commerce era needs: perception-level measurement does not transfer to choice-level prediction for free, and the gap between them is now an instrument-measured quantity with controls and floors rather than an anecdote.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "choice-operator-floor",
+          "choice-perception-gap",
+          "dimensional-choice-weights",
+          "need-vector",
+          "prism-c"
+        ],
+        "imports": [
+          "coherence-type",
+          "cohort",
+          "metameric-observer",
+          "operator-noise-floor",
+          "perception-dop",
+          "prism-b",
+          "prism-five-layer-scaffold",
+          "prism-instrument",
+          "spectral-dimensions"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bc",
+      "title": "The Producer-Observer Seam: Joining Spectral Brand Theory and Organizational Schema Theory at Meaning, Meaningfulness, and the Perception Cloud",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21114525",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/producer-observer-seam",
+      "thesis": "The corpus's two flagship frameworks already draw the same line from opposite sides without naming it: Organizational Schema Theory terminates at the rendered Tier-4 instance and hands off to the observer perceptual filter, while the meaning/meaningfulness framework's pipeline (substrate -> meaning S -> rendered instance R -> observer projection -> perception cloud) begins its observer half exactly where the tier stack stops. This note makes the seam explicit: OST owns the producer side (substrate -> S -> R, Tiers 1-4), SBT owns the observer side (R -> perception cloud), and the meaning/meaningfulness/perception triad is a JOIN of the two frameworks, not a slice of either alone. Three results follow. First, the seam map with two honesty guards (meaningfulness is multi-tier in general; perception is definitionally outside the tier stack). Second, a flattening parametrization: the triad attaches to whatever tier a business's value concentrates toward, with software (Process and Organization tiers approaching zero) as the limit existence proof. Third, an endogenous-intent closure: perception clouds sediment into the next generation's substrate through human transducers, making Tier-1 intent a fixed point of a human-mediated loop rather than an exogenous primitive - with a measurable shadow (perception-cloud variance over time as the loop-health diagnostic) that connects machine-observer dimensional collapse to model-collapse and output-homogenization results.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "levels-of-reading",
+          "observer-depth",
+          "perception-cloud-as-foam"
+        ],
+        "imports": [
+          "cohort",
+          "observer-spectral-profile",
+          "perception-cloud"
         ],
         "refines": []
       }
@@ -1216,6 +1332,20 @@
       "relations": []
     },
     {
+      "key": "aggregator-battery",
+      "label": "Aggregator battery",
+      "owner": "2026az",
+      "definition": "The three coarse readouts PRISM-M tests as garbling operators, each matched to a real consumption surface and each carrying its OWN measured noise floor: A-SCORE (a single brand-health grade mapped to [0,1]; the scalar scorecard surface), A-RANK (position in a ten-slot recommendation ranking; the AI-search surface), and A-PICK (a binary recommend/do-not-recommend call; the agentic recommendation surface). Formalized as projection operators of the full eight-dimension readout.",
+      "papers": {
+        "owns": [
+          "2026az"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "agreement-class",
       "label": "AGREEMENT",
       "owner": "federated-negotiation",
@@ -1285,7 +1415,9 @@
         "owns": [
           "2026ax"
         ],
-        "imports": [],
+        "imports": [
+          "2026ba"
+        ],
         "refines": []
       },
       "relations": []
@@ -1362,7 +1494,9 @@
         "owns": [
           "2026x"
         ],
-        "imports": [],
+        "imports": [
+          "2026az"
+        ],
         "refines": []
       },
       "relations": []
@@ -1738,6 +1872,44 @@
       "relations": []
     },
     {
+      "key": "choice-operator-floor",
+      "label": "Choice operator floor",
+      "owner": "2026bb",
+      "definition": "The noise floor of a choice elicitation: the mean pairwise disagreement rate between cross-family chooser models presented with identical (scenario, arrangement) trials. A divergence between revealed and predicted picks counts as a measured gap only when it exceeds k times this floor - so the gap is measured against choice noise, never asserted.",
+      "papers": {
+        "owns": [
+          "2026bb"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "operator-noise-floor"
+        }
+      ]
+    },
+    {
+      "key": "choice-perception-gap",
+      "label": "Choice-perception gap",
+      "owner": "2026bb",
+      "definition": "The part of an AI observer's revealed brand choice that its stated eight-dimension perception does not predict: the rate at which the model's actual pick in a simulated choice task diverges, beyond the choice operator floor, from the cosine-nearest brand to the elicited need vector under the stated readings. It measures the wedge between perception-level and choice-level measurement as agentic systems move from describing brands to choosing them.",
+      "papers": {
+        "owns": [
+          "2026bb"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "perception-dop"
+        }
+      ]
+    },
+    {
       "key": "classical-brand-regime",
       "label": "Classical brand regime",
       "owner": "2026au",
@@ -1788,7 +1960,11 @@
         "owns": [
           "2026s"
         ],
-        "imports": [],
+        "imports": [
+          "2026az",
+          "2026ba",
+          "2026bb"
+        ],
         "refines": []
       },
       "relations": []
@@ -1816,7 +1992,10 @@
           "2026aw",
           "2026ax",
           "2026ay",
+          "2026az",
           "2026b",
+          "2026bb",
+          "2026bc",
           "2026c",
           "2026d",
           "2026e",
@@ -2083,6 +2262,20 @@
       "relations": []
     },
     {
+      "key": "dimensional-choice-weights",
+      "label": "Dimensional choice weights",
+      "owner": "2026bb",
+      "definition": "The conditional-logit coefficients mapping per-dimension stated distances between brand and need onto revealed choice: the estimable answer to which of the eight dimensions agentic choice actually weights, including sign reversals where greater stated distance predicts being chosen. The choice-side analogue of the perception-side dimensional-collapse measurement.",
+      "papers": {
+        "owns": [
+          "2026bb"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "dimensional-collapse",
       "label": "Dimensional Collapse",
       "owner": "2026v",
@@ -2109,7 +2302,8 @@
           "2026v"
         ],
         "imports": [
-          "2026as"
+          "2026as",
+          "2026az"
         ],
         "refines": []
       },
@@ -2338,7 +2532,9 @@
         "owns": [
           "2026ay"
         ],
-        "imports": [],
+        "imports": [
+          "2026ba"
+        ],
         "refines": []
       },
       "relations": [
@@ -2428,6 +2624,20 @@
       "relations": []
     },
     {
+      "key": "garbling-severity-ladder",
+      "label": "Garbling-severity ladder",
+      "owner": "2026az",
+      "definition": "The pre-registered ordering of aggregators by how much resolvable structure they destroy: the metameric fraction is predicted monotone in aggregator coarseness - fraction(scalar score) > fraction(ranking) > fraction(full readout) = 0 by construction. Making garbling severity an ordered, testable property is what upgrades the garbling account from interpretation to measurement.",
+      "papers": {
+        "owns": [
+          "2026az"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "identity-coherence",
       "label": "Identity Coherence",
       "owner": "2026s",
@@ -2498,7 +2708,8 @@
           "2026au"
         ],
         "imports": [
-          "2026av"
+          "2026av",
+          "2026az"
         ],
         "refines": []
       },
@@ -2524,6 +2735,20 @@
       ]
     },
     {
+      "key": "levels-of-reading",
+      "label": "Levels of Reading",
+      "owner": "foam-bridge-note",
+      "definition": "A four-level model of reading depth induced by the producer-observer pipeline read observer-side: an observer of the same rendered artifact may stop at their own perception, reach the meaningfulness (the rendered work as an object), reach the meaning (the recoverable specification), or reach toward the substrate (the upstream intent); ascending the levels is progressively decentering away from the observer's own projection toward the work itself.",
+      "papers": {
+        "owns": [
+          "2026bc"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "link-time-compatibility-check",
       "label": "Link-time compatibility check",
       "owner": "2026u",
@@ -2536,6 +2761,20 @@
         "refines": [
           "2026at"
         ]
+      },
+      "relations": []
+    },
+    {
+      "key": "live-panel",
+      "label": "Live panel",
+      "owner": "2026ba",
+      "definition": "The companion panel of fresh artifacts re-collected for the same brands at each version epoch. Its inter-epoch movement carries apparatus drift PLUS brand signal; subtracting the pinned version floor estimates the brand signal. At the birth epoch the live panel coincides with the pinned capture by construction.",
+      "papers": {
+        "owns": [
+          "2026ba"
+        ],
+        "imports": [],
+        "refines": []
       },
       "relations": []
     },
@@ -2631,6 +2870,25 @@
       ]
     },
     {
+      "key": "metamer-pair",
+      "label": "Metamer pair",
+      "owner": "2026az",
+      "definition": "The unit of measurement of PRISM-M: two brands whose full eight-dimension perception profiles are resolved distinct (pairwise distance exceeds k times the operator floor, pre-registered k = 2) while an aggregating readout leaves them unresolved (within the aggregator's own floor). Labelled MP-<n> in the frozen pair bank; both halves of the criterion are measured against noise floors, never asserted.",
+      "papers": {
+        "owns": [
+          "2026az"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "spectral-metamerism"
+        }
+      ]
+    },
+    {
       "key": "metameric-arbitrage",
       "label": "Metameric arbitrage",
       "owner": "2026au",
@@ -2673,6 +2931,25 @@
       ]
     },
     {
+      "key": "metameric-fraction",
+      "label": "Metameric fraction",
+      "owner": "2026az",
+      "definition": "The share of resolvable brand distinctions that an aggregating readout destroys: the proportion of brand pairs resolved as distinct on the full eight-dimension readout (distance clears the operator floor) that the aggregator renders unresolved (within the aggregator's own floor). It operationalizes spectral metamerism as a measured quantity with an operator-floored bootstrap interval, monotone in the garbling severity of the aggregator.",
+      "papers": {
+        "owns": [
+          "2026az"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "spectral-metamerism"
+        }
+      ]
+    },
+    {
       "key": "metameric-observer",
       "label": "Metameric observer (LLM)",
       "owner": "2026v",
@@ -2684,6 +2961,8 @@
         "imports": [
           "2026au",
           "2026av",
+          "2026az",
+          "2026bb",
           "2026x"
         ],
         "refines": []
@@ -2754,6 +3033,20 @@
       "relations": []
     },
     {
+      "key": "need-vector",
+      "label": "Need vector",
+      "owner": "2026bb",
+      "definition": "A buyer need expressed in the same eight-dimension space as brand readings: the scenario's stated need is rendered as ideal-brand prose and extracted with the unchanged PRISM-B extractor, so need and brand live in one space and the cosine-nearest brand is a well-defined predicted pick.",
+      "papers": {
+        "owns": [
+          "2026bb"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "non-ergodic-perception",
       "label": "non-ergodic perception",
       "owner": "2026o",
@@ -2773,6 +3066,20 @@
           "2026s",
           "2026z"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "observer-depth",
+      "label": "Observer Depth",
+      "owner": "foam-bridge-note",
+      "definition": "The deepest level of reading an observer's extraction currently reaches, operationalizable as coverage of the source specification recovered by the observer's extraction; it increases with observer maturation, and a meaning-depth reading is exactly the reading positioned to check rendering equivalence.",
+      "papers": {
+        "owns": [
+          "2026bc"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -2812,6 +3119,7 @@
           "2026aw",
           "2026ax",
           "2026b",
+          "2026bc",
           "2026c",
           "2026d",
           "2026e",
@@ -2855,7 +3163,11 @@
         "owns": [
           "2026ax"
         ],
-        "imports": [],
+        "imports": [
+          "2026az",
+          "2026ba",
+          "2026bb"
+        ],
         "refines": []
       },
       "relations": [
@@ -2962,7 +3274,10 @@
         "owns": [
           "2026ax"
         ],
-        "imports": [],
+        "imports": [
+          "2026az",
+          "2026ba"
+        ],
         "refines": []
       },
       "relations": []
@@ -2988,6 +3303,7 @@
           "2026aw",
           "2026ax",
           "2026b",
+          "2026bc",
           "2026c",
           "2026e",
           "2026j",
@@ -2999,6 +3315,20 @@
           "2026w",
           "2026z"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "perception-cloud-as-foam",
+      "label": "Foam (Perception-Cloud Image)",
+      "owner": "foam-bridge-note",
+      "definition": "A one-time framing image for the perception cloud's granular structure: a foam of per-observer perception bubbles whose collective surface, seen from a distance, is the cohort's perception cloud. The canonical term is perception cloud; foam is an image used once on first introduction, never a load-carrying noun.",
+      "papers": {
+        "owns": [
+          "2026bc"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -3027,7 +3357,8 @@
           "2026y"
         ],
         "imports": [
-          "2026as"
+          "2026as",
+          "2026bb"
         ],
         "refines": []
       },
@@ -3086,6 +3417,20 @@
       "relations": []
     },
     {
+      "key": "pinned-panel",
+      "label": "Pinned panel",
+      "owner": "2026ba",
+      "definition": "An artifact panel captured once and stored byte-identical (hash-sealed), re-read at every model-version epoch. Since the input never changes, ALL movement on the pinned panel is apparatus drift - the identification guarantee of the pinned/live decomposition. The pinned panel is a calibration standard, not a representation of the current brand; its staleness is the point.",
+      "papers": {
+        "owns": [
+          "2026ba"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "portfolio-spectral-interference",
       "label": "Portfolio Spectral Interference",
       "owner": "2026p",
@@ -3137,8 +3482,23 @@
           "2026as"
         ],
         "imports": [
+          "2026bb",
           "2026v"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "prism-c",
+      "label": "PRISM-C",
+      "owner": "2026bb",
+      "definition": "The choice member of the PRISM instrument family: an AI-observer instrument that measures a model's revealed choice among brands in a simulated agentic task and compares it to the model's stated eight-dimension perception (PRISM-B), quantifying the choice-perception gap and the dimensional weights that map stated perception to revealed choice.",
+      "papers": {
+        "owns": [
+          "2026bb"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -3152,7 +3512,11 @@
         "owns": [
           "2026as"
         ],
-        "imports": [],
+        "imports": [
+          "2026az",
+          "2026ba",
+          "2026bb"
+        ],
         "refines": []
       },
       "relations": []
@@ -3165,6 +3529,38 @@
       "papers": {
         "owns": [
           "2026as"
+        ],
+        "imports": [
+          "2026az",
+          "2026ba",
+          "2026bb"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "prism-m",
+      "label": "PRISM-M",
+      "owner": "2026az",
+      "definition": "The metamerism member of the PRISM instrument family: an AI-observer instrument that measures when two brands with structurally distinct eight-dimension perception profiles become perceptually indistinguishable under an aggregating readout (a scalar health score, a search ranking, a recommendation pick). Its unit is the metamer pair and its output is the metameric fraction.",
+      "papers": {
+        "owns": [
+          "2026az"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "prism-t",
+      "label": "PRISM-T",
+      "owner": "2026ba",
+      "definition": "The temporal member of the PRISM instrument family: an AI-observer instrument that separates apparatus drift (the same artifacts read differently by a new model version) from brand-signal change (the artifacts themselves changed) when a vendor ships a new model version. Its unit is the (brand, version-epoch) reading and its output is the version floor plus the pinned/live drift decomposition.",
+      "papers": {
+        "owns": [
+          "2026ba"
         ],
         "imports": [],
         "refines": []
@@ -3347,7 +3743,9 @@
         "owns": [
           "2026ax"
         ],
-        "imports": [],
+        "imports": [
+          "2026ba"
+        ],
         "refines": []
       },
       "relations": [
@@ -3664,6 +4062,9 @@
           "2026av",
           "2026aw",
           "2026ax",
+          "2026az",
+          "2026ba",
+          "2026bb",
           "2026c",
           "2026d",
           "2026e",
@@ -3787,7 +4188,8 @@
           "2026av",
           "2026aw",
           "2026ax",
-          "2026ay"
+          "2026ay",
+          "2026az"
         ],
         "refines": []
       },
@@ -3919,7 +4321,9 @@
         "owns": [
           "2026ay"
         ],
-        "imports": [],
+        "imports": [
+          "2026ba"
+        ],
         "refines": []
       },
       "relations": [
@@ -4291,6 +4695,39 @@
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "version-epoch",
+      "label": "Version epoch",
+      "owner": "2026ba",
+      "definition": "One rung of the model-version ladder: a real, shipped vendor version under which the panels are read (labelled VE-<n>). Epochs are added only when a vendor ships a real version - synthetic versioning (fine-tunes, quantizations, prompt variants) is excluded by protocol. For a pinned panel the reading depends on (artifact bytes, prompt bytes, model version) only, so already-shipped back-catalog versions constitute valid epochs.",
+      "papers": {
+        "owns": [
+          "2026ba"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "version-floor",
+      "label": "Version floor",
+      "owner": "2026ba",
+      "definition": "The reliability band for longitudinal LLM measurement: the dispersion across model versions of a family reading a byte-identical artifact panel under a matched extractor - the across-time counterpart of the operator floor. Because the pinned input cannot have changed, the version floor is a pure apparatus-drift band; a longitudinal 'the brand moved' claim must clear it, not merely the contemporaneous operator floor (floor nesting: operator within version).",
+      "papers": {
+        "owns": [
+          "2026ba"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "operator-noise-floor"
+        }
+      ]
     }
   ],
   "citation_edges": [
@@ -5177,6 +5614,60 @@
       "criticality": "supportive"
     },
     {
+      "from": "2026az",
+      "to": "2026a",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026ap",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026au",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026ax",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026ay",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026e",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026s",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026v",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026az",
+      "to": "2026x",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
       "from": "2026b",
       "to": "2026a",
       "role": "applies",
@@ -5186,6 +5677,186 @@
       "from": "2026b",
       "to": "2026a",
       "role": "tests",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026a",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026ap",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026as",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026ax",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026ay",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026az",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026bb",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026d",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026o",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026r",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026s",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026v",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ba",
+      "to": "2026z",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026a",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026ap",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026as",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026ax",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026ay",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026az",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026d",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026s",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026v",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bb",
+      "to": "2026x",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026a",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026ag",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026ah",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026ah",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026ao",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026ap",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
+      "to": "2026v",
+      "role": "unclassified",
       "criticality": "supportive"
     },
     {
