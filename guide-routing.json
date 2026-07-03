@@ -949,6 +949,24 @@
             "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
             "article_url": "https://spectralbranding.substack.com/p/the-comparator-trap",
             "article_title": "The Comparator Trap: When the Right Competitor Hurts"
+          },
+          {
+            "key": "2026az",
+            "title": "Measuring Perceptual Indistinguishability: A Pre-Registered Metamerism Instrument for AI Brand Perception (PRISM-M)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21125785",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-m-metamerism"
+          },
+          {
+            "key": "2026ba",
+            "title": "Separating Instrument Drift from Brand Signal: A Pre-Registered Model-Version Tracking Instrument for AI Brand Perception (PRISM-T)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21128779",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor"
+          },
+          {
+            "key": "2026bb",
+            "title": "From Stated Perception to Revealed Choice: A Pre-Registered Instrument for the Choice-Perception Gap in AI Brand Perception (PRISM-C)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21128342",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-c-choice"
           }
         ]
       }
@@ -1099,6 +1117,12 @@
             "title": "Capability as Projection of an Append-Only Organizational Log: An Event-Sourced Substrate Theory of Organizational Capability and Transfer Failure",
             "doi_url": "https://doi.org/10.5281/zenodo.20367459",
             "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/capability-as-projection"
+          },
+          {
+            "key": "2026bc",
+            "title": "The Producer-Observer Seam: Joining Spectral Brand Theory and Organizational Schema Theory at Meaning, Meaningfulness, and the Perception Cloud",
+            "doi_url": "https://doi.org/10.5281/zenodo.21114525",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/producer-observer-seam"
           }
         ]
       }
@@ -1219,6 +1243,12 @@
             "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
             "doi_url": "https://doi.org/10.5281/zenodo.19778588",
             "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          },
+          {
+            "key": "2026ba",
+            "title": "Separating Instrument Drift from Brand Signal: A Pre-Registered Model-Version Tracking Instrument for AI Brand Perception (PRISM-T)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21128779",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor"
           }
         ]
       }
@@ -1331,6 +1361,12 @@
             "title": "Verification as Operator: Spectral Projection, Rank Deficiencies, and the Persistence of the Audit Society",
             "doi_url": "https://doi.org/10.5281/zenodo.19778588",
             "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-as-operator"
+          },
+          {
+            "key": "2026bc",
+            "title": "The Producer-Observer Seam: Joining Spectral Brand Theory and Organizational Schema Theory at Meaning, Meaningfulness, and the Perception Cloud",
+            "doi_url": "https://doi.org/10.5281/zenodo.21114525",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/producer-observer-seam"
           }
         ]
       }
