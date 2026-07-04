@@ -242,6 +242,25 @@
             "url": "https://github.com/spectralbranding/orgschema-toolkit",
             "kind": "specification"
           }
+        },
+        {
+          "id": "measure-optimization-depth",
+          "decision": "Measure whether a stated transformation or optimization is real or rhetorical.",
+          "persona": [
+            "CEO",
+            "COO",
+            "board member",
+            "investor",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/measure-optimization-depth.md",
+          "instrument": {
+            "name": "PRISM-O",
+            "url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+            "kind": "measurement"
+          }
         }
       ],
       "seeds": [
@@ -442,6 +461,25 @@
             "name": "OrgSchema Toolkit",
             "url": "https://github.com/spectralbranding/orgschema-toolkit",
             "kind": "specification"
+          }
+        },
+        {
+          "id": "measure-optimization-depth",
+          "decision": "Measure whether a stated transformation or optimization is real or rhetorical.",
+          "persona": [
+            "CEO",
+            "COO",
+            "board member",
+            "investor",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/measure-optimization-depth.md",
+          "instrument": {
+            "name": "PRISM-O",
+            "url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+            "kind": "measurement"
           }
         }
       ],
@@ -1029,6 +1067,25 @@
             "url": "https://github.com/spectralbranding/orgschema-toolkit",
             "kind": "specification"
           }
+        },
+        {
+          "id": "measure-optimization-depth",
+          "decision": "Measure whether a stated transformation or optimization is real or rhetorical.",
+          "persona": [
+            "CEO",
+            "COO",
+            "board member",
+            "investor",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/measure-optimization-depth.md",
+          "instrument": {
+            "name": "PRISM-O",
+            "url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+            "kind": "measurement"
+          }
         }
       ],
       "seeds": [
@@ -1567,6 +1624,25 @@
           "instrument": {
             "name": "Brand Spectrometer",
             "url": "https://meter.spectralbranding.com",
+            "kind": "measurement"
+          }
+        },
+        {
+          "id": "measure-optimization-depth",
+          "decision": "Measure whether a stated transformation or optimization is real or rhetorical.",
+          "persona": [
+            "CEO",
+            "COO",
+            "board member",
+            "investor",
+            "strategy lead"
+          ],
+          "framework": "OST",
+          "status": "ready",
+          "spec_url": "https://consult.orgschema.com/specs/measure-optimization-depth.md",
+          "instrument": {
+            "name": "PRISM-O",
+            "url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
             "kind": "measurement"
           }
         }
