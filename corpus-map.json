@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 49,
-    "terms": 206,
-    "citation_edges": 396
+    "papers": 50,
+    "terms": 209,
+    "citation_edges": 406
   },
   "papers": [
     {
@@ -812,6 +812,35 @@
       }
     },
     {
+      "key": "2026bd",
+      "title": "Measuring Optimization Depth: A Pre-Registered Instrument for the Stated-Actual Optimization Gap in Organizational Self-Description (PRISM-O)",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21159815",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+      "thesis": "What organizations say about how they improve themselves and what they actually do are two registers of one public record, and the depth at which improvement interventions bind — economic outputs, coordination structure, activity chains, or delivered value — is readable from that record. PRISM-O turns both claims into floored measurements: AI operators classify every improvement intervention in a frozen two-channel panel of public artifacts onto a four-rung optimization-depth ladder under a fixed mechanical rubric, and the instrument reports the stated-actual optimization gap — the signed depth difference between strategy prose and reported interventions — only when it clears twice the measured operator noise floor. The construct promotes two long-asserted organizational claims to measured quantities: the lean/reengineering doctrine that deep interventions are the durable ones, and the decoupling tradition's claim that organizational talk systematically outruns organizational action. The instrument never claims access to internal ground truth: it measures communicated decoupling in the public record, with constructed-ground-truth vignettes supplying validation where ground truth is needed.",
+      "n_prop_claims": 7,
+      "terms": {
+        "owns": [
+          "optimization-depth",
+          "prism-o",
+          "stated-actual-optimization-gap"
+        ],
+        "imports": [
+          "choice-perception-gap",
+          "operator-noise-floor",
+          "operator-role",
+          "organizational-metamerism",
+          "prism-five-layer-scaffold",
+          "prism-instrument",
+          "six-tier-ontology",
+          "tier-4-product",
+          "tier-5-process",
+          "tier-6-organization"
+        ],
+        "refines": []
+      }
+    },
+    {
       "key": "2026c",
       "title": "Geometric Approaches to Brand Perception: A Critical Survey and Research Agenda",
       "status": "active",
@@ -1180,7 +1209,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.19422427",
       "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
-      "thesis": "Large language models increasingly mediate consumer brand evaluation in search and agentic commerce, and they act as metameric observers: they systematically collapse the eight-dimensional brand emission profile toward the verifiability anchors (Economic and Semiotic, with Experiential inflated separately), rendering brands differentiated on Narrative, Ideological, Cultural, or Temporal dimensions structurally different but functionally equivalent in AI recommendations. Measured with the PRISM-B forced-allocation instrument across 21,350 API calls to 24 models from nine cultural traditions and 15 languages, the Dimensional Collapse Index (uniform baseline =.250) is elevated (mean.294 global,.356 cross-cultural) and convergent across architectures (cosine.977), so the collapse is structural rather than a platform quirk. Collapse is conditional on training-data embeddedness — locally embedded brands collapse about 24% more — and partially recoverable (~20% of lost dimensionality) by encoding soft dimensions as verifiable, machine-readable Brand Function specifications. For search advertising this reframes strategy from platform selection to dimensional defensibility: advertisers must encode soft brand dimensions in machine-readable form or risk effective erasure by LLM intermediaries. The findings are bounded to the text-conditioned LLM observers tested here.",
+      "thesis": "Large language models increasingly mediate consumer brand evaluation in search and agentic commerce, and they act as metameric observers: they systematically collapse the eight-dimensional brand emission profile toward the verifiability anchors (Economic and Semiotic, with Experiential inflated separately), rendering brands differentiated on Narrative, Ideological, Cultural, or Temporal dimensions structurally different but functionally equivalent in AI recommendations. Measured with the PRISM-B forced-allocation instrument across 21,350 API calls to 24 models from seven training traditions and 15 languages, the Dimensional Collapse Index (uniform baseline =.250) is elevated (mean.294 global,.356 cross-cultural) and convergent across architectures (cosine.977), so the collapse is structural rather than a platform quirk. Collapse is conditional on training-data embeddedness — locally embedded brands collapse about 24% more — and partially recoverable (~20% of lost dimensionality) by encoding soft dimensions as verifiable, machine-readable Brand Function specifications. For search advertising this reframes strategy from platform selection to dimensional defensibility: advertisers must encode soft brand dimensions in machine-readable form or risk effective erasure by LLM intermediaries. The findings are bounded to the text-conditioned LLM observers tested here.",
       "n_prop_claims": 9,
       "terms": {
         "owns": [
@@ -1904,7 +1933,9 @@
         "owns": [
           "2026bb"
         ],
-        "imports": [],
+        "imports": [
+          "2026bd"
+        ],
         "refines": []
       },
       "relations": [
@@ -3171,7 +3202,8 @@
         "imports": [
           "2026az",
           "2026ba",
-          "2026bb"
+          "2026bb",
+          "2026bd"
         ],
         "refines": []
       },
@@ -3191,10 +3223,39 @@
         "owns": [
           "2026ao"
         ],
-        "imports": [],
+        "imports": [
+          "2026bd"
+        ],
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "optimization-depth",
+      "label": "Optimization depth",
+      "owner": "2026bd",
+      "definition": "The rung of the four-rung depth ladder at which an organizational improvement intervention binds: D4 operations/economics (targets economic quantities directly), D3 organization (changes coordination structure), D2 process (changes the activity chain), D1 product/value (changes what value is delivered). D1-D3 ground in Tiers 4/5/6 of the six-tier ontology; D4 is the stack's economic output surface, deliberately not a tier. The ladder is ordered by the dependency chain: deeper interventions cascade outward to shallower layers, while surface interventions revert because the deeper specification reasserts itself.",
+      "papers": {
+        "owns": [
+          "2026bd"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "maps_to",
+          "target": "tier-4-product"
+        },
+        {
+          "type": "maps_to",
+          "target": "tier-5-process"
+        },
+        {
+          "type": "maps_to",
+          "target": "tier-6-organization"
+        }
+      ]
     },
     {
       "key": "organization-as-metadata",
@@ -3233,7 +3294,9 @@
         "owns": [
           "2026af"
         ],
-        "imports": [],
+        "imports": [
+          "2026bd"
+        ],
         "refines": []
       },
       "relations": []
@@ -3522,7 +3585,8 @@
         "imports": [
           "2026az",
           "2026ba",
-          "2026bb"
+          "2026bb",
+          "2026bd"
         ],
         "refines": []
       },
@@ -3540,7 +3604,8 @@
         "imports": [
           "2026az",
           "2026ba",
-          "2026bb"
+          "2026bb",
+          "2026bd"
         ],
         "refines": []
       },
@@ -3558,6 +3623,20 @@
         "imports": [
           "2026ax"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "prism-o",
+      "label": "PRISM-O",
+      "owner": "2026bd",
+      "definition": "The organizational member of the PRISM instrument family: an AI-operator instrument that reads a frozen panel of an organization's public artifacts, classifies every improvement intervention onto the optimization-depth ladder, and measures the stated-actual optimization gap against operator noise floors. The first PRISM member whose target is producer-side structure (the tier stack) rather than observer-side perception, read through the rendered artifacts at the producer-observer seam.",
+      "papers": {
+        "owns": [
+          "2026bd"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -3941,6 +4020,7 @@
           "2026al",
           "2026am",
           "2026an",
+          "2026bd",
           "2026h",
           "2026m",
           "2026u"
@@ -4283,6 +4363,25 @@
       "relations": []
     },
     {
+      "key": "stated-actual-optimization-gap",
+      "label": "Stated-actual optimization gap",
+      "owner": "2026bd",
+      "definition": "The signed difference between the optimization depth an organization's strategy prose claims (the stated channel) and the depth its reported concrete interventions reveal (the enacted channel), measured per organization over a fixed window and claimed only when it clears twice the operator noise floor. Positive when the organization talks deeper than it acts - the espoused-versus-in-use / policy-practice decoupling direction, operationalized as a floored measurement. Both channels are public renderings: the gap measures communicated decoupling in the public record, never internal ground truth.",
+      "papers": {
+        "owns": [
+          "2026bd"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "maps_to",
+          "target": "choice-perception-gap"
+        }
+      ]
+    },
+    {
       "key": "structural-absence",
       "label": "structural absence",
       "owner": "2026a",
@@ -4458,7 +4557,8 @@
           "2026ai",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bd"
         ],
         "refines": []
       },
@@ -4491,7 +4591,8 @@
           "2026ah",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bd"
         ],
         "refines": []
       },
@@ -4510,7 +4611,8 @@
           "2026ah",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bd"
         ],
         "refines": []
       },
@@ -5889,6 +5991,66 @@
     {
       "from": "2026bc",
       "to": "2026v",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026af",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026ag",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026ap",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026as",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026ax",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026ay",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026az",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026ba",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026bc",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026h",
       "role": "unclassified",
       "criticality": "supportive"
     },
