@@ -14,7 +14,7 @@
   "counts": {
     "papers": 50,
     "terms": 209,
-    "citation_edges": 406
+    "citation_edges": 410
   },
   "papers": [
     {
@@ -432,10 +432,10 @@
     },
     {
       "key": "2026as",
-      "title": "PRISM: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
+      "title": "PRISM-B: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.19555265",
-      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-instrument",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-b-brand",
       "thesis": "Measuring brand perception requires an instrument that captures multi-dimensional structure rather than collapsing it to a single equity score, and that can be administered to AI and human observers on a common scale. Existing multi-dimensional instruments (Aaker BPS, Brakus BXS, Yoo-Donthu CBBE, Geuens et al.) derive their dimensions empirically from human response factors and so are human-specific; an instrument for commensurable AI-human measurement must instead derive dimensions from the signal side, which Spectral Brand Theory supplies. This paper specifies PRISM (Perception Response Instrument for Structured Measurement): a domain-neutral five-layer scaffold (PL0 specification, PL1 configuration, PL2 prompts, PL3 sessions, PL4 analysis), the complete PRISM-B brand variant (eight items mapped one-to-one to the eight SBT dimensions, a 1--5 ordinal response format shown to be the minimum-distortion operating point for AI observers, an exact prompt template, and a scoring algorithm comprising the Dimensional Collapse Index and cross-observer cosine convergence), and the instrument's connection to multi-observer triangulation via Perception DOP. Specification is deliberately separated from validation: the instrument is fixed here so that a later human-subject study has a stable target.",
       "n_prop_claims": 15,
       "terms": {
@@ -5476,6 +5476,30 @@
       "from": "2026as",
       "to": "2026aa",
       "role": "tests",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026as",
+      "to": "2026az",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026as",
+      "to": "2026ba",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026as",
+      "to": "2026bb",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026as",
+      "to": "2026bd",
+      "role": "unclassified",
       "criticality": "supportive"
     },
     {
