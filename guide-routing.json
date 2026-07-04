@@ -967,6 +967,12 @@
             "title": "From Stated Perception to Revealed Choice: A Pre-Registered Instrument for the Choice-Perception Gap in AI Brand Perception (PRISM-C)",
             "doi_url": "https://doi.org/10.5281/zenodo.21128342",
             "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-c-choice"
+          },
+          {
+            "key": "2026bd",
+            "title": "Measuring Optimization Depth: A Pre-Registered Instrument for the Stated-Actual Optimization Gap in Organizational Self-Description (PRISM-O)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21159815",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth"
           }
         ]
       }
@@ -1123,6 +1129,12 @@
             "title": "The Producer-Observer Seam: Joining Spectral Brand Theory and Organizational Schema Theory at Meaning, Meaningfulness, and the Perception Cloud",
             "doi_url": "https://doi.org/10.5281/zenodo.21114525",
             "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/producer-observer-seam"
+          },
+          {
+            "key": "2026bd",
+            "title": "Measuring Optimization Depth: A Pre-Registered Instrument for the Stated-Actual Optimization Gap in Organizational Self-Description (PRISM-O)",
+            "doi_url": "https://doi.org/10.5281/zenodo.21159815",
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth"
           }
         ]
       }
