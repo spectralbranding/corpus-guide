@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-07-02. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-07-02",
+  "generated": "Generated projection as of 2026-07-11. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-07-11",
   "counts": {
-    "published_articles": 15,
-    "articles_linking_papers": 10,
+    "published_articles": 17,
+    "articles_linking_papers": 12,
     "papers_with_articles": 7,
-    "withheld_paper_edges_dropped": 2,
+    "withheld_paper_edges_dropped": 3,
     "excluded": {
-      "no_url": 84,
+      "no_url": 85,
       "no_date": 11,
-      "future_dated": 17,
+      "future_dated": 18,
       "no_papers": 5
     }
   },
@@ -99,6 +99,16 @@
       ]
     },
     {
+      "slug": "standalone_headless_brand_to_headless_company",
+      "title": "From Headless Brand to Headless Company",
+      "url": "https://spectralbranding.substack.com/p/from-headless-brand-to-headless-company",
+      "date": "2026-07-11",
+      "covers": [
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
       "slug": "standalone_hidden_content_generator",
       "title": "The Hidden Content Generator: Spec-Driven AI",
       "url": "https://spectralbranding.substack.com/p/the-hidden-content-generator",
@@ -133,6 +143,15 @@
       "covers": [
         "2026ag",
         "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_render_at_point_of_consumption",
+      "title": "Render at the Point of Consumption",
+      "url": "https://spectralbranding.substack.com/p/render-at-the-point-of-consumption",
+      "date": "2026-07-09",
+      "covers": [
+        "2026ag"
       ]
     },
     {
@@ -187,9 +206,19 @@
     ],
     "2026ag": [
       {
+        "slug": "standalone_render_at_point_of_consumption",
+        "title": "Render at the Point of Consumption",
+        "url": "https://spectralbranding.substack.com/p/render-at-the-point-of-consumption"
+      },
+      {
         "slug": "standalone_hidden_content_generator",
         "title": "The Hidden Content Generator: Spec-Driven AI",
         "url": "https://spectralbranding.substack.com/p/the-hidden-content-generator"
+      },
+      {
+        "slug": "standalone_headless_brand_to_headless_company",
+        "title": "From Headless Brand to Headless Company",
+        "url": "https://spectralbranding.substack.com/p/from-headless-brand-to-headless-company"
       },
       {
         "slug": "standalone_push_loses_pull_conserves",
@@ -208,6 +237,11 @@
       }
     ],
     "2026ah": [
+      {
+        "slug": "standalone_headless_brand_to_headless_company",
+        "title": "From Headless Brand to Headless Company",
+        "url": "https://spectralbranding.substack.com/p/from-headless-brand-to-headless-company"
+      },
       {
         "slug": "standalone_push_loses_pull_conserves",
         "title": "Push Systems Lose Energy. Pull Systems Conserve.",
