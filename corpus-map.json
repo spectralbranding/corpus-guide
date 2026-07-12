@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 50,
-    "terms": 209,
-    "citation_edges": 410
+    "papers": 51,
+    "terms": 213,
+    "citation_edges": 420
   },
   "papers": [
     {
@@ -836,6 +836,31 @@
           "tier-4-product",
           "tier-5-process",
           "tier-6-organization"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bf",
+      "title": "Perception Sets the Matrix: Spectral Match as the Generative Layer of Stochastic Brand-Choice Propensities",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21319716",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/perception-sets-matrix",
+      "thesis": "The stochastic brand-choice tradition (Markov switching-matrix models; the NBD-Dirichlet) takes brand-choice propensities as exogenous givens: it locates the equilibrium the propensities imply but is silent on what sets them. This paper proposes and tests a spectral-match linking model: at cohort level, the perceptual match between an observer cohort's spectral profile and a brand's profile — a similarity statistic on the eight-dimensional perception space — is a monotone predictor of the cohort's stated choice propensity within its category consideration set. Because a propensity vector over a consideration set induces the switching structure (in the zero-order Dirichlet case the entire purchase-level switching matrix in closed form), the perceptual layer sets the matrix the stochastic tradition starts from. The link is tested with LLM-cohort respondents under strict instrument separation (perception readings and propensity elicitation from disjoint operator instances), with pre-registered frozen analysis rules and kill conditions. The practitioner intuition of an intermediate \"movable\" propensity band is recovered as a derived object: the image of intermediate spectral match under the monotone link.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "induced-matrix-bridge",
+          "intermediate-match-band",
+          "match-propensity-link",
+          "spectral-match"
+        ],
+        "imports": [
+          "cohort",
+          "observer-spectral-profile",
+          "operator-noise-floor",
+          "spectral-dimensions",
+          "spectral-metamerism"
         ],
         "refines": []
       }
@@ -2032,6 +2057,7 @@
           "2026b",
           "2026bb",
           "2026bc",
+          "2026bf",
           "2026c",
           "2026d",
           "2026e",
@@ -2752,6 +2778,20 @@
       "relations": []
     },
     {
+      "key": "induced-matrix-bridge",
+      "label": "Induced-matrix bridge",
+      "owner": "2026bf",
+      "definition": "The composition mapping a cohort-weighted propensity vector over a consideration set to the switching structure it implies: under the zero-order Dirichlet parameterization, the propensity vector determines (S, s) and hence the closed-form purchase-level switching matrix P = (I + S·1sᵀ)/(S+1), its equilibrium shares, and its double-jeopardy diagonal.",
+      "papers": {
+        "owns": [
+          "2026bf"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "interaction-class",
       "label": "Cross-owner interaction class",
       "owner": "federated-negotiation",
@@ -2769,6 +2809,20 @@
           "target": "federated-ci-gate"
         }
       ]
+    },
+    {
+      "key": "intermediate-match-band",
+      "label": "Intermediate-match band",
+      "owner": "2026bf",
+      "definition": "The propensity band that is the image of intermediate spectral match under the monotone link; its population mass is a function of cohort-profile dispersion in the category. A model-derived object: the practitioner notion of a movable middle of intermediate-propensity buyers is recovered as this band rather than imported as a fixed probability cut.",
+      "papers": {
+        "owns": [
+          "2026bf"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
     },
     {
       "key": "levels-of-reading",
@@ -2836,6 +2890,20 @@
       "papers": {
         "owns": [
           "2026aw"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "match-propensity-link",
+      "label": "Match–propensity link",
+      "owner": "2026bf",
+      "definition": "The monotone mapping p(c,b) = g(m(c,b)) from cohort-level spectral match to the cohort's stated choice propensity for the brand within its category consideration set; g is estimated isotonically, with no parametric form imposed at the primary test.",
+      "papers": {
+        "owns": [
+          "2026bf"
         ],
         "imports": [],
         "refines": []
@@ -3156,6 +3224,7 @@
           "2026ax",
           "2026b",
           "2026bc",
+          "2026bf",
           "2026c",
           "2026d",
           "2026e",
@@ -3203,7 +3272,8 @@
           "2026az",
           "2026ba",
           "2026bb",
-          "2026bd"
+          "2026bd",
+          "2026bf"
         ],
         "refines": []
       },
@@ -4156,6 +4226,7 @@
           "2026az",
           "2026ba",
           "2026bb",
+          "2026bf",
           "2026c",
           "2026d",
           "2026e",
@@ -4266,6 +4337,20 @@
       "relations": []
     },
     {
+      "key": "spectral-match",
+      "label": "Spectral match",
+      "owner": "2026bf",
+      "definition": "The cohort-level similarity statistic m(c,b) = 1 − d(θ_c, β_b)/d_max between an observer cohort's spectral profile θ_c and a brand's profile β_b on the eight-dimensional perception space, with d the corpus metric (Euclidean primary; cosine and salience-weighted variants as frozen robustness forms).",
+      "papers": {
+        "owns": [
+          "2026bf"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "spectral-metamerism",
       "label": "Spectral Metamerism",
       "owner": "2026e",
@@ -4280,7 +4365,8 @@
           "2026aw",
           "2026ax",
           "2026ay",
-          "2026az"
+          "2026az",
+          "2026bf"
         ],
         "refines": []
       },
@@ -6075,6 +6161,66 @@
     {
       "from": "2026bd",
       "to": "2026h",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026a",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026ad",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026as",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026ax",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026az",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026c",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026d",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026e",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026f",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bf",
+      "to": "2026o",
       "role": "unclassified",
       "criticality": "supportive"
     },
