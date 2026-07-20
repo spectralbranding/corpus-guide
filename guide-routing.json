@@ -92,8 +92,8 @@
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
           "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
-          "article_url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
-          "article_title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4"
+          "article_url": "https://spectralbranding.substack.com/p/marketing-is-a-bundle-of-four-functions",
+          "article_title": "Marketing Is a Bundle of Four Functions, Not One"
         },
         {
           "key": "2026au",
@@ -157,7 +157,9 @@
             "key": "2026s",
             "title": "Coherence Type Over Coherence Score: A Stochastic Differential Equation Derivation of Brand Resilience",
             "doi_url": "https://doi.org/10.5281/zenodo.19208107",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r12-coherence-resilience"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r12-coherence-resilience",
+            "article_url": "https://spectralbranding.substack.com/p/how-to-know-which-brands-will-survive-a-crisis",
+            "article_title": "Which Brands Will Survive a Crisis Before It Happens"
           },
           {
             "key": "2026v",
@@ -1481,8 +1483,8 @@
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
           "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
-          "article_url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
-          "article_title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4"
+          "article_url": "https://spectralbranding.substack.com/p/marketing-is-a-bundle-of-four-functions",
+          "article_title": "Marketing Is a Bundle of Four Functions, Not One"
         }
       ],
       "gh_deeplinks": [

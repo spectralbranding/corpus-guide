@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-07-11. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-07-11",
+  "generated": "Generated projection as of 2026-07-20. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-07-20",
   "counts": {
-    "published_articles": 17,
-    "articles_linking_papers": 12,
-    "papers_with_articles": 7,
-    "withheld_paper_edges_dropped": 3,
+    "published_articles": 21,
+    "articles_linking_papers": 16,
+    "papers_with_articles": 10,
+    "withheld_paper_edges_dropped": 2,
     "excluded": {
       "no_url": 85,
       "no_date": 11,
-      "future_dated": 18,
+      "future_dated": 14,
       "no_papers": 5
     }
   },
@@ -36,12 +36,22 @@
       ]
     },
     {
+      "slug": "28_crisis_predictor",
+      "title": "Which Brands Will Survive a Crisis Before It Happens",
+      "url": "https://spectralbranding.substack.com/p/how-to-know-which-brands-will-survive-a-crisis",
+      "date": "2026-07-18",
+      "covers": [
+        "2026s"
+      ]
+    },
+    {
       "slug": "SBT-C4_coo_brand_strategist",
       "title": "Why COO and Brand Strategist Should Report to Each Other",
       "url": "https://spectralbranding.substack.com/p/why-your-coo-should-report-to-your",
       "date": "2026-03-15",
       "covers": [
-        "2026a"
+        "2026a",
+        "2026i"
       ]
     },
     {
@@ -71,6 +81,15 @@
         "2026a",
         "2026ag",
         "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_brand_tracker_three_layers",
+      "title": "The Three Layers Where Your Brand Tracker Lies",
+      "url": "https://spectralbranding.substack.com/p/the-three-layers-where-your-brand",
+      "date": "2026-07-20",
+      "covers": [
+        "2026o"
       ]
     },
     {
@@ -118,6 +137,15 @@
       ]
     },
     {
+      "slug": "standalone_marketing_function_bundle",
+      "title": "Marketing Is a Bundle of Four Functions, Not One",
+      "url": "https://spectralbranding.substack.com/p/marketing-is-a-bundle-of-four-functions",
+      "date": "2026-07-16",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
       "slug": "standalone_marketing_is_push_demand_is_pull",
       "title": "Marketing Is the Push, Demand Is the Pull",
       "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull",
@@ -126,6 +154,15 @@
         "2026ag",
         "2026ah",
         "2026aw"
+      ]
+    },
+    {
+      "slug": "standalone_nps_four_behaviours",
+      "title": "Your NPS Score Came From Four Different Behaviours",
+      "url": "https://spectralbranding.substack.com/p/your-nps-score-came-from-four-different",
+      "date": "2026-07-13",
+      "covers": [
+        "2026o"
       ]
     },
     {
@@ -171,6 +208,11 @@
   ],
   "by_paper": {
     "2026a": [
+      {
+        "slug": "standalone_marketing_function_bundle",
+        "title": "Marketing Is a Bundle of Four Functions, Not One",
+        "url": "https://spectralbranding.substack.com/p/marketing-is-a-bundle-of-four-functions"
+      },
       {
         "slug": "02_strongest_weak_brand",
         "title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4",
@@ -270,6 +312,32 @@
         "slug": "standalone_floor_under_your_dashboard",
         "title": "The Floor Under Your Dashboard",
         "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard"
+      }
+    ],
+    "2026i": [
+      {
+        "slug": "SBT-C4_coo_brand_strategist",
+        "title": "Why COO and Brand Strategist Should Report to Each Other",
+        "url": "https://spectralbranding.substack.com/p/why-your-coo-should-report-to-your"
+      }
+    ],
+    "2026o": [
+      {
+        "slug": "standalone_nps_four_behaviours",
+        "title": "Your NPS Score Came From Four Different Behaviours",
+        "url": "https://spectralbranding.substack.com/p/your-nps-score-came-from-four-different"
+      },
+      {
+        "slug": "standalone_brand_tracker_three_layers",
+        "title": "The Three Layers Where Your Brand Tracker Lies",
+        "url": "https://spectralbranding.substack.com/p/the-three-layers-where-your-brand"
+      }
+    ],
+    "2026s": [
+      {
+        "slug": "28_crisis_predictor",
+        "title": "Which Brands Will Survive a Crisis Before It Happens",
+        "url": "https://spectralbranding.substack.com/p/how-to-know-which-brands-will-survive-a-crisis"
       }
     ],
     "2026v": [

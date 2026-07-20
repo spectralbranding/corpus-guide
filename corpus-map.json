@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 51,
-    "terms": 213,
-    "citation_edges": 420
+    "papers": 52,
+    "terms": 222,
+    "citation_edges": 440
   },
   "papers": [
     {
@@ -131,6 +131,7 @@
         ],
         "imports": [
           "re-collapse",
+          "six-level-tdd-cascade",
           "six-tier-ontology",
           "spectral-dimensions"
         ],
@@ -424,6 +425,8 @@
         "imports": [
           "brand-conviction",
           "cohort",
+          "organizational-schema-theory",
+          "six-level-tdd-cascade",
           "spectral-brand-theory",
           "spectral-dimensions"
         ],
@@ -830,6 +833,7 @@
           "operator-noise-floor",
           "operator-role",
           "organizational-metamerism",
+          "organizational-schema-theory",
           "prism-five-layer-scaffold",
           "prism-instrument",
           "six-tier-ontology",
@@ -1002,6 +1006,36 @@
         ],
         "imports": [
           "six-tier-ontology",
+          "spectral-dimensions"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026i",
+      "title": "The Organizational Schema Theory: Test-Driven Business Design",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.18946043",
+      "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/organizational-schema-theory",
+      "thesis": "Most businesses are forward-designed: built upward from available resources, with customer experience left to emerge as an undesigned consequence and no systematic way to trace which operational parameter affects which customer outcome. The Organizational Schema Theory (orgschema, OST) inverts this by applying Test-Driven Development to business design: desired customer experience is specified first as acceptance tests, and every operational layer is derived backward from that specification. Customer-experience contracts are the acceptance tests, signal requirements the integration tests, process contracts the unit tests, procedures the implementation, and a CI/CD pipeline the test runner; version control is the audit trail. The result is businesses that are testable, forkable, and traceable from every operational parameter back to its customer-experience justification. The contribution is the methodology itself (a Design Science Research artifact), not any single instantiation; it occupies genuine white space at the intersection of declarative business process management, organization-as-code, and TDD, and large language models are the essential enabler that makes its multi-dimensional cross-referenced complexity practically manageable for the first time.",
+      "n_prop_claims": 14,
+      "terms": {
+        "owns": [
+          "bidirectional-traceability",
+          "executor-invariance",
+          "experience-contract",
+          "organizational-schema-theory",
+          "process-contract",
+          "reverse-design",
+          "satisfaction-validation",
+          "signal-requirement",
+          "six-level-tdd-cascade"
+        ],
+        "imports": [
+          "brand-fact",
+          "cohort",
+          "six-tier-ontology",
+          "spectral-brand-theory",
           "spectral-dimensions"
         ],
         "refines": []
@@ -1561,6 +1595,20 @@
       "relations": []
     },
     {
+      "key": "bidirectional-traceability",
+      "label": "Bidirectional Traceability",
+      "owner": "2026i",
+      "definition": "The architectural property by which every operational parameter can trace upward to the experience contract it serves and every experience goal can trace downward to the procedure, inputs, and suppliers that implement it.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "blind-spend",
       "label": "Blind spend",
       "owner": "2026au",
@@ -1669,7 +1717,8 @@
           "2026a"
         ],
         "imports": [
-          "2026b"
+          "2026b",
+          "2026i"
         ],
         "refines": []
       },
@@ -2063,6 +2112,7 @@
           "2026e",
           "2026f",
           "2026g",
+          "2026i",
           "2026j",
           "2026k",
           "2026n",
@@ -2532,6 +2582,34 @@
         "imports": [
           "2026j"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "executor-invariance",
+      "label": "Executor Invariance",
+      "owner": "2026i",
+      "definition": "The property that a specification level defines what must be achieved independently of who or what achieves it, drawing the boundary between contract levels (L0-L2) and implementation levels (L3-L5).",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "experience-contract",
+      "label": "Experience Contract",
+      "owner": "2026i",
+      "definition": "The Level 0 specification stating what customers should perceive, feel, and experience, functioning as the executor-invariant acceptance test for the entire organization.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -3372,6 +3450,23 @@
       "relations": []
     },
     {
+      "key": "organizational-schema-theory",
+      "label": "Organizational Schema Theory",
+      "owner": "2026i",
+      "definition": "A design methodology that applies test-driven development to business operations, specifying desired customer experience first and deriving every operational layer backward from that specification as a six-level cascade.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [
+          "2026ar",
+          "2026bd"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "orgschema-audit",
       "label": "OrgSchema Audit",
       "owner": "orgschema-audit",
@@ -3728,6 +3823,20 @@
       "relations": []
     },
     {
+      "key": "process-contract",
+      "label": "Process Contract",
+      "owner": "2026i",
+      "definition": "The Level 2 specification of measurable outcomes, quality gates, and tolerances a process must achieve, separate from and executor-invariant of how it is implemented.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "projection-cascade",
       "label": "Projection Cascade",
       "owner": "2026m",
@@ -3991,6 +4100,20 @@
       "relations": []
     },
     {
+      "key": "reverse-design",
+      "label": "Reverse Design",
+      "owner": "2026i",
+      "definition": "A design direction in which the desired customer perception is specified first and every subsequent operational layer exists only to satisfy the layer above it (top-down design, bottom-up operation).",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "rotation-effort-intensity",
       "label": "Rotation effort intensity (e)",
       "owner": "2026ai",
@@ -3998,6 +4121,20 @@
       "papers": {
         "owns": [
           "2026ai"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "satisfaction-validation",
+      "label": "Satisfaction Validation Pipeline",
+      "owner": "2026i",
+      "definition": "A continuous integration/continuous delivery pipeline that automatically and continuously checks that each cascade level satisfies the level above it.",
+      "papers": {
+        "owns": [
+          "2026i"
         ],
         "imports": [],
         "refines": []
@@ -4054,6 +4191,20 @@
       "relations": []
     },
     {
+      "key": "signal-requirement",
+      "label": "Signal Requirement",
+      "owner": "2026i",
+      "definition": "The Level 1 specification of what signals the organization must emit to create the desired perception, each linked upward to a Level 0 experience contract.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "signal-source-clustering",
       "label": "Signal-source clustering",
       "owner": "2026ax",
@@ -4071,6 +4222,23 @@
           "target": "reflection"
         }
       ]
+    },
+    {
+      "key": "six-level-tdd-cascade",
+      "label": "Six-Level TDD Cascade",
+      "owner": "2026i",
+      "definition": "The core OST artifact: a six-level specification cascade (L0 experience contracts through L5 sourcing) where each level functions as the acceptance test for the level below it.",
+      "papers": {
+        "owns": [
+          "2026i"
+        ],
+        "imports": [
+          "2026ae",
+          "2026ar"
+        ],
+        "refines": []
+      },
+      "relations": []
     },
     {
       "key": "six-tier-ontology",
@@ -4092,6 +4260,7 @@
           "2026an",
           "2026bd",
           "2026h",
+          "2026i",
           "2026m",
           "2026u"
         ],
@@ -4185,6 +4354,7 @@
           "2026e",
           "2026f",
           "2026g",
+          "2026i",
           "2026n",
           "2026p",
           "2026r",
@@ -4233,6 +4403,7 @@
           "2026f",
           "2026g",
           "2026h",
+          "2026i",
           "2026j",
           "2026k",
           "2026n",
@@ -4996,6 +5167,12 @@
     },
     {
       "from": "2026a",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026a",
       "to": "2026j",
       "role": "applies",
       "criticality": "supportive"
@@ -5206,6 +5383,12 @@
     },
     {
       "from": "2026ad",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026ad",
       "to": "2026j",
       "role": "applies",
       "criticality": "supportive"
@@ -5254,6 +5437,18 @@
     },
     {
       "from": "2026ae",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ae",
+      "to": "2026i",
+      "role": "extends",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026ae",
       "to": "2026m",
       "role": "applies",
       "criticality": "critical"
@@ -5292,6 +5487,12 @@
       "from": "2026af",
       "to": "2026h",
       "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026af",
+      "to": "2026i",
+      "role": "tests",
       "criticality": "supportive"
     },
     {
@@ -5530,6 +5731,18 @@
     },
     {
       "from": "2026ar",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ar",
+      "to": "2026i",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ar",
       "to": "2026r",
       "role": "applies",
       "criticality": "supportive"
@@ -5681,6 +5894,12 @@
     {
       "from": "2026au",
       "to": "2026e",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026au",
+      "to": "2026i",
       "role": "unclassified",
       "criticality": "supportive"
     },
@@ -6100,6 +6319,12 @@
     },
     {
       "from": "2026bc",
+      "to": "2026i",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bc",
       "to": "2026v",
       "role": "unclassified",
       "criticality": "supportive"
@@ -6161,6 +6386,12 @@
     {
       "from": "2026bd",
       "to": "2026h",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bd",
+      "to": "2026i",
       "role": "unclassified",
       "criticality": "supportive"
     },
@@ -6310,6 +6541,18 @@
     },
     {
       "from": "2026c",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026c",
+      "to": "2026i",
+      "role": "extends",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026c",
       "to": "2026j",
       "role": "bundled",
       "criticality": "incidental"
@@ -6460,6 +6703,12 @@
     },
     {
       "from": "2026e",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026e",
       "to": "2026o",
       "role": "applies",
       "criticality": "supportive"
@@ -6545,6 +6794,12 @@
     {
       "from": "2026f",
       "to": "2026g",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026f",
+      "to": "2026i",
       "role": "applies",
       "criticality": "supportive"
     },
@@ -6690,6 +6945,18 @@
       "from": "2026h",
       "to": "2026f",
       "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026h",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026h",
+      "to": "2026i",
+      "role": "extends",
       "criticality": "supportive"
     },
     {
@@ -6870,6 +7137,12 @@
       "from": "2026k",
       "to": "2026h",
       "role": "bundled",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026k",
+      "to": "2026i",
+      "role": "applies",
       "criticality": "supportive"
     },
     {
@@ -7192,6 +7465,12 @@
     },
     {
       "from": "2026u",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026u",
       "to": "2026m",
       "role": "applies",
       "criticality": "supportive"
@@ -7231,6 +7510,12 @@
       "to": "2026a",
       "role": "applies",
       "criticality": "supportive"
+    },
+    {
+      "from": "2026w",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "critical"
     },
     {
       "from": "2026w",
@@ -7321,6 +7606,12 @@
       "to": "2026f",
       "role": "applies",
       "criticality": "critical"
+    },
+    {
+      "from": "2026y",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
     },
     {
       "from": "2026y",
