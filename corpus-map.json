@@ -14,7 +14,7 @@
   "counts": {
     "papers": 52,
     "terms": 222,
-    "citation_edges": 440
+    "citation_edges": 446
   },
   "papers": [
     {
@@ -1013,12 +1013,12 @@
     },
     {
       "key": "2026i",
-      "title": "The Organizational Schema Theory: Test-Driven Business Design",
+      "title": "Machine-Checkable Acceptance Contracts for Organizational Design: A Design-Science Theory of Specification Cascades",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.18946043",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/organizational-schema-theory",
-      "thesis": "Most businesses are forward-designed: built upward from available resources, with customer experience left to emerge as an undesigned consequence and no systematic way to trace which operational parameter affects which customer outcome. The Organizational Schema Theory (orgschema, OST) inverts this by applying Test-Driven Development to business design: desired customer experience is specified first as acceptance tests, and every operational layer is derived backward from that specification. Customer-experience contracts are the acceptance tests, signal requirements the integration tests, process contracts the unit tests, procedures the implementation, and a CI/CD pipeline the test runner; version control is the audit trail. The result is businesses that are testable, forkable, and traceable from every operational parameter back to its customer-experience justification. The contribution is the methodology itself (a Design Science Research artifact), not any single instantiation; it occupies genuine white space at the intersection of declarative business process management, organization-as-code, and TDD, and large language models are the essential enabler that makes its multi-dimensional cross-referenced complexity practically manageable for the first time.",
-      "n_prop_claims": 14,
+      "thesis": "Organizations already possess mechanisms that touch on quality and control — quality-management systems, enterprise-architecture frameworks, balanced scorecards and performance measurement, business-process conformance checking, requirements engineering, and cybernetic control. Each tests either process conformance (does execution match the model?) or lag outcomes (did the measured outcome move?). None makes a machine-checkable, ex-ante acceptance contract at the experience layer with backward traceability a structural invariant: a specification in which every operational parameter carries a tool-verifiable trace to a stakeholder-experience criterion expressed as a runnable acceptance test, re-validated automatically on every change. Organizational Schema Theory (OST) is a design-science artifact supplying this property through a six-level specification cascade (L0 experience contracts = acceptance tests; L1 signal requirements = integration tests; L2 process contracts = unit tests; L3-L5 procedures, inputs, sourcing = implementation) with executor-invariance and a continuous-validation pipeline. The genuinely novel element is not reverse design — a synthesis of prior traditions, conceded openly — but the operationalization of acceptance testing as a machine-verifiable invariant of an organizational specification, formalized as a typed directed acyclic justification graph on which traceability, executor-invariance, and cascade-compression are checkable properties. The artifact is stated as design principles, mechanisms, and boundary conditions (nascent design theory), and evaluated honestly within the FEDS taxonomy as analytical + naturalistic- observational + demonstration evidence — explicitly not as controlled outcome evidence.",
+      "n_prop_claims": 4,
       "terms": {
         "owns": [
           "bidirectional-traceability",
@@ -6970,6 +6970,42 @@
       "to": "2026m",
       "role": "applies",
       "criticality": "supportive"
+    },
+    {
+      "from": "2026i",
+      "to": "2026a",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026i",
+      "to": "2026ae",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026i",
+      "to": "2026ag",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026i",
+      "to": "2026h",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026i",
+      "to": "2026m",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026i",
+      "to": "2026v",
+      "role": "unclassified",
+      "criticality": "critical"
     },
     {
       "from": "2026j",
