@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-07-20. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-07-20",
+  "generated": "Generated projection as of 2026-07-27. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-07-27",
   "counts": {
-    "published_articles": 21,
-    "articles_linking_papers": 16,
-    "papers_with_articles": 10,
+    "published_articles": 22,
+    "articles_linking_papers": 17,
+    "papers_with_articles": 11,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
-      "no_url": 85,
+      "no_url": 86,
       "no_date": 11,
-      "future_dated": 14,
+      "future_dated": 13,
       "no_papers": 5
     }
   },
@@ -33,6 +33,15 @@
       "date": "2026-03-17",
       "covers": [
         "2026a"
+      ]
+    },
+    {
+      "slug": "27_why_eight",
+      "title": "Why Eight? The Case for Eight Dimensions of Brand Perception",
+      "url": "https://spectralbranding.substack.com/p/why-eight",
+      "date": "2026-07-25",
+      "covers": [
+        "2026r"
       ]
     },
     {
@@ -331,6 +340,13 @@
         "slug": "standalone_brand_tracker_three_layers",
         "title": "The Three Layers Where Your Brand Tracker Lies",
         "url": "https://spectralbranding.substack.com/p/the-three-layers-where-your-brand"
+      }
+    ],
+    "2026r": [
+      {
+        "slug": "27_why_eight",
+        "title": "Why Eight? The Case for Eight Dimensions of Brand Perception",
+        "url": "https://spectralbranding.substack.com/p/why-eight"
       }
     ],
     "2026s": [
