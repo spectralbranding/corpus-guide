@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 52,
-    "terms": 222,
-    "citation_edges": 446
+    "papers": 53,
+    "terms": 230,
+    "citation_edges": 447
   },
   "papers": [
     {
@@ -870,6 +870,29 @@
       }
     },
     {
+      "key": "2026bg",
+      "title": "Invention as a Structural Operation: Why the Abductive Jump Is a Re-Coordinatization of the Space of Description, Not a Sensory Leap",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21653102",
+      "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/invention-as-structure",
+      "thesis": "Invention is a typed structural operation on a representation — a change of the description itself — realized by four atomic moves: adjoin a dimension, rescale or requantize, re-topologize or re-specify, and glue (pull back) across domains. These moves are selected by a functional combining intrinsic structural signals (minimum description length of the axioms, symmetry and invariance, and consistency or closure) with, when a substrate exists, an often-weak empirical constraint that can be active during generation rather than only downstream. Within representational systems whose compatibility predicate is decidable — formalized and specification domains — the operator set is enumerable and the selection functional is computable, so the generative act is mechanizable, as demonstrated by a running artifact that performs and classifies cross-domain structural recombination. This relocates the \"abductive jump\" that a prevailing position holds to require embodied sensory grounding: the jump is a re-coordinatization under joint constraints, substrate-independent in its content though frequently embodied in its human rendering. The claim is bounded — outside decidable-compatibility domains, where the adjacent possible is not finitely prestatable, the account characterizes the operator types without asserting the space is enumerable or the selection complete.",
+      "n_prop_claims": 10,
+      "terms": {
+        "owns": [
+          "adjoin-dimension",
+          "decidable-compatibility-domain",
+          "glue-pullback",
+          "intrinsic-selection-functional",
+          "re-topologize",
+          "representation-morphism",
+          "rescale-requantize",
+          "structural-completion"
+        ],
+        "imports": [],
+        "refines": []
+      }
+    },
+    {
       "key": "2026c",
       "title": "Geometric Approaches to Brand Perception: A Critical Survey and Research Agenda",
       "status": "active",
@@ -1418,6 +1441,20 @@
       "papers": {
         "owns": [
           "2026h"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "adjoin-dimension",
+      "label": "adjoin a dimension",
+      "owner": "invention-as-structure",
+      "definition": "The atomic invention move that makes a previously latent degree of freedom explicit, adding an independent axis to the representation (for example, observer-indexed time, or the metric treated as a dynamical field).",
+      "papers": {
+        "owns": [
+          "2026bg"
         ],
         "imports": [],
         "refines": []
@@ -2346,6 +2383,20 @@
       ]
     },
     {
+      "key": "decidable-compatibility-domain",
+      "label": "decidable-compatibility domain",
+      "owner": "invention-as-structure",
+      "definition": "A representational system whose predicate for whether two structural moves are compatible is decidable — formalized and specification domains. The scope within which the account's mechanizability and closure claims are asserted; outside it, only the operator types are claimed to describe the moves.",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "def-hash-identity",
       "label": "Definition-hash identity",
       "owner": "federated-negotiation",
@@ -2778,6 +2829,20 @@
       "relations": []
     },
     {
+      "key": "glue-pullback",
+      "label": "glue (pull back) across domains",
+      "owner": "invention-as-structure",
+      "definition": "The atomic invention move that identifies a shared substructure of two representations and forms their fibered combination (a pullback / pushout), yielding a description that spans what neither domain saw alone. The formal content of \"combining approaches from different domains.\"",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "identity-coherence",
       "label": "Identity Coherence",
       "owner": "2026s",
@@ -2896,6 +2961,20 @@
       "papers": {
         "owns": [
           "2026bf"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "intrinsic-selection-functional",
+      "label": "intrinsic selection functional",
+      "owner": "invention-as-structure",
+      "definition": "The criterion that selects among candidate structural moves by combining description length of the axioms, symmetry and invariance, and consistency or closure, together with an often-weak empirical adequacy term when a substrate exists. Computable within a decidable-compatibility domain.",
+      "papers": {
+        "owns": [
+          "2026bg"
         ],
         "imports": [],
         "refines": []
@@ -3943,6 +4022,20 @@
       "relations": []
     },
     {
+      "key": "re-topologize",
+      "label": "re-topologize or re-specify",
+      "owner": "invention-as-structure",
+      "definition": "The atomic invention move that changes the connectivity of a representation or the class of admissible morphisms over it — for example, replacing a flat description with a curved one, or promoting a measured coincidence to a structural identity via a quotient.",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "recipient-class",
       "label": "Recipient Class",
       "owner": "2026am",
@@ -4064,6 +4157,34 @@
         "imports": [
           "2026ap"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "representation-morphism",
+      "label": "representation morphism",
+      "owner": "invention-as-structure",
+      "definition": "An invention modeled as a structure-changing map on a representation: it alters the typed description within which a domain's regularities are stated, rather than adding an observation inside a fixed description. The unit of analysis for the account.",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "rescale-requantize",
+      "label": "rescale or requantize",
+      "owner": "invention-as-structure",
+      "definition": "The atomic invention move that changes the unit or granularity of a measurement — including quantizing a quantity previously treated as continuous, or moving to a logarithmic or renormalized scale.",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -4654,6 +4775,20 @@
           "2026k",
           "2026p"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "structural-completion",
+      "label": "structural completion",
+      "owner": "invention-as-structure",
+      "definition": "An apparently new primitive obtained by adjoining what a consistency or closure demand forces (for example, adjoining a root to make an operation total). A special case of adjoin-dimension that dissolves the \"creation ex nihilo\" reading of novel primitives, bounded to formalized systems.",
+      "papers": {
+        "owns": [
+          "2026bg"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -6454,6 +6589,12 @@
       "to": "2026o",
       "role": "unclassified",
       "criticality": "supportive"
+    },
+    {
+      "from": "2026bg",
+      "to": "2026i",
+      "role": "extends",
+      "criticality": "critical"
     },
     {
       "from": "2026c",
