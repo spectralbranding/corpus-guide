@@ -30,7 +30,8 @@
         "signed-profile-8d",
         "strength-and-valence",
         "spectral-metamerism",
-        "cohort-separability"
+        "cohort-separability",
+        "rank-vs-resolution"
       ],
       "next_action": "See your brand's shape in minutes (Brand Spectrometer), then read it back through the anchor claims.",
       "byoai_cta": "Point your agent at the SBT reading path on GitHub (spine + claims), not the PDFs.",
@@ -873,6 +874,7 @@
       "explorables": [
         "cohort-separability",
         "spectral-metamerism",
+        "rank-vs-resolution",
         "spectral-profile-8d"
       ],
       "next_action": "Run reproduce.sh against the published HF datasets; inspect the instrument's noise-floor gating.",
