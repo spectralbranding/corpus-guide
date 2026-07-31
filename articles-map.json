@@ -2,12 +2,12 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-07-28. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-07-28",
+  "generated": "Generated projection as of 2026-07-31. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-07-31",
   "counts": {
-    "published_articles": 22,
-    "articles_linking_papers": 17,
-    "papers_with_articles": 11,
+    "published_articles": 23,
+    "articles_linking_papers": 18,
+    "papers_with_articles": 12,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
       "no_url": 86,
@@ -61,6 +61,15 @@
       "covers": [
         "2026a",
         "2026i"
+      ]
+    },
+    {
+      "slug": "authoring_a_category",
+      "title": "AI Commoditizes Execution. It Can't Pick Your Category.",
+      "url": "https://spectralbranding.substack.com/p/ai-commoditizes-execution-it-cant-pick-your-category",
+      "date": "2026-07-31",
+      "covers": [
+        "2026bg"
       ]
     },
     {
@@ -321,6 +330,13 @@
         "slug": "standalone_floor_under_your_dashboard",
         "title": "The Floor Under Your Dashboard",
         "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard"
+      }
+    ],
+    "2026bg": [
+      {
+        "slug": "authoring_a_category",
+        "title": "AI Commoditizes Execution. It Can't Pick Your Category.",
+        "url": "https://spectralbranding.substack.com/p/ai-commoditizes-execution-it-cant-pick-your-category"
       }
     ],
     "2026i": [
