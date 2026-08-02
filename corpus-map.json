@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 53,
-    "terms": 230,
-    "citation_edges": 447
+    "papers": 56,
+    "terms": 243,
+    "citation_edges": 452
   },
   "papers": [
     {
@@ -893,6 +893,79 @@
       }
     },
     {
+      "key": "2026bh",
+      "title": "A Blinded Multi-LLM Content-Coding Instrument with Registered-Before-Data Discipline and Inter-Coder Reliability Validation",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21756063",
+      "github_url": null,
+      "thesis": "Content coding — converting documentary evidence into structured analyzable variables — is a reliability bottleneck of qualitative and mixed-methods organizational research: labor-intensive, hard to reproduce, and vulnerable to the coder seeing the hypothesis. Large language models can now annotate at or above crowd-worker quality, but naive use reintroduces the failure modes careful coding was built to remove: unauditable calls, hypothesis leakage, fabricated codes, and single-rater dependence. This paper specifies a blinded multi-LLM content-coding instrument that imports the discipline of human intercoder-reliability protocols into LLM-assisted coding — three heterogeneous models code each case independently from a neutral evidence dossier while blinded to the hypotheses and the case's study role; cells combine by majority-vote-or-flag with author adjudication; a model that cannot determine a cell returns uncertain rather than guess; every call is logged with an exact model pin; and the harness and the empty coding schema are committed before any datum exists. On a 30-case organizational (M&A-integration) corpus the instrument reached almost-perfect inter-coder agreement (Fleiss' kappa =.838; 2.7% flagged cells, none on a study-critical variable). The contribution is the instrument and its reliability validation — reproducible, registered-before-data, and fully auditable — offered as a transparent alternative to single- or dual-human coding. Reliability is not by itself downstream hypothesis-testing validity; establishing the latter (a head-to-head contrast against single-LLM and human double-coding) is declared future work.",
+      "n_prop_claims": 5,
+      "terms": {
+        "owns": [
+          "anti-fabrication-coding-rule",
+          "blinded-multi-llm-coding-instrument",
+          "coding-discipline-package",
+          "evidence-dossier",
+          "majority-vote-or-flag"
+        ],
+        "imports": [],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bi",
+      "title": "A Large-N Confirmatory Necessary-Condition Test of Closing-Time Structural Gaps in Acquisition Integration Failure",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21755969",
+      "github_url": null,
+      "thesis": "A closing-time cascade gap — a structural product-process or process-organization mismatch created when an asset or operational process crosses the ownership boundary without the adjacent tier that produces or governs it transferring or aligning coherently alongside it — was tested, confirmatorily and at large N, as a necessary condition for a cascade-type integration failure realized over a three-to-five-year horizon. On a case-control sample of 350 completed transactions coded from disjoint evidence by separate raters, the necessary-condition relationship is real but weaker than the exploratory small-sample reading predicted: conditional on no detected gap, the cascade-type failure rate is low (7.3%, exact upper 95% bound 11.2%) but not zero, so the structural safe harbor bounds rather than eliminates the failure mode. The measurement-and-sampling design — coding the gap and the outcome from disjoint documents by rotated raters, and drawing the sample on deal structure rather than on outcome — is a contribution alongside the estimate, and the sampling frame's rate of announced-but-unconsummated bids is itself a reportable methodological finding.",
+      "n_prop_claims": 3,
+      "terms": {
+        "owns": [
+          "cascade-gap",
+          "cascade-type-failure",
+          "structural-safe-harbor"
+        ],
+        "imports": [
+          "admissibility-predicate",
+          "cascade-rule",
+          "six-tier-ontology",
+          "tier-4-product",
+          "tier-5-process",
+          "tier-6-organization"
+        ],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bj",
+      "title": "Tier-Bundle Algebra in Inter-Organizational Resource Transfer: A Fork-Operation Formalism Over the Six-Tier Acquisition-Target Ontology",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21756077",
+      "github_url": null,
+      "thesis": "The six-tier ontology of the acquisition target (Zharnikov 2026ag) specifies what an acquisition target IS; it does not specify what compositions over the tier stack are admissible when an ownership boundary is crossed. This paper supplies that compositional grammar: a typed fork-operation algebra in which each named M&A transaction type decomposes into a signature bundle of fork operations across the seller's tier graph, a cascade rule specifying which fork-forces-fork entailments hold along the service hierarchy, and an admissibility predicate — derived from the six- tier ontology's own tier-collapse states — that rejects bundles a target's actual fusion structure cannot support. Unlike the named-deal-type taxonomy's fourteen enumerated categories, the algebra also classifies hybrid and unnamed structures the taxonomy has no name for, converting deal-type classification and admissibility assessment from enumerated judgment into a generative, checkable structure.",
+      "n_prop_claims": 9,
+      "terms": {
+        "owns": [
+          "admissibility-predicate",
+          "cascade-rule",
+          "tier-bundle",
+          "tier-bundle-algebra",
+          "tier-fork-operation"
+        ],
+        "imports": [
+          "six-tier-ontology",
+          "tier-1-owner-intent",
+          "tier-2-business-model",
+          "tier-3-business-entity",
+          "tier-4-product",
+          "tier-5-process",
+          "tier-6-organization"
+        ],
+        "refines": []
+      }
+    },
+    {
       "key": "2026c",
       "title": "Geometric Approaches to Brand Perception: A Critical Survey and Research Agenda",
       "status": "active",
@@ -1462,6 +1535,22 @@
       "relations": []
     },
     {
+      "key": "admissibility-predicate",
+      "label": "Bundle admissibility predicate",
+      "owner": "tier-bundle-algebra",
+      "definition": "A structural predicate that rejects a tier-bundle incompatible with the seller's tier-collapse state on structural rather than legal grounds.",
+      "papers": {
+        "owns": [
+          "2026bj"
+        ],
+        "imports": [
+          "2026bi"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "aggregator-battery",
       "label": "Aggregator battery",
       "owner": "2026az",
@@ -1516,6 +1605,20 @@
       "papers": {
         "owns": [
           "2026u"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "anti-fabrication-coding-rule",
+      "label": "Anti-fabrication coding rule",
+      "owner": "multi-llm-coding-instrument",
+      "definition": "The requirement that a coder unable to determine a cell from the dossier return 'uncertain' rather than guess, with uncertain-dominated cells resolved conservatively in the null-friendly direction under a pre-stated adjudication rule.",
+      "papers": {
+        "owns": [
+          "2026bh"
         ],
         "imports": [],
         "refines": []
@@ -1658,6 +1761,25 @@
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "blinded-multi-llm-coding-instrument",
+      "label": "Blinded multi-LLM content-coding instrument",
+      "owner": "multi-llm-coding-instrument",
+      "definition": "A content-coding procedure in which several heterogeneous large language models independently code each case from a neutral evidence dossier while blinded to the study's hypotheses and the case's role, combined per cell by majority-vote-or-flag with author adjudication.",
+      "papers": {
+        "owns": [
+          "2026bh"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "evidence-dossier"
+        }
+      ]
     },
     {
       "key": "boundary-volume-fraction",
@@ -2003,6 +2125,20 @@
       "relations": []
     },
     {
+      "key": "cascade-gap",
+      "label": "Cascade gap",
+      "owner": "2026bi",
+      "definition": "A closing-time structural mismatch in which a customer-facing product or asset, or an operational process, crosses the ownership boundary without the adjacent tier that produces or governs it transferring or aligning coherently alongside it; operationalized as a product-process or process-organization gap coded from closing-time deal documents.",
+      "papers": {
+        "owns": [
+          "2026bi"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "cascade-position-prioritization",
       "label": "Cascade-Position Prioritization",
       "owner": "orgschema-audit",
@@ -2010,6 +2146,36 @@
       "papers": {
         "owns": [
           "2026ar"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "cascade-rule",
+      "label": "Fork cascade rule",
+      "owner": "tier-bundle-algebra",
+      "definition": "The rule that a tier fork propagates asymmetrically along the service hierarchy (upward-implying but not downward-implying), so a Tier-4 fork induces a Tier-6 fork along the same modular boundary but not conversely.",
+      "papers": {
+        "owns": [
+          "2026bj"
+        ],
+        "imports": [
+          "2026bi"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "cascade-type-failure",
+      "label": "Cascade-type integration failure",
+      "owner": "2026bi",
+      "definition": "A realized integration disruption located specifically at the product-process or process-organization interface over the three-to-five-year post-deal horizon, as distinct from acquisition failure attributable to price, market, or financing causes.",
+      "papers": {
+        "owns": [
+          "2026bi"
         ],
         "imports": [],
         "refines": []
@@ -2078,6 +2244,20 @@
       "papers": {
         "owns": [
           "2026a"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "coding-discipline-package",
+      "label": "Coding discipline package",
+      "owner": "multi-llm-coding-instrument",
+      "definition": "The single protocol bundling four disciplines that make LLM-assisted coding trustworthy and auditable: coder blinding, registered-before-data commitment, an anti-fabrication uncertain-over-guess rule, and exact-model-pin call provenance.",
+      "papers": {
+        "owns": [
+          "2026bh"
         ],
         "imports": [],
         "refines": []
@@ -2638,6 +2818,20 @@
       "relations": []
     },
     {
+      "key": "evidence-dossier",
+      "label": "Evidence dossier",
+      "owner": "multi-llm-coding-instrument",
+      "definition": "A neutral, self-contained, source-cited assembly of one case's documentary record, containing no hypothesis or predicted-direction content, that is the sole input a coder sees.",
+      "papers": {
+        "owns": [
+          "2026bh"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "executor-invariance",
       "label": "Executor Invariance",
       "owner": "2026i",
@@ -3047,6 +3241,20 @@
       "papers": {
         "owns": [
           "2026aw"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "majority-vote-or-flag",
+      "label": "Majority-vote-or-flag",
+      "owner": "multi-llm-coding-instrument",
+      "definition": "A per-cell combination rule for multiple independent coders: at least two agreeing values yield the cell value; otherwise the cell is flagged for author adjudication.",
+      "papers": {
+        "owns": [
+          "2026bh"
         ],
         "imports": [],
         "refines": []
@@ -4380,6 +4588,8 @@
           "2026am",
           "2026an",
           "2026bd",
+          "2026bi",
+          "2026bj",
           "2026h",
           "2026i",
           "2026m",
@@ -4794,6 +5004,20 @@
       "relations": []
     },
     {
+      "key": "structural-safe-harbor",
+      "label": "Structural safe harbor",
+      "owner": "2026bi",
+      "definition": "The empirical relationship in which cascade-conformance at closing — coherent joint transfer of product, process, and organization — is associated with a low, bounded rate of cascade-type failure, supporting a pre-close negative screen that operates on a fact known at signing rather than on a post-hoc integration judgment.",
+      "papers": {
+        "owns": [
+          "2026bi"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "substrate-as-repository",
       "label": "Substrate as repository",
       "owner": "2026u",
@@ -4877,7 +5101,8 @@
           "2026ai",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bj"
         ],
         "refines": []
       },
@@ -4896,7 +5121,8 @@
           "2026ah",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bj"
         ],
         "refines": []
       },
@@ -4915,7 +5141,8 @@
           "2026ah",
           "2026aj",
           "2026am",
-          "2026an"
+          "2026an",
+          "2026bj"
         ],
         "refines": []
       },
@@ -4950,7 +5177,9 @@
           "2026aj",
           "2026am",
           "2026an",
-          "2026bd"
+          "2026bd",
+          "2026bi",
+          "2026bj"
         ],
         "refines": []
       },
@@ -4984,7 +5213,9 @@
           "2026aj",
           "2026am",
           "2026an",
-          "2026bd"
+          "2026bd",
+          "2026bi",
+          "2026bj"
         ],
         "refines": []
       },
@@ -5004,7 +5235,9 @@
           "2026aj",
           "2026am",
           "2026an",
-          "2026bd"
+          "2026bd",
+          "2026bi",
+          "2026bj"
         ],
         "refines": []
       },
@@ -5018,6 +5251,48 @@
       "papers": {
         "owns": [
           "2026aj"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "tier-bundle",
+      "label": "Tier-bundle",
+      "owner": "tier-bundle-algebra",
+      "definition": "An ordered set of tier-fork operations executed under one transaction envelope, whose signature individuates a named M&A deal type modulo cardinality.",
+      "papers": {
+        "owns": [
+          "2026bj"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "tier-bundle-algebra",
+      "label": "Tier-bundle algebra",
+      "owner": "tier-bundle-algebra",
+      "definition": "A typed-fork-operation formalism over the six-tier acquisition-target ontology in which each named M&A transaction type decomposes into a signature bundle of fork operations across the seller's tier graph.",
+      "papers": {
+        "owns": [
+          "2026bj"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "tier-fork-operation",
+      "label": "Tier-fork operation",
+      "owner": "tier-bundle-algebra",
+      "definition": "A typed transfer of a single Tier-n record from a seller's tier graph to a buyer's tier graph under a direction tag, well-typed only when source and target share the tier index.",
+      "papers": {
+        "owns": [
+          "2026bj"
         ],
         "imports": [],
         "refines": []
@@ -6594,6 +6869,36 @@
       "from": "2026bg",
       "to": "2026i",
       "role": "extends",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026bi",
+      "to": "2026ag",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bi",
+      "to": "2026bj",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bj",
+      "to": "2026ag",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bj",
+      "to": "2026i",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026bj",
+      "to": "2026m",
+      "role": "unclassified",
       "criticality": "critical"
     },
     {

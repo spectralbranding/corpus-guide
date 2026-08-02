@@ -10,7 +10,7 @@
     "papers_with_articles": 12,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
-      "no_url": 86,
+      "no_url": 87,
       "no_date": 11,
       "future_dated": 14,
       "no_papers": 5
