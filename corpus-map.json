@@ -13,7 +13,7 @@
   ],
   "counts": {
     "papers": 56,
-    "terms": 243,
+    "terms": 244,
     "citation_edges": 452
   },
   "papers": [
@@ -174,6 +174,7 @@
       "n_prop_claims": 21,
       "terms": {
         "owns": [
+          "facet",
           "six-tier-ontology",
           "tier-1-owner-intent",
           "tier-2-business-model",
@@ -2867,6 +2868,20 @@
       "papers": {
         "owns": [
           "2026s"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "facet",
+      "label": "facet",
+      "owner": "2026ag",
+      "definition": "An intrinsic constituent of a tier - what the tier is made of (its culture, data, rules, quality standard, or spec surfaces), as distinct from the tier itself (a stratum) and from an angle (how a tier is read). Additive OST/SBT construct reconciled from the manda five-term method vocabulary 2026-08-01; it does NOT replace \"layer\", which keeps its canonical corpus senses (including the colloquial synonym for Tier). Its specification depth, where applicable, is the native L0-L5 cascade. RU canonical form: Gran (Грань).",
+      "papers": {
+        "owns": [
+          "2026ag"
         ],
         "imports": [],
         "refines": []
