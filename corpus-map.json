@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 56,
-    "terms": 244,
-    "citation_edges": 452
+    "papers": 58,
+    "terms": 258,
+    "citation_edges": 457
   },
   "papers": [
     {
@@ -964,6 +964,64 @@
           "tier-6-organization"
         ],
         "refines": []
+      }
+    },
+    {
+      "key": "2026bk",
+      "title": "Internalization as an Operation: Recovering the Dependency Structure of a Result, and a Pre-Registered Failure to Do So",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21828980",
+      "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/internalization",
+      "thesis": "Internalization -- turning a produced result into something a human can hold, teach, and build on -- is the inverse of structured drafting. Structured drafting runs spine to prose; internalization runs prose to spine to the reader's prose. The paper specifies the inverse operation in five steps, supplies the measurement it requires (a reader-relative count of steps that are verified but not derived), states an acceptance contract under which a comprehension claim may be made, and validates the pipeline against a documented expert internalization used as labeled ground truth.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "explanatory-status",
+          "internalization",
+          "miracle",
+          "miracle-count",
+          "prose-mass",
+          "reader-model",
+          "structural-load"
+        ],
+        "imports": [
+          "link-time-compatibility-check",
+          "operator-role",
+          "rendering-equivalence",
+          "spine"
+        ],
+        "refines": [
+          "experience-contract"
+        ]
+      }
+    },
+    {
+      "key": "2026bl",
+      "title": "Unitization Before Extraction: A Pre-Registered Decomposition of Disagreement in Machine Recovery of Dependency Structure",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21830220",
+      "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/unitization",
+      "thesis": "Round 1 established that two machine operators do not recover the dependency structure of argumentative documents at a pre-declared agreement level, and located the failure upstream of relation labelling. It could not go further: unitization, node typing and relation drawing varied at once, so no quantity separates them, and each document was extracted once per arm, so between-operator disagreement is not distinguishable from one operator's run-to-run variance. This paper fixes the unit inventory before extraction and repeats every extraction, which turns one undifferentiated failure into three separately measured components read against a noise floor. The claim under test is Round 1's own closing recommendation, stated so that it can fail.",
+      "n_prop_claims": 5,
+      "terms": {
+        "owns": [
+          "conditional-typing-statistic",
+          "diagnostic-replication",
+          "granularity-mismatch",
+          "three-way-decomposition",
+          "unit-inventory",
+          "unitization-condition",
+          "within-operator-baseline"
+        ],
+        "imports": [
+          "internalization",
+          "operator-role",
+          "reader-model",
+          "spine"
+        ],
+        "refines": [
+          "operator-noise-floor"
+        ]
       }
     },
     {
@@ -2402,6 +2460,20 @@
       "relations": []
     },
     {
+      "key": "conditional-typing-statistic",
+      "label": "conditional typing statistic",
+      "owner": "2026bl",
+      "definition": "The chance-corrected agreement on node TYPE, computed only over the units both operators selected as nodes, and reported separately from the binary include-or-exclude agreement over the full inventory. Reporting the two stages separately rather than flattening them into one joint label space is what keeps the base rate of inclusion from being confounded with the accuracy of typing.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "conflict-class",
       "label": "CONFLICT",
       "owner": "federated-negotiation",
@@ -2585,6 +2657,20 @@
       "papers": {
         "owns": [
           "2026at"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "diagnostic-replication",
+      "label": "diagnostic replication",
+      "owner": "2026bl",
+      "definition": "A re-run whose declared purpose is to isolate a mechanism of failure rather than to reproduce a result. Holding the corpus fixed is a requirement of the design rather than a shortcut, because a changed corpus would confound the mechanism with the material. The term is adopted from the replication literature rather than coined, and naming it is what makes deliberate corpus reuse legible instead of reading as a defect.",
+      "papers": {
+        "owns": [
+          "2026bl"
         ],
         "imports": [],
         "refines": []
@@ -2856,7 +2942,9 @@
           "2026i"
         ],
         "imports": [],
-        "refines": []
+        "refines": [
+          "2026bk"
+        ]
       },
       "relations": []
     },
@@ -2868,6 +2956,20 @@
       "papers": {
         "owns": [
           "2026s"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "explanatory-status",
+      "label": "explanatory status",
+      "owner": "2026bk",
+      "definition": "A three-valued property carried per spine node relative to a declared reader model: `derived` (follows from nodes the reader holds), `verified_only` (checkable but not derived), or `miracle` (neither derived nor reducible, and named as such).",
+      "papers": {
+        "owns": [
+          "2026bk"
         ],
         "imports": [],
         "refines": []
@@ -3052,6 +3154,20 @@
       "relations": []
     },
     {
+      "key": "granularity-mismatch",
+      "label": "granularity mismatch",
+      "owner": "2026bl",
+      "definition": "The failure mode in which an imposed unit rule cuts at a grain that conflicts with an operator's internal representation of the argument, so the operator fails to draw edges and the failure is recorded as an edge-drawing deficit when it is an artifact of the segmentation. It is more dangerous than a prevalence artifact because it produces a result that looks exactly like the one under test.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "identity-coherence",
       "label": "Identity Coherence",
       "owner": "2026s",
@@ -3177,6 +3293,27 @@
       "relations": []
     },
     {
+      "key": "internalization",
+      "label": "internalization",
+      "owner": "2026bk",
+      "definition": "The operation that turns a produced result into something a reader can hold, teach, and build on, specified as the inverse of structured drafting: where drafting maps a dependency graph to prose, internalization maps prose to a dependency graph and then to a second prose rendering addressed to a named reader. It is a procedure over the artifact's structure, not an attribute of authorial talent.",
+      "papers": {
+        "owns": [
+          "2026bk"
+        ],
+        "imports": [
+          "2026bl"
+        ],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "rendering-equivalence"
+        }
+      ]
+    },
+    {
       "key": "intrinsic-selection-functional",
       "label": "intrinsic selection functional",
       "owner": "invention-as-structure",
@@ -3213,7 +3350,9 @@
         "owns": [
           "2026u"
         ],
-        "imports": [],
+        "imports": [
+          "2026bk"
+        ],
         "refines": [
           "2026at"
         ]
@@ -3487,6 +3626,39 @@
       "relations": []
     },
     {
+      "key": "miracle",
+      "label": "miracle",
+      "owner": "2026bk",
+      "definition": "A step that is verified but unexplained: true, checkable, and not derived from anything the declared reader already holds. The term is adopted from working expository practice rather than coined, and is reader-relative by construction.",
+      "papers": {
+        "owns": [
+          "2026bk"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "structural-load"
+        }
+      ]
+    },
+    {
+      "key": "miracle-count",
+      "label": "miracle count",
+      "owner": "2026bk",
+      "definition": "The cardinality of the set of nodes whose explanatory status is `miracle`, under a fixed result and a declared reader model. Scored only on renderings that preserve the source spine; without that precondition the count is minimized by replacing derivations with familiar analogies, and measures familiarity rather than explanation.",
+      "papers": {
+        "owns": [
+          "2026bk"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "multi-brand-capacity-diagnostic",
       "label": "Multi-Brand Capacity Diagnostic (MBCD)",
       "owner": "2026ah",
@@ -3655,7 +3827,9 @@
           "2026bd",
           "2026bf"
         ],
-        "refines": []
+        "refines": [
+          "2026bl"
+        ]
       },
       "relations": [
         {
@@ -3674,7 +3848,9 @@
           "2026ao"
         ],
         "imports": [
-          "2026bd"
+          "2026bd",
+          "2026bk",
+          "2026bl"
         ],
         "refines": []
       },
@@ -4167,6 +4343,25 @@
       "relations": []
     },
     {
+      "key": "prose-mass",
+      "label": "prose mass",
+      "owner": "2026bk",
+      "definition": "The quantity of text an idea occupies in a rendered artifact, measured over tokens. The only weighting signal available to a renderer given prose alone.",
+      "papers": {
+        "owns": [
+          "2026bk"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "structural-load"
+        }
+      ]
+    },
+    {
       "key": "provenance-as-address",
       "label": "Provenance as address",
       "owner": "2026av",
@@ -4254,6 +4449,22 @@
           "2026bg"
         ],
         "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "reader-model",
+      "label": "reader model",
+      "owner": "2026bk",
+      "definition": "The declared set of terms and results a reader is taken to already hold, fixed before any measurement. Every quantity the operation reports travels with it, and comparisons across different reader models are not licensed.",
+      "papers": {
+        "owns": [
+          "2026bk"
+        ],
+        "imports": [
+          "2026bl"
+        ],
         "refines": []
       },
       "relations": []
@@ -4378,7 +4589,8 @@
           "2026ao"
         ],
         "imports": [
-          "2026ap"
+          "2026ap",
+          "2026bk"
         ],
         "refines": []
       },
@@ -4942,6 +5154,8 @@
         ],
         "imports": [
           "2026ap",
+          "2026bk",
+          "2026bl",
           "2026u"
         ],
         "refines": []
@@ -5012,6 +5226,20 @@
       "papers": {
         "owns": [
           "2026bg"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "structural-load",
+      "label": "structural load",
+      "owner": "2026bk",
+      "definition": "The extent to which a node carries the argument, defined over the dependency graph's edges rather than over the text, and computed by centrality on those edges. A one-line lemma may carry high structural load while pages of routine verification carry none.",
+      "papers": {
+        "owns": [
+          "2026bk"
         ],
         "imports": [],
         "refines": []
@@ -5101,6 +5329,25 @@
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "three-way-decomposition",
+      "label": "three-way decomposition",
+      "owner": "2026bl",
+      "definition": "The separation of total disagreement in machine recovery of dependency structure into three independently measured components: unitization, node selection and typing over a fixed unit inventory, and relation drawing over a shared node set. Fixing the first by design is what makes the second and third measurable at all, since without a common index set the later two have no coefficient defined over them.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "unit-inventory"
+        }
+      ]
     },
     {
       "key": "tier-1-owner-intent",
@@ -5436,6 +5683,34 @@
       "relations": []
     },
     {
+      "key": "unit-inventory",
+      "label": "unit inventory",
+      "owner": "2026bl",
+      "definition": "The complete, ordered list of text units a document is cut into by a declared segmentation rule, fixed before any extraction and supplied identically to every operator. It is the common index set over which node selection becomes a decision rather than an alignment problem. Every quantity in a study is relative to the inventory it was computed under, and quantities computed under different inventories are not compared by magnitude.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "unitization-condition",
+      "label": "unitization condition",
+      "owner": "2026bl",
+      "definition": "The experimental arm defined by where a study's unit inventory comes from: none supplied and each operator cutting its own (free), a deterministic published rule applied with no model in the loop (deterministic), or a model family used neither as operator nor as rater (model-produced). The condition is the manipulated variable; the operator pair, the corpus and the epoch are held fixed across all three.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "value-headroom",
       "label": "Value Headroom",
       "owner": "negotiation_spec_2026",
@@ -5527,6 +5802,20 @@
           "target": "operator-noise-floor"
         }
       ]
+    },
+    {
+      "key": "within-operator-baseline",
+      "label": "within-operator baseline",
+      "owner": "2026bl",
+      "definition": "The agreement of one operator with itself across repeated extractions of the same document under identical parameters, computed on the same statistic as the between-operator quantity it calibrates. It measures reproducibility of the instrument AS DEPLOYED -- provider-side variance is part of what a replicator faces and is therefore part of the quantity, not a contaminant of it. Without it a between-operator number is uninterpretable in both directions: a low one may be variance, a high one a shared prior.",
+      "papers": {
+        "owns": [
+          "2026bl"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
     }
   ],
   "citation_edges": [
@@ -6915,6 +7204,36 @@
       "to": "2026m",
       "role": "unclassified",
       "criticality": "critical"
+    },
+    {
+      "from": "2026bk",
+      "to": "2026ao",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bk",
+      "to": "2026ap",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bk",
+      "to": "2026i",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bk",
+      "to": "2026u",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bl",
+      "to": "2026bk",
+      "role": "unclassified",
+      "criticality": "supportive"
     },
     {
       "from": "2026c",
