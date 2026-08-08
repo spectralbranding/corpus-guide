@@ -2,15 +2,15 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-07. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-07",
+  "generated": "Generated projection as of 2026-08-08. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-08-08",
   "counts": {
     "published_articles": 25,
     "articles_linking_papers": 20,
     "papers_with_articles": 12,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
-      "no_url": 87,
+      "no_url": 88,
       "no_date": 11,
       "future_dated": 14,
       "no_papers": 5
