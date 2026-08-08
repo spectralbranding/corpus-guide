@@ -895,10 +895,10 @@
     },
     {
       "key": "2026bh",
-      "title": "A Blinded Multi-LLM Content-Coding Instrument with Registered-Before-Data Discipline and Inter-Coder Reliability Validation",
+      "title": "A Blinded Multi-LLM Content-Coding Instrument: Protocol Specification and Inter-Coder Reliability Validation on an Organizational Corpus",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.21756063",
-      "github_url": null,
+      "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/multi-llm-coding-instrument",
       "thesis": "Content coding — converting documentary evidence into structured analyzable variables — is a reliability bottleneck of qualitative and mixed-methods organizational research: labor-intensive, hard to reproduce, and vulnerable to the coder seeing the hypothesis. Large language models can now annotate at or above crowd-worker quality, but naive use reintroduces the failure modes careful coding was built to remove: unauditable calls, hypothesis leakage, fabricated codes, and single-rater dependence. This paper specifies a blinded multi-LLM content-coding instrument that imports the discipline of human intercoder-reliability protocols into LLM-assisted coding — three heterogeneous models code each case independently from a neutral evidence dossier while blinded to the hypotheses and the case's study role; cells combine by majority-vote-or-flag with author adjudication; a model that cannot determine a cell returns uncertain rather than guess; every call is logged with an exact model pin; and the harness and the empty coding schema are committed before any datum exists. On a 30-case organizational (M&A-integration) corpus the instrument reached almost-perfect inter-coder agreement (Fleiss' kappa =.838; 2.7% flagged cells, none on a study-critical variable). The contribution is the instrument and its reliability validation — reproducible, registered-before-data, and fully auditable — offered as a transparent alternative to single- or dual-human coding. Reliability is not by itself downstream hypothesis-testing validity; establishing the latter (a head-to-head contrast against single-LLM and human double-coding) is declared future work.",
       "n_prop_claims": 5,
       "terms": {
@@ -918,7 +918,7 @@
       "title": "A Large-N Confirmatory Necessary-Condition Test of Closing-Time Structural Gaps in Acquisition Integration Failure",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.21755969",
-      "github_url": null,
+      "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/cascade-gap-largen",
       "thesis": "A closing-time cascade gap — a structural product-process or process-organization mismatch created when an asset or operational process crosses the ownership boundary without the adjacent tier that produces or governs it transferring or aligning coherently alongside it — was tested, confirmatorily and at large N, as a necessary condition for a cascade-type integration failure realized over a three-to-five-year horizon. On a case-control sample of 350 completed transactions coded from disjoint evidence by separate raters, the necessary-condition relationship is real but weaker than the exploratory small-sample reading predicted: conditional on no detected gap, the cascade-type failure rate is low (7.3%, exact upper 95% bound 11.2%) but not zero, so the structural safe harbor bounds rather than eliminates the failure mode. The measurement-and-sampling design — coding the gap and the outcome from disjoint documents by rotated raters, and drawing the sample on deal structure rather than on outcome — is a contribution alongside the estimate, and the sampling frame's rate of announced-but-unconsummated bids is itself a reportable methodological finding.",
       "n_prop_claims": 3,
       "terms": {
@@ -943,7 +943,7 @@
       "title": "Tier-Bundle Algebra in Inter-Organizational Resource Transfer: A Fork-Operation Formalism Over the Six-Tier Acquisition-Target Ontology",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.21756077",
-      "github_url": null,
+      "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-bundle-algebra",
       "thesis": "The six-tier ontology of the acquisition target (Zharnikov 2026ag) specifies what an acquisition target IS; it does not specify what compositions over the tier stack are admissible when an ownership boundary is crossed. This paper supplies that compositional grammar: a typed fork-operation algebra in which each named M&A transaction type decomposes into a signature bundle of fork operations across the seller's tier graph, a cascade rule specifying which fork-forces-fork entailments hold along the service hierarchy, and an admissibility predicate — derived from the six- tier ontology's own tier-collapse states — that rejects bundles a target's actual fusion structure cannot support. Unlike the named-deal-type taxonomy's fourteen enumerated categories, the algebra also classifies hybrid and unnamed structures the taxonomy has no name for, converting deal-type classification and admissibility assessment from enumerated judgment into a generative, checkable structure.",
       "n_prop_claims": 9,
       "terms": {
