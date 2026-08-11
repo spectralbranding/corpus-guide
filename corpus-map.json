@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 59,
-    "terms": 269,
-    "citation_edges": 460
+    "papers": 60,
+    "terms": 277,
+    "citation_edges": 474
   },
   "papers": [
     {
@@ -183,7 +183,9 @@
           "tier-5-process",
           "tier-6-organization"
         ],
-        "imports": [],
+        "imports": [
+          "acquirer-operating-posture"
+        ],
         "refines": []
       }
     },
@@ -228,7 +230,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.20069605",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-rotation",
-      "thesis": "Deal outcomes for founder-led branded firms diverge sharply even among principals of comparable quality and brand strength, and that divergence is explained by the proportion of brand conviction that has been externalized from the founder's personal judgment (Tier 1) into an organizational substrate the acquirer can own independently (Tier 4). Brand signal accumulates in the Tier-4 substrate along a logistic trajectory governed by sustained knowledge-externalization effort, a cold-start offset, and sector substitutability; acquirer willingness-to-pay is a piecewise function of Tier-4 share with a separability kink, below which founder-flight risk produces discounts and earnouts and above which the brand commands a premium increasing with sector substitutability. The resulting non-monotonic value geometry — value rising everywhere but with a discontinuous slope at the kink — yields within-founder longitudinal predictions unavailable to cross-sectional human-capital or succession-discount theories, grounds the accumulation in Nonaka and Takeuchi's SECI externalization mechanism with four observable proxies, and endogenizes the resource-based view's exogenous resource-mobility assumption for brand assets. The contribution is theoretical: a mechanism-based geometry supplying five falsifiable propositions, not new empirical analysis.",
+      "thesis": "Deal outcomes for founder-led branded firms diverge sharply even among principals of comparable quality and brand strength, and that divergence is explained by the proportion of brand conviction that has been externalized from the founder's personal judgment (Tier 1) into an organizational substrate the acquirer can own independently (Tier 4). Brand signal accumulates in the Tier-4 substrate along a logistic trajectory governed by sustained knowledge-externalization effort, a cold-start offset, and sector substitutability; acquirer willingness-to-pay is a piecewise function of Tier-4 share with a separability kink, below which founder-flight risk produces discounts and earnouts and above which the brand commands a premium increasing with sector substitutability. The resulting convex-kinked value geometry — value rising everywhere but with a discontinuous slope at the kink — yields predictions about rotation-stage variance orthogonal to human-capital observables (sharpest in the within-founder longitudinal case) that are unavailable to cross-sectional human-capital or succession-discount theories, grounds the accumulation in Nonaka and Takeuchi's SECI externalization mechanism with four observable proxies, and endogenizes the resource-based view's exogenous resource-mobility assumption for brand assets. The contribution is theoretical: a mechanism-based geometry supplying five falsifiable propositions, not new empirical analysis.",
       "n_prop_claims": 12,
       "terms": {
         "owns": [
@@ -240,6 +242,7 @@
         ],
         "imports": [
           "absorbing-state",
+          "acquirer-operating-posture",
           "brand-conviction",
           "observer-spectral-profile",
           "perception-cloud",
@@ -1031,9 +1034,10 @@
       "doi_url": "https://doi.org/10.5281/zenodo.21868658",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/succession-rotation",
       "thesis": "An exit and a succession disturb different mechanisms of persistence in the six-tier stack, so they bind on different tiers. The ontology's published transfer column answers what would arrive in a buyer's possession and is therefore indexed to a counterparty; an event with no counterparty -- the occupant of Tier 1 is replaced, the entity persists, nothing is conveyed -- requires a second, derivable column. Under that column, replacement disturbs only the person-carried residual, and among the tiers it disturbs exactly one, Tier 5, is drawn at the firm's operating frequency rather than at discretion, so its loss cannot be absorbed by deferring anything. In an owner-managed firm the person holding that residual is simultaneously the only one who could document it and the only one who could teach it, so the preparation that raises value under removal and the preparation that raises value under replacement are rivals for one budget. The paper derives this, states the crossover it predicts, supplies a pre-registered design with its power, and reports that the design cannot currently be run because neither construct it requires is measured by the instruments the field has built -- a bounded, instrument-level negative over five frame families, offered as part of the contribution rather than as a limitation.",
-      "n_prop_claims": 10,
+      "n_prop_claims": 12,
       "terms": {
         "owns": [
+          "acquirer-operating-posture",
           "divergence-signature",
           "documentation-coverage",
           "draw-frequency",
@@ -1057,6 +1061,39 @@
           "tier-rotation"
         ],
         "refines": []
+      }
+    },
+    {
+      "key": "2026bn",
+      "title": "Verification Bandwidth Under Correlated Evaluators: What an Effective-Sample-Size Statistic Measures in an Acceptance Cascade",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21891435",
+      "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/verification-bandwidth",
+      "thesis": "Organizational verification is an orthogonal projection, and the rank of that projection bounds what an organization can detect about itself. The single-evaluator case leaves open what a panel buys: on one reading, adding diverse evaluators shrinks what is jointly accepted; on another, it raises the number of dimensions checked. These are two aggregation rules moving in opposite directions, and every rule that neither manufactures a flag no member raised nor clears one every member raised is bracketed between them, with the bracket closing as evaluator errors become correlated. The effective-sample-size statistic already used to audit evaluator panels therefore measures something it was not introduced to measure: for evaluators whose inspection directions carry a geometric correlation, a closed-form folded dichotomization maps that geometry to the correlation of their errors, the map is strictly attenuating, and the statistic computed on error vectors is an upper bound on the rank of the acceptance projection. Two ceilings follow. Randomly constituted panels saturate near the square root of the state-space dimension rather than at their own size, so diversity must be engineered rather than sampled; and the share of a specification's acceptance conditions that a receiving executor can independently verify is capped by that rank, leaving a residual that an accountable signatory, not a document, must underwrite.",
+      "n_prop_claims": 7,
+      "terms": {
+        "owns": [
+          "accountable-signatory-residual",
+          "detection-bracket",
+          "engineered-evaluator-diversity",
+          "error-vector-design-effect",
+          "evaluator-blind-spot",
+          "folded-dichotomization",
+          "inspection-subspace"
+        ],
+        "imports": [
+          "cascade-consistency-condition",
+          "executor-invariance",
+          "organizational-metamerism",
+          "projection-cascade",
+          "rank-1-audit",
+          "six-level-tdd-cascade",
+          "spectral-projection-operator",
+          "verification-as-operator"
+        ],
+        "refines": [
+          "verification-bandwidth"
+        ]
       }
     },
     {
@@ -1599,6 +1636,47 @@
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "accountable-signatory-residual",
+      "label": "accountable-signatory residual",
+      "owner": "2026bn",
+      "definition": "The share of a specification's stated acceptance conditions whose satisfaction a receiving executor's panel cannot independently establish, and which some identified party must therefore underwrite by assurance rather than by test. It is the complement of the transferable share, it grows as the ratio of specified conditions to effective verification rank grows, and it is what remains of a signature once verification is treated as a capacity with a measurable ceiling rather than as an attestation.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "executor-invariance"
+        }
+      ]
+    },
+    {
+      "key": "acquirer-operating-posture",
+      "label": "Acquirer operating posture",
+      "owner": "succession-rotation",
+      "definition": "Whether a buyer supplies its own operating principal or must acquire the target's person-carried residual personally. The second of the two facts that generate the event space — the first being whether the going concern is conveyed to a counterparty — and therefore the index the persistence column is read against on the sale side. A buyer with a platform takes delivery of the artifact layer and writes off the person layer; a buyer without one (a search fund, an individual acquirer, a standalone-hold sponsor) must absorb the residual, and is rate-limited by exception arrival in doing so.",
+      "papers": {
+        "owns": [
+          "2026bm"
+        ],
+        "imports": [
+          "2026ag",
+          "2026ai"
+        ],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "persistence-mechanism"
+        }
+      ]
     },
     {
       "key": "activation-matrix",
@@ -2199,7 +2277,9 @@
         "owns": [
           "2026ae"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -2718,6 +2798,25 @@
       "relations": []
     },
     {
+      "key": "detection-bracket",
+      "label": "detection bracket",
+      "owner": "2026bn",
+      "definition": "The interval between the detection probability of the unanimous rule and that of the disjunctive rule, within which every aggregation rule that neither flags what no member flagged nor clears what every member flagged must lie, for every deviation distribution. Its WIDTH is the probability that the panel disagrees, so it narrows as evaluator errors become correlated and is exactly zero when they are perfectly correlated. Where the bracket has closed, the choice of aggregation rule cannot change what the panel detects.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "evaluator-blind-spot"
+        }
+      ]
+    },
+    {
       "key": "diagnostic-replication",
       "label": "diagnostic replication",
       "owner": "2026bl",
@@ -2971,6 +3070,20 @@
       "relations": []
     },
     {
+      "key": "engineered-evaluator-diversity",
+      "label": "engineered evaluator diversity",
+      "owner": "2026bn",
+      "definition": "The deliberate spreading of a panel's inspection directions, as opposed to enlarging the panel and letting diversity arrive by sampling. The distinction is forced by a ceiling: independently and uniformly oriented evaluators saturate near the square root of the state-space dimension rather than at their own number, so beyond a modest size additional evaluators recruited without regard to what they inspect add nominal capacity and no effective capacity.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "epistemic-separation",
       "label": "Epistemic Separation",
       "owner": "2026b",
@@ -2999,6 +3112,48 @@
         "refines": []
       },
       "relations": []
+    },
+    {
+      "key": "error-vector-design-effect",
+      "label": "error-vector design effect",
+      "owner": "2026bn",
+      "definition": "The design effect, and the effective sample size derived from it, computed on evaluators' binary ERROR indicators against gold labels rather than on their raw judgements. Computing it on errors rather than on codes is what separates shared signal -- items really do differ -- from shared error, which is the dependence that costs a panel its independence. The quantity is borrowed from survey sampling by way of the evaluation-panel literature; what is established here is what it measures.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "maps_to",
+          "target": "verification-bandwidth"
+        }
+      ]
+    },
+    {
+      "key": "evaluator-blind-spot",
+      "label": "evaluator blind spot",
+      "owner": "2026bn",
+      "definition": "The set of deviations one evaluator cannot detect: the kernel of its projection in the exact case, and the region below its detection threshold in general. Blind spots compose differently under different aggregation rules, and that difference is the whole content of the detection bracket -- the disjunctive rule's blind spot is the intersection of the members' blind spots and is a subspace, while the unanimous rule's is their union and in general is not.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "maps_to",
+          "target": "organizational-metamerism"
+        },
+        {
+          "type": "specializes",
+          "target": "inspection-subspace"
+        }
+      ]
     },
     {
       "key": "evidence-dossier",
@@ -3042,7 +3197,9 @@
         "owns": [
           "2026i"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -3158,6 +3315,25 @@
         {
           "type": "contrasts",
           "target": "substrate-floor"
+        }
+      ]
+    },
+    {
+      "key": "folded-dichotomization",
+      "label": "folded dichotomization",
+      "owner": "2026bn",
+      "definition": "The closed-form map carrying the geometric correlation between two evaluators' inspection directions to the correlation of their binary error indicators, under a two-sided detection rule that flags on absolute magnitude. It is the classical dichotomization of a bivariate normal with the two tails folded together, and it is even in its argument, strictly increasing, fixed at both endpoints, and strictly below the identity. That last property is what makes the statistic computed on errors a bound rather than an estimate.",
+      "papers": {
+        "owns": [
+          "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "error-vector-design-effect"
         }
       ]
     },
@@ -3368,6 +3544,20 @@
       "papers": {
         "owns": [
           "2026bf"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "inspection-subspace",
+      "label": "inspection subspace",
+      "owner": "2026bn",
+      "definition": "The subspace of the organizational state space that one evaluator can read: the range of that evaluator's projection. An evaluator flags a deviation only when the component of it lying in this subspace exceeds a threshold, so the subspace, not the evaluator's diligence, fixes what that evaluator is capable of detecting at all. Naming it separately from the accepted subspace is what keeps the two readings of a projection apart.",
+      "papers": {
+        "owns": [
+          "2026bn"
         ],
         "imports": [],
         "refines": []
@@ -4036,7 +4226,8 @@
           "2026af"
         ],
         "imports": [
-          "2026bd"
+          "2026bd",
+          "2026bn"
         ],
         "refines": []
       },
@@ -4490,7 +4681,9 @@
         "owns": [
           "2026m"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -4565,7 +4758,9 @@
         "owns": [
           "2026ae"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -4957,7 +5152,8 @@
         ],
         "imports": [
           "2026ae",
-          "2026ar"
+          "2026ar",
+          "2026bn"
         ],
         "refines": []
       },
@@ -5278,7 +5474,9 @@
         "owns": [
           "2026ae"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -5969,7 +6167,9 @@
         "owns": [
           "2026ae"
         ],
-        "imports": [],
+        "imports": [
+          "2026bn"
+        ],
         "refines": []
       },
       "relations": []
@@ -5984,7 +6184,9 @@
           "2026ae"
         ],
         "imports": [],
-        "refines": []
+        "refines": [
+          "2026bn"
+        ]
       },
       "relations": []
     },
@@ -6445,6 +6647,30 @@
     },
     {
       "from": "2026ag",
+      "to": "2026bh",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ag",
+      "to": "2026bi",
+      "role": "tests",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026ag",
+      "to": "2026bj",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ag",
+      "to": "2026bm",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ag",
       "to": "2026h",
       "role": "applies",
       "criticality": "critical"
@@ -6524,6 +6750,12 @@
     {
       "from": "2026ai",
       "to": "2026ah",
+      "role": "extends",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ai",
+      "to": "2026bm",
       "role": "extends",
       "criticality": "supportive"
     },
@@ -7472,6 +7704,60 @@
     {
       "from": "2026bm",
       "to": "2026an",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026ae",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026af",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026ag",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026ao",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026ay",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026bh",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026h",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026i",
+      "role": "contradicts",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026m",
       "role": "unclassified",
       "criticality": "supportive"
     },
