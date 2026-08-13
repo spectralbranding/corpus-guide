@@ -14,7 +14,7 @@
   "counts": {
     "papers": 60,
     "terms": 277,
-    "citation_edges": 474
+    "citation_edges": 481
   },
   "papers": [
     {
@@ -384,7 +384,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20409701",
       "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical",
       "thesis": "Paper A 2026ao states P4 (rendering-equivalence under spine-preservation) as a primary preservation theorem: two prose renderings of a locked substrate converge on conclusions if and only if both renderings preserve the spine's structural elements, under axiom A1 (σ-faithfulness on locked subsets). Paper B is the empirical companion. Its central contribution is an empirical demonstration of paper_a:P4 on management- theory twin pairs: two independently-extracted source papers produced as separate prose renderings share a substrate at Rec = 4 linked propositions with preserved antecedents on BOTH available pairs (focal: Eisenhardt-Martin 2000 + Zollo-Winter 2002; KBV: Grant 1996 + Liebeskind 1996). Each twin pair is treated as one example of two prose renderings that share an underlying substrate — not as a Bikard test of recombination-rate (P2) nor as a calibration of cost-asymmetry-driven recombination thresholds (P3). Secondary contributions are: grid-anchored illustrative estimates of β and δ across five available spines and renderings, reported as supportive of the paper_a:P3 ordering β < 1 < δ; and a pre-registered iterative-cohort-growth protocol with Zenodo-DOI-per- version discipline that turns the working-paper trajectory itself into a longitudinal self-test of paper_a:P4 (each Paper B release is a rendering of a growing substrate). The task set adds self-application to Paper B's own spine, third-rendering of the focal-pair shared substrate, cross-language re-rendering, and inter-coder κ measurement on axiom A1.",
-      "n_prop_claims": 25,
+      "n_prop_claims": 26,
       "terms": {
         "owns": [],
         "imports": [
@@ -6850,6 +6850,18 @@
       "criticality": "supportive"
     },
     {
+      "from": "2026ao",
+      "to": "2026bk",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026ao",
+      "to": "2026bl",
+      "role": "applies",
+      "criticality": "critical"
+    },
+    {
       "from": "2026ap",
       "to": "2026am",
       "role": "unclassified",
@@ -6883,6 +6895,18 @@
       "from": "2026ap",
       "to": "2026ao",
       "role": "tests",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ap",
+      "to": "2026bk",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ap",
+      "to": "2026bl",
+      "role": "applies",
       "criticality": "supportive"
     },
     {
@@ -7630,6 +7654,12 @@
       "criticality": "critical"
     },
     {
+      "from": "2026bh",
+      "to": "2026bl",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
       "from": "2026bi",
       "to": "2026ag",
       "role": "unclassified",
@@ -7682,6 +7712,18 @@
       "to": "2026u",
       "role": "unclassified",
       "criticality": "supportive"
+    },
+    {
+      "from": "2026bl",
+      "to": "2026ao",
+      "role": "unclassified",
+      "criticality": "critical"
+    },
+    {
+      "from": "2026bl",
+      "to": "2026ap",
+      "role": "unclassified",
+      "criticality": "critical"
     },
     {
       "from": "2026bl",
