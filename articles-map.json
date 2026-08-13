@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-10. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-10",
+  "generated": "Generated projection as of 2026-08-13. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-08-13",
   "counts": {
-    "published_articles": 25,
-    "articles_linking_papers": 20,
-    "papers_with_articles": 12,
+    "published_articles": 26,
+    "articles_linking_papers": 21,
+    "papers_with_articles": 13,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
       "no_url": 88,
       "no_date": 11,
-      "future_dated": 19,
+      "future_dated": 18,
       "no_papers": 5
     }
   },
@@ -193,6 +193,15 @@
       ]
     },
     {
+      "slug": "standalone_perceptual_profile_growth_mechanism",
+      "title": "Growth Amplifies What You Already Mean",
+      "url": "https://spectralbranding.substack.com/p/growth-amplifies-what-you-already-mean",
+      "date": "2026-08-13",
+      "covers": [
+        "2026bf"
+      ]
+    },
+    {
       "slug": "standalone_probability_measurement_artifact",
       "title": "Probability Is a Measurement Artifact",
       "url": "https://spectralbranding.substack.com/p/probability-is-a-measurement-artifact",
@@ -358,6 +367,13 @@
         "slug": "standalone_floor_under_your_dashboard",
         "title": "The Floor Under Your Dashboard",
         "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard"
+      }
+    ],
+    "2026bf": [
+      {
+        "slug": "standalone_perceptual_profile_growth_mechanism",
+        "title": "Growth Amplifies What You Already Mean",
+        "url": "https://spectralbranding.substack.com/p/growth-amplifies-what-you-already-mean"
       }
     ],
     "2026bg": [
