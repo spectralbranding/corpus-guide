@@ -2,11 +2,11 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-15. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-15",
+  "generated": "Generated projection as of 2026-08-18. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-08-18",
   "counts": {
-    "published_articles": 27,
-    "articles_linking_papers": 22,
+    "published_articles": 28,
+    "articles_linking_papers": 23,
     "papers_with_articles": 14,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
@@ -135,6 +135,15 @@
       "url": "https://spectralbranding.substack.com/p/cinema-dies-theater-survives",
       "date": "2026-06-06",
       "covers": []
+    },
+    {
+      "slug": "standalone_cohort_distribution_alternative",
+      "title": "Stop Averaging Your Customers, Start Watching Them Move",
+      "url": "https://spectralbranding.substack.com/p/stop-averaging-your-customers-start",
+      "date": "2026-08-17",
+      "covers": [
+        "2026o"
+      ]
     },
     {
       "slug": "standalone_comparator_trap",
@@ -405,6 +414,11 @@
         "slug": "standalone_nps_four_behaviours",
         "title": "Your NPS Score Came From Four Different Behaviours",
         "url": "https://spectralbranding.substack.com/p/your-nps-score-came-from-four-different"
+      },
+      {
+        "slug": "standalone_cohort_distribution_alternative",
+        "title": "Stop Averaging Your Customers, Start Watching Them Move",
+        "url": "https://spectralbranding.substack.com/p/stop-averaging-your-customers-start"
       },
       {
         "slug": "standalone_brand_tracker_three_layers",

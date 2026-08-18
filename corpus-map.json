@@ -1372,7 +1372,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19138860",
       "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r9-nonergodic-perception",
       "thesis": "Brand perception is non-ergodic: the time average of an individual observer's brand perception does not converge to the cross-sectional (ensemble) average across observers. Drawing on Peters' (2019) ergodicity framework from statistical physics, three structural sources produce the divergence — absorbing states from deeply negative brand conviction, multiplicative (rather than additive) signal-update dynamics, and path-dependent dimension weighting. Five formal propositions follow: signal order produces structurally different perception profiles from identical signals (P1); negative conviction is an absorbing state while positive conviction is not (P2); cross-sectional brand tracking systematically overestimates brand health for absorption-risk brands via survivorship bias (P3); the first signal in a dimension persistently anchors all subsequent updates (P4); and observer cohorts with different dimension weights diverge permanently under identical signals (P5). These propositions unify roughly eighty years of scattered order-effect, primacy, and belief-updating evidence within Spectral Brand Theory's eight-dimensional perception space, and the bias direction and magnitude are predictable from brand coherence. The framework is scoped to high-involvement B2C brand perception under multiplicative update dynamics.",
-      "n_prop_claims": 11,
+      "n_prop_claims": 12,
       "terms": {
         "owns": [
           "absorbing-state",
