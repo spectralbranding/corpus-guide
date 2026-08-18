@@ -1174,12 +1174,12 @@
     },
     {
       "key": "2026f",
-      "title": "Geometric Necessity of Fuzzy Cohort Boundaries: A Concentration Analysis of the 7-Simplex",
+      "title": "Boundary Volume and Cohort Reassignment on the 7-Simplex: A Concentration Analysis Under the Uniform Null",
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.18945477",
       "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r3-cohort-boundaries",
       "thesis": "In the eight-dimensional probability simplex Delta^7 that serves as Spectral Brand Theory's observer weight space, the fuzziness of perceptual cohort boundaries is not a measurement artifact, an algorithmic limitation, or an empirical curiosity — it is a geometric necessity under the uniform Dirichlet(1,...,1) null. Concentration of measure forces (i) pairwise distances to concentrate around their mean, degrading the distance contrast ratio to ~7.5 at n=8 (a transitional regime: clustering is informative but noisy); (ii) at least 52.2% of Delta^7 to lie within relative distance delta=.10 of ANY convex partition boundary, so a majority of observer profiles sit near a cohort boundary and discrete assignment is inherently unstable; and (iii) Levy concentration on S^7 to bound 1-Lipschitz deviations. Monte Carlo with 10^5 draws confirms the bounds within sampling error. The uniform null is the WORST case: symmetric Dirichlet(alpha,...,alpha) with alpha>=3 reduces the boundary fraction by alpha^{-7/2}, producing operationally crisp boundaries (below 2%) for empirically plausible alpha. Together these give a geometric foundation for preferring continuous observer profiles (\"vectorized\") over discrete cohort labels (\"rasterized\") once perceptual dimensionality exceeds five, and define a capacity-resolution duality dual to the R4 sphere-packing bound.",
-      "n_prop_claims": 14,
+      "n_prop_claims": 16,
       "terms": {
         "owns": [
           "boundary-volume-fraction"
