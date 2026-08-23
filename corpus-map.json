@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 60,
-    "terms": 278,
-    "citation_edges": 481
+    "papers": 61,
+    "terms": 280,
+    "citation_edges": 486
   },
   "papers": [
     {
@@ -992,6 +992,7 @@
         "imports": [
           "link-time-compatibility-check",
           "operator-role",
+          "paper-spec",
           "rendering-equivalence",
           "spine"
         ],
@@ -1465,6 +1466,25 @@
       }
     },
     {
+      "key": "2026t",
+      "title": "Paper as Specification: A Machine-Readable Standard for Scientific Claims",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.19210037",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r13-paper-as-specification",
+      "thesis": null,
+      "n_prop_claims": 24,
+      "terms": {
+        "owns": [
+          "paper-spec",
+          "verification-as-specification-crisis"
+        ],
+        "imports": [
+          "spectral-brand-theory"
+        ],
+        "refines": []
+      }
+    },
+    {
       "key": "2026u",
       "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
       "status": "active",
@@ -1483,6 +1503,7 @@
           "substrate-as-repository"
         ],
         "imports": [
+          "paper-spec",
           "six-tier-ontology",
           "spectral-brand-theory",
           "spine",
@@ -1498,7 +1519,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19422427",
       "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r15-ai-search-metamerism",
       "thesis": "Large language models increasingly mediate consumer brand evaluation in search and agentic commerce, and they act as metameric observers: they systematically collapse the eight-dimensional brand emission profile toward the verifiability anchors (Economic and Semiotic, with Experiential inflated separately), rendering brands differentiated on Narrative, Ideological, Cultural, or Temporal dimensions structurally different but functionally equivalent in AI recommendations. Measured with the PRISM-B forced-allocation instrument across 21,350 API calls to 24 models from seven training traditions and 15 languages, the Dimensional Collapse Index (uniform baseline =.250) is elevated (mean.294 global,.356 cross-cultural) and convergent across architectures (cosine.977), so the collapse is structural rather than a platform quirk. Collapse is conditional on training-data embeddedness — locally embedded brands collapse about 24% more — and partially recoverable (~20% of lost dimensionality) by encoding soft dimensions as verifiable, machine-readable Brand Function specifications. For search advertising this reframes strategy from platform selection to dimensional defensibility: advertisers must encode soft brand dimensions in machine-readable form or risk effective erasure by LLM intermediaries. The findings are bounded to the text-conditioned LLM observers tested here.",
-      "n_prop_claims": 9,
+      "n_prop_claims": 10,
       "terms": {
         "owns": [
           "dimensional-collapse",
@@ -4270,6 +4291,23 @@
       "relations": []
     },
     {
+      "key": "paper-spec",
+      "label": "Paper Spec",
+      "owner": "2026t",
+      "definition": "An open, human-writable, machine-readable YAML standard that captures a paper's claims, methodology, acceptance criteria, results, dependencies, contradictions, and limitations in a companion paper.yaml file without replacing the paper itself.",
+      "papers": {
+        "owns": [
+          "2026t"
+        ],
+        "imports": [
+          "2026bk",
+          "2026u"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "peer-alignment-event",
       "label": "Peer alignment event",
       "owner": "2026u",
@@ -5303,6 +5341,7 @@
           "2026p",
           "2026r",
           "2026s",
+          "2026t",
           "2026u",
           "2026v",
           "2026w",
@@ -6192,6 +6231,20 @@
         "imports": [
           "2026bn"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "verification-as-specification-crisis",
+      "label": "Verification crisis as specification crisis",
+      "owner": "2026t",
+      "definition": "The diagnosis that science's generation-verification gap is fundamentally a lack of structured specification, following the historical generation-specification cycle pattern where each generation breakthrough was resolved by a specification breakthrough rather than faster consumption.",
+      "papers": {
+        "owns": [
+          "2026t"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -7731,6 +7784,12 @@
     },
     {
       "from": "2026bk",
+      "to": "2026t",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bk",
       "to": "2026u",
       "role": "unclassified",
       "criticality": "supportive"
@@ -7822,6 +7881,12 @@
     {
       "from": "2026bn",
       "to": "2026m",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026t",
       "role": "unclassified",
       "criticality": "supportive"
     },
@@ -8860,6 +8925,24 @@
     {
       "from": "2026s",
       "to": "2026r",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026a",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026u",
       "role": "applies",
       "criticality": "supportive"
     },

@@ -2,18 +2,18 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-18. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-18",
+  "generated": "Generated projection as of 2026-08-22. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-08-22",
   "counts": {
-    "published_articles": 28,
+    "published_articles": 29,
     "articles_linking_papers": 23,
     "papers_with_articles": 14,
     "withheld_paper_edges_dropped": 2,
     "excluded": {
       "no_url": 88,
       "no_date": 11,
-      "future_dated": 17,
-      "no_papers": 5
+      "future_dated": 16,
+      "no_papers": 6
     }
   },
   "by_article": [
@@ -128,6 +128,13 @@
       "covers": [
         "2026a"
       ]
+    },
+    {
+      "slug": "standalone_canon_as_repository",
+      "title": "Your Franchise Is a Repository: IP, AI, and the Spec",
+      "url": "https://spectralbranding.substack.com/p/your-franchise-is-a-repository",
+      "date": "2026-08-22",
+      "covers": []
     },
     {
       "slug": "standalone_cinema_dies_theater_survives",
