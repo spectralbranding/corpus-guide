@@ -1590,7 +1590,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19482547",
       "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r17-brand-triangulation",
       "thesis": "The multi-observer heterogeneity that contemporary brand measurement treats as a nuisance is, when decomposed into structural differences in observer spectral weight profiles, the primary source of positioning information. Mapping observer cohorts to GPS satellites, the brand emission profile to receiver location, and systematic cohort bias to receiver clock error, brand-spectral-profile estimation from multiple cohorts is a weighted least-squares positioning problem. The framework introduces Perception DOP (PDOP) — a scalar computed solely from proposed cohort weight profiles that bounds estimation precision before any data are collected — differential brand measurement using reference brands to cancel systematic observer bias, and identifiability conditions linking spectral metamerism to geometric underdetermination. PDOP's predictive validity is confirmed by Monte Carlo simulation, and the geometry is demonstrated on a six-LLM observer constellation; together these upgrade brand measurement from opinion aggregation to geometric estimation.",
-      "n_prop_claims": 13,
+      "n_prop_claims": 14,
       "terms": {
         "owns": [
           "brand-triangulation",
