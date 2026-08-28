@@ -12,8 +12,8 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 61,
-    "terms": 280,
+    "papers": 62,
+    "terms": 285,
     "citation_edges": 486
   },
   "papers": [
@@ -1100,6 +1100,26 @@
       }
     },
     {
+      "key": "2026bo",
+      "title": "When a Boundary Claim Becomes Testable: A Criterion for Adjudicating Scale-Relative Claims, with One Coded Case",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.22148374",
+      "github_url": "https://github.com/spectralbranding/philosophy-papers/tree/main/boundary-adjudication",
+      "thesis": "Claims that a self-maintaining or cognitive system extends to some scale are chronically underdetermined, because in the cases usually discussed the investigator draws the boundary and can redraw it around whatever is interesting. The live response is conceptual rather than empirical: it concedes that boundary-drawing is an interpretation and answers that interpretation is ubiquitous in science and so not disqualifying. That answer has a precondition it does not state, namely that the interpreter is the theorist. This paper specifies the class of domains in which that precondition fails — where a perimeter is fixed by a party whose reasons are indifferent to the hypothesis, is observable to someone who did not draw it, and moves only by dated events with recorded outcomes — and shows that within that class the measurable quantity is not whether a boundary is drawn correctly but what a hypothesis-independent perimeter fails to contain. One acquisition, coded from two disjoint document sets, is offered as an existence proof that the three conditions are jointly satisfiable and the divergence observable.",
+      "n_prop_claims": 8,
+      "terms": {
+        "owns": [
+          "adjudicability-criterion",
+          "boundary-failure",
+          "hypothesis-independent-perimeter",
+          "perimeter-event",
+          "persistence-content"
+        ],
+        "imports": [],
+        "refines": []
+      }
+    },
+    {
       "key": "2026c",
       "title": "Geometric Approaches to Brand Perception: A Critical Survey and Research Agenda",
       "status": "active",
@@ -1730,6 +1750,20 @@
       "relations": []
     },
     {
+      "key": "adjudicability-criterion",
+      "label": "adjudicability criterion",
+      "owner": "boundary-adjudication",
+      "definition": "The conjunction of three conditions a domain must supply for scale-relative boundary claims about it to be empirically testable: a hypothesis-independent perimeter, observability of that perimeter to a party who did not draw it, and mobility only by discrete dated events with recorded outcomes. Its principal yield is negative — it classifies most domains in which such disputes are conducted as domains in which no observation could settle them.",
+      "papers": {
+        "owns": [
+          "2026bo"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "admissibility-predicate",
       "label": "Bundle admissibility predicate",
       "owner": "tier-bundle-algebra",
@@ -1975,6 +2009,20 @@
           "target": "evidence-dossier"
         }
       ]
+    },
+    {
+      "key": "boundary-failure",
+      "label": "boundary failure",
+      "owner": "boundary-adjudication",
+      "definition": "The content a system requires in order to persist that its perimeter does not contain. Where the perimeter is hypothesis-independent, observable and moved only by dated events, boundary failure is a measurable quantity and what escapes is evidence; where the perimeter is drawn by the investigator, what escapes is an artefact of where it was drawn.",
+      "papers": {
+        "owns": [
+          "2026bo"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
     },
     {
       "key": "boundary-volume-fraction",
@@ -3483,6 +3531,20 @@
       "relations": []
     },
     {
+      "key": "hypothesis-independent-perimeter",
+      "label": "hypothesis-independent perimeter",
+      "owner": "boundary-adjudication",
+      "definition": "A boundary around a system that is fixed by a party whose reasons are indifferent to the hypothesis under test. The condition is exogeneity with respect to the hypothesis, not indifference to everything: no party is indifferent to everything, and a perimeter-setter with commercial, legal or fiscal reasons still qualifies so long as none of those reasons is the claim being tested.",
+      "papers": {
+        "owns": [
+          "2026bo"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "identity-coherence",
       "label": "Identity Coherence",
       "owner": "2026s",
@@ -4475,6 +4537,20 @@
       "relations": []
     },
     {
+      "key": "perimeter-event",
+      "label": "perimeter-event",
+      "owner": "boundary-adjudication",
+      "definition": "A dated, recorded occasion on which a perimeter moves. It is the paper's unit of analysis. A perimeter-event is not a single act: its components — control, constitutional instrument, governing body, officers, listing, registration — may move on different dates within one transaction, which is why the unit is the dated event rather than the entity or the period.",
+      "papers": {
+        "owns": [
+          "2026bo"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "persistence-column",
       "label": "Persistence column",
       "owner": "succession-rotation",
@@ -4492,6 +4568,20 @@
           "target": "transfer-column"
         }
       ]
+    },
+    {
+      "key": "persistence-content",
+      "label": "persistence content",
+      "owner": "boundary-adjudication",
+      "definition": "What a system requires in order to keep producing what it produces, assessed by counterfactual necessity rather than by value. The criterion is deliberately not economic: coding persistence content by how hard something is to value would key on the same variable that places legal perimeters, and would assume the conclusion.",
+      "papers": {
+        "owns": [
+          "2026bo"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
     },
     {
       "key": "persistence-mechanism",
