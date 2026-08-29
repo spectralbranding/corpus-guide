@@ -13,8 +13,8 @@
   ],
   "counts": {
     "papers": 62,
-    "terms": 285,
-    "citation_edges": 486
+    "terms": 287,
+    "citation_edges": 481
   },
   "papers": [
     {
@@ -992,7 +992,6 @@
         "imports": [
           "link-time-compatibility-check",
           "operator-role",
-          "paper-spec",
           "rendering-equivalence",
           "spine"
         ],
@@ -1116,6 +1115,28 @@
           "persistence-content"
         ],
         "imports": [],
+        "refines": []
+      }
+    },
+    {
+      "key": "2026bp",
+      "title": "The Label Moves the Reading: Entity-Name Leakage in Language-Model Dimensional Ratings of a Fixed Text",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.22161305",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/entity-name-leakage",
+      "thesis": "A dimensional rating produced by a language model over a written artifact is normally treated as a reading OF that artifact. It is not purely that. With the artifact text held byte-identical and only the entity name exchanged, the eight-dimensional profile moves by an amount at or above the instrument's own test-retest spread, and the movement reproduces across two independently designed collections. The most obvious deflationary account — that the effect is incongruity between a text written for one entity and a label naming another — is refuted by the second collection, whose texts were authored for no entity and which returned a LARGER effect. Which of three routes carries the leakage is NOT settled here, and the paper says so: the collected design can bound the text-by-entity interaction only to an upper limit too loose to license the decomposition. The measurement procedure is offered as a diagnostic any rubric instrument can be put through.",
+      "n_prop_claims": 4,
+      "terms": {
+        "owns": [
+          "byte-identical-name-exchange",
+          "entity-name-leakage",
+          "residual-referenced-guard",
+          "test-retest-yardstick"
+        ],
+        "imports": [
+          "perception-cloud",
+          "reflection"
+        ],
         "refines": []
       }
     },
@@ -1486,25 +1507,6 @@
       }
     },
     {
-      "key": "2026t",
-      "title": "Paper as Specification: A Machine-Readable Standard for Scientific Claims",
-      "status": "active",
-      "doi_url": "https://doi.org/10.5281/zenodo.19210037",
-      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r13-paper-as-specification",
-      "thesis": null,
-      "n_prop_claims": 24,
-      "terms": {
-        "owns": [
-          "paper-spec",
-          "verification-as-specification-crisis"
-        ],
-        "imports": [
-          "spectral-brand-theory"
-        ],
-        "refines": []
-      }
-    },
-    {
       "key": "2026u",
       "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
       "status": "active",
@@ -1523,7 +1525,6 @@
           "substrate-as-repository"
         ],
         "imports": [
-          "paper-spec",
           "six-tier-ontology",
           "spectral-brand-theory",
           "spine",
@@ -2310,6 +2311,20 @@
           "target": "substrate-as-repository"
         }
       ]
+    },
+    {
+      "key": "byte-identical-name-exchange",
+      "label": "Byte-identical name exchange",
+      "owner": "2026bp",
+      "definition": "A manipulation in which an entity name occupying a single slot in an artifact is replaced by another name of matched type while every other byte of the artifact is unchanged, so that any movement in a reading taken over the artifact is attributable to the label alone; substitution rather than removal, because an ablated identifier leaves the entity in the residual content and makes the artifact incongruous.",
+      "papers": {
+        "owns": [
+          "2026bp"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
     },
     {
       "key": "canon-as-repository",
@@ -3149,6 +3164,20 @@
       "papers": {
         "owns": [
           "2026bn"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "entity-name-leakage",
+      "label": "Entity-name leakage",
+      "owner": "2026bp",
+      "definition": "The share of a language model's dimensional rating of a written artifact that is carried by the name of the entity the artifact is said to concern rather than by the artifact's content; measured as the movement in the rated profile when the entity name is exchanged and the artifact text is held byte-identical.",
+      "papers": {
+        "owns": [
+          "2026bp"
         ],
         "imports": [],
         "refines": []
@@ -4353,23 +4382,6 @@
       "relations": []
     },
     {
-      "key": "paper-spec",
-      "label": "Paper Spec",
-      "owner": "2026t",
-      "definition": "An open, human-writable, machine-readable YAML standard that captures a paper's claims, methodology, acceptance criteria, results, dependencies, contradictions, and limitations in a companion paper.yaml file without replacing the paper itself.",
-      "papers": {
-        "owns": [
-          "2026t"
-        ],
-        "imports": [
-          "2026bk",
-          "2026u"
-        ],
-        "refines": []
-      },
-      "relations": []
-    },
-    {
       "key": "peer-alignment-event",
       "label": "Peer alignment event",
       "owner": "2026u",
@@ -4424,6 +4436,7 @@
           "2026ax",
           "2026b",
           "2026bc",
+          "2026bp",
           "2026c",
           "2026e",
           "2026j",
@@ -5052,7 +5065,8 @@
           "2026ax"
         ],
         "imports": [
-          "2026ba"
+          "2026ba",
+          "2026bp"
         ],
         "refines": []
       },
@@ -5149,6 +5163,20 @@
           "2026at",
           "2026w"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "residual-referenced-guard",
+      "label": "Residual-referenced neutrality guard",
+      "owner": "2026bp",
+      "definition": "A neutrality test that refers a text-by-entity interaction to the within-cell residual rather than to the entity main effect, on the ground that the main effect moves with replicate count and with its own magnitude while the interaction it is meant to calibrate does not, so that a main-effect-referenced ratio has no stable null to be judged against.",
+      "papers": {
+        "owns": [
+          "2026bp"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -5431,7 +5459,6 @@
           "2026p",
           "2026r",
           "2026s",
-          "2026t",
           "2026u",
           "2026v",
           "2026w",
@@ -5881,6 +5908,20 @@
       "relations": []
     },
     {
+      "key": "test-retest-yardstick",
+      "label": "Test-retest yardstick",
+      "owner": "2026bp",
+      "definition": "The spread of one operator's readings over repeat presentations of an identical prompt, used as the reference against which a manipulation's effect is judged large or small; an effect above one yardstick unit moves the reading further than re-asking the same question moves it.",
+      "papers": {
+        "owns": [
+          "2026bp"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "three-way-decomposition",
       "label": "three-way decomposition",
       "owner": "2026bl",
@@ -6321,20 +6362,6 @@
         "imports": [
           "2026bn"
         ],
-        "refines": []
-      },
-      "relations": []
-    },
-    {
-      "key": "verification-as-specification-crisis",
-      "label": "Verification crisis as specification crisis",
-      "owner": "2026t",
-      "definition": "The diagnosis that science's generation-verification gap is fundamentally a lack of structured specification, following the historical generation-specification cycle pattern where each generation breakthrough was resolved by a specification breakthrough rather than faster consumption.",
-      "papers": {
-        "owns": [
-          "2026t"
-        ],
-        "imports": [],
         "refines": []
       },
       "relations": []
@@ -7874,12 +7901,6 @@
     },
     {
       "from": "2026bk",
-      "to": "2026t",
-      "role": "applies",
-      "criticality": "supportive"
-    },
-    {
-      "from": "2026bk",
       "to": "2026u",
       "role": "unclassified",
       "criticality": "supportive"
@@ -7971,12 +7992,6 @@
     {
       "from": "2026bn",
       "to": "2026m",
-      "role": "unclassified",
-      "criticality": "supportive"
-    },
-    {
-      "from": "2026bn",
-      "to": "2026t",
       "role": "unclassified",
       "criticality": "supportive"
     },
@@ -9015,24 +9030,6 @@
     {
       "from": "2026s",
       "to": "2026r",
-      "role": "applies",
-      "criticality": "supportive"
-    },
-    {
-      "from": "2026t",
-      "to": "2026a",
-      "role": "applies",
-      "criticality": "supportive"
-    },
-    {
-      "from": "2026t",
-      "to": "2026i",
-      "role": "applies",
-      "criticality": "supportive"
-    },
-    {
-      "from": "2026t",
-      "to": "2026u",
       "role": "applies",
       "criticality": "supportive"
     },
