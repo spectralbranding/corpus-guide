@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-30. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-30",
+  "generated": "Generated projection as of 2026-08-31. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-08-31",
   "counts": {
-    "published_articles": 31,
-    "articles_linking_papers": 25,
-    "papers_with_articles": 16,
+    "published_articles": 32,
+    "articles_linking_papers": 26,
+    "papers_with_articles": 21,
     "withheld_paper_edges_dropped": 3,
     "excluded": {
       "no_url": 88,
       "no_date": 11,
-      "future_dated": 16,
+      "future_dated": 15,
       "no_papers": 6
     }
   },
@@ -280,6 +280,19 @@
       "covers": []
     },
     {
+      "slug": "standalone_ways_a_brand_number_is_wrong",
+      "title": "Five Ways a Brand Number Can Be Wrong",
+      "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+      "date": "2026-08-31",
+      "covers": [
+        "2026as",
+        "2026az",
+        "2026ba",
+        "2026bb",
+        "2026bd"
+      ]
+    },
+    {
       "slug": "standalone_which_tier_did_your_ai_land_on",
       "title": "Which Tier Did Your AI Land On? The CFO Test",
       "url": "https://spectralbranding.substack.com/p/which-tier-did-your-ai-land-on",
@@ -407,6 +420,13 @@
         "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
       }
     ],
+    "2026as": [
+      {
+        "slug": "standalone_ways_a_brand_number_is_wrong",
+        "title": "Five Ways a Brand Number Can Be Wrong",
+        "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong"
+      }
+    ],
     "2026aw": [
       {
         "slug": "standalone_marketing_is_push_demand_is_pull",
@@ -419,6 +439,34 @@
         "slug": "standalone_floor_under_your_dashboard",
         "title": "The Floor Under Your Dashboard",
         "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard"
+      }
+    ],
+    "2026az": [
+      {
+        "slug": "standalone_ways_a_brand_number_is_wrong",
+        "title": "Five Ways a Brand Number Can Be Wrong",
+        "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong"
+      }
+    ],
+    "2026ba": [
+      {
+        "slug": "standalone_ways_a_brand_number_is_wrong",
+        "title": "Five Ways a Brand Number Can Be Wrong",
+        "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong"
+      }
+    ],
+    "2026bb": [
+      {
+        "slug": "standalone_ways_a_brand_number_is_wrong",
+        "title": "Five Ways a Brand Number Can Be Wrong",
+        "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong"
+      }
+    ],
+    "2026bd": [
+      {
+        "slug": "standalone_ways_a_brand_number_is_wrong",
+        "title": "Five Ways a Brand Number Can Be Wrong",
+        "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong"
       }
     ],
     "2026bf": [

@@ -976,7 +976,9 @@
             "key": "2026as",
             "title": "PRISM-B: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
             "doi_url": "https://doi.org/10.5281/zenodo.19555265",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-b-brand"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-b-brand",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           },
           {
             "key": "2026ay",
@@ -998,25 +1000,33 @@
             "key": "2026az",
             "title": "Measuring Perceptual Indistinguishability: A Pre-Registered Metamerism Instrument for AI Brand Perception (PRISM-M)",
             "doi_url": "https://doi.org/10.5281/zenodo.21125785",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-m-metamerism"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-m-metamerism",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           },
           {
             "key": "2026ba",
             "title": "Separating Instrument Drift from Brand Signal: A Pre-Registered Model-Version Tracking Instrument for AI Brand Perception (PRISM-T)",
             "doi_url": "https://doi.org/10.5281/zenodo.21128779",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           },
           {
             "key": "2026bb",
             "title": "From Stated Perception to Revealed Choice: A Pre-Registered Instrument for the Choice-Perception Gap in AI Brand Perception (PRISM-C)",
             "doi_url": "https://doi.org/10.5281/zenodo.21128342",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-c-choice"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-c-choice",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           },
           {
             "key": "2026bd",
             "title": "Measuring Optimization Depth: A Pre-Registered Instrument for the Stated-Actual Optimization Gap in Organizational Self-Description (PRISM-O)",
             "doi_url": "https://doi.org/10.5281/zenodo.21159815",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           }
         ]
       }
@@ -1199,7 +1209,9 @@
             "key": "2026bd",
             "title": "Measuring Optimization Depth: A Pre-Registered Instrument for the Stated-Actual Optimization Gap in Organizational Self-Description (PRISM-O)",
             "doi_url": "https://doi.org/10.5281/zenodo.21159815",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-o-optimization-depth",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           }
         ]
       }
@@ -1313,7 +1325,9 @@
             "key": "2026as",
             "title": "PRISM-B: A Structured Measurement Instrument for Multi-Dimensional Brand Perception",
             "doi_url": "https://doi.org/10.5281/zenodo.19555265",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-b-brand"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-b-brand",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           },
           {
             "key": "2026ae",
@@ -1327,7 +1341,9 @@
             "key": "2026ba",
             "title": "Separating Instrument Drift from Brand Signal: A Pre-Registered Model-Version Tracking Instrument for AI Brand Perception (PRISM-T)",
             "doi_url": "https://doi.org/10.5281/zenodo.21128779",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-version-floor",
+            "article_url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
+            "article_title": "Five Ways a Brand Number Can Be Wrong"
           }
         ]
       }
