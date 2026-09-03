@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-08-31. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-08-31",
+  "generated": "Generated projection as of 2026-09-03. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-09-03",
   "counts": {
-    "published_articles": 32,
-    "articles_linking_papers": 26,
-    "papers_with_articles": 21,
+    "published_articles": 34,
+    "articles_linking_papers": 28,
+    "papers_with_articles": 23,
     "withheld_paper_edges_dropped": 3,
     "excluded": {
-      "no_url": 88,
+      "no_url": 89,
       "no_date": 11,
-      "future_dated": 15,
+      "future_dated": 13,
       "no_papers": 6
     }
   },
@@ -127,6 +127,15 @@
       "date": "2026-08-04",
       "covers": [
         "2026a"
+      ]
+    },
+    {
+      "slug": "standalone_cannot_buy_inventive_reach",
+      "title": "You Cannot Buy Inventive Reach With Talent Alone",
+      "url": "https://spectralbranding.substack.com/p/you-cannot-buy-inventive-reach-with-talent-alone",
+      "date": "2026-09-01",
+      "covers": [
+        "2026bg"
       ]
     },
     {
@@ -252,6 +261,16 @@
       "url": "https://spectralbranding.substack.com/p/probability-is-a-measurement-artifact",
       "date": "2026-06-13",
       "covers": []
+    },
+    {
+      "slug": "standalone_publish_the_threshold_first",
+      "title": "Publish the Threshold First",
+      "url": "https://spectralbranding.substack.com/p/publish-the-threshold-first",
+      "date": "2026-09-03",
+      "covers": [
+        "2026bk",
+        "2026bl"
+      ]
     },
     {
       "slug": "standalone_push_loses_pull_conserves",
@@ -478,9 +497,28 @@
     ],
     "2026bg": [
       {
+        "slug": "standalone_cannot_buy_inventive_reach",
+        "title": "You Cannot Buy Inventive Reach With Talent Alone",
+        "url": "https://spectralbranding.substack.com/p/you-cannot-buy-inventive-reach-with-talent-alone"
+      },
+      {
         "slug": "authoring_a_category",
         "title": "AI Commoditizes Execution. It Can't Pick Your Category.",
         "url": "https://spectralbranding.substack.com/p/ai-commoditizes-execution-it-cant-pick-your-category"
+      }
+    ],
+    "2026bk": [
+      {
+        "slug": "standalone_publish_the_threshold_first",
+        "title": "Publish the Threshold First",
+        "url": "https://spectralbranding.substack.com/p/publish-the-threshold-first"
+      }
+    ],
+    "2026bl": [
+      {
+        "slug": "standalone_publish_the_threshold_first",
+        "title": "Publish the Threshold First",
+        "url": "https://spectralbranding.substack.com/p/publish-the-threshold-first"
       }
     ],
     "2026i": [
