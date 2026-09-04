@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-09-03. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-09-03",
+  "generated": "Generated projection as of 2026-09-04. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-09-04",
   "counts": {
-    "published_articles": 34,
-    "articles_linking_papers": 28,
+    "published_articles": 35,
+    "articles_linking_papers": 29,
     "papers_with_articles": 23,
     "withheld_paper_edges_dropped": 3,
     "excluded": {
       "no_url": 89,
       "no_date": 11,
-      "future_dated": 13,
+      "future_dated": 12,
       "no_papers": 6
     }
   },
@@ -299,6 +299,15 @@
       "covers": []
     },
     {
+      "slug": "standalone_voice_was_going_to_kill_brands",
+      "title": "Voice Was Going to Kill Brands. The Opposite Happened.",
+      "url": "https://spectralbranding.substack.com/p/voice-was-going-to-kill-brands-the-opposite-happened",
+      "date": "2026-09-04",
+      "covers": [
+        "2026v"
+      ]
+    },
+    {
       "slug": "standalone_ways_a_brand_number_is_wrong",
       "title": "Five Ways a Brand Number Can Be Wrong",
       "url": "https://spectralbranding.substack.com/p/there-are-only-so-many-ways-a-brand-number-can-be-wrong",
@@ -560,6 +569,11 @@
       }
     ],
     "2026v": [
+      {
+        "slug": "standalone_voice_was_going_to_kill_brands",
+        "title": "Voice Was Going to Kill Brands. The Opposite Happened.",
+        "url": "https://spectralbranding.substack.com/p/voice-was-going-to-kill-brands-the-opposite-happened"
+      },
       {
         "slug": "standalone_comparator_trap",
         "title": "The Comparator Trap: When the Right Competitor Hurts",
