@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-09-04. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-09-04",
+  "generated": "Generated projection as of 2026-09-10. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-09-10",
   "counts": {
-    "published_articles": 35,
-    "articles_linking_papers": 29,
+    "published_articles": 37,
+    "articles_linking_papers": 31,
     "papers_with_articles": 23,
     "withheld_paper_edges_dropped": 3,
     "excluded": {
       "no_url": 89,
       "no_date": 11,
-      "future_dated": 12,
+      "future_dated": 10,
       "no_papers": 6
     }
   },
@@ -171,6 +171,15 @@
       ]
     },
     {
+      "slug": "standalone_customer_loyalty_open_the_box",
+      "title": "What 'Customer Loyalty' Actually Means When You Open the Box",
+      "url": "https://spectralbranding.substack.com/p/what-customer-loyalty-actually-means",
+      "date": "2026-09-07",
+      "covers": [
+        "2026o"
+      ]
+    },
+    {
       "slug": "standalone_floor_under_your_dashboard",
       "title": "The Floor Under Your Dashboard",
       "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard",
@@ -215,6 +224,15 @@
       "date": "2026-08-29",
       "covers": [
         "2026x"
+      ]
+    },
+    {
+      "slug": "standalone_loyalty_programs_wrong_axis",
+      "title": "Why 'Loyalty Programs' Optimize the Wrong Axis",
+      "url": "https://spectralbranding.substack.com/p/why-loyalty-programs-optimize-the-wrong-axis",
+      "date": "2026-09-09",
+      "covers": [
+        "2026o"
       ]
     },
     {
@@ -542,6 +560,16 @@
         "slug": "standalone_nps_four_behaviours",
         "title": "Your NPS Score Came From Four Different Behaviours",
         "url": "https://spectralbranding.substack.com/p/your-nps-score-came-from-four-different"
+      },
+      {
+        "slug": "standalone_loyalty_programs_wrong_axis",
+        "title": "Why 'Loyalty Programs' Optimize the Wrong Axis",
+        "url": "https://spectralbranding.substack.com/p/why-loyalty-programs-optimize-the-wrong-axis"
+      },
+      {
+        "slug": "standalone_customer_loyalty_open_the_box",
+        "title": "What 'Customer Loyalty' Actually Means When You Open the Box",
+        "url": "https://spectralbranding.substack.com/p/what-customer-loyalty-actually-means"
       },
       {
         "slug": "standalone_cohort_distribution_alternative",
