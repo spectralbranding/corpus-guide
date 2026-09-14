@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-09-10. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-09-10",
+  "generated": "Generated projection as of 2026-09-14. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-09-14",
   "counts": {
-    "published_articles": 37,
-    "articles_linking_papers": 31,
-    "papers_with_articles": 23,
+    "published_articles": 39,
+    "articles_linking_papers": 33,
+    "papers_with_articles": 25,
     "withheld_paper_edges_dropped": 3,
     "excluded": {
       "no_url": 89,
       "no_date": 11,
-      "future_dated": 10,
+      "future_dated": 8,
       "no_papers": 6
     }
   },
@@ -310,6 +310,16 @@
       ]
     },
     {
+      "slug": "standalone_role_only_a_bank_can_play",
+      "title": "The Role Only a Bank Can Play",
+      "url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play",
+      "date": "2026-09-14",
+      "covers": [
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
       "slug": "standalone_three_types_of_books",
       "title": "The Three Types of Books That AI Will Transform Differently",
       "url": "https://spectralbranding.substack.com/p/the-three-types-of-books-that-ai-will-transform-differently",
@@ -344,6 +354,16 @@
       "url": "https://spectralbranding.substack.com/p/which-tier-did-your-ai-land-on",
       "date": "2026-06-03",
       "covers": []
+    },
+    {
+      "slug": "standalone_who_owns_dove",
+      "title": "We Told 13 AI Models Who Owns Dove. Nothing Moved.",
+      "url": "https://spectralbranding.substack.com/p/we-told-thirteen-machines-who-owns-dove",
+      "date": "2026-09-11",
+      "covers": [
+        "2026ac",
+        "2026aq"
+      ]
     },
     {
       "slug": "standalone_youre_optimizing_someone_elses_objective",
@@ -405,6 +425,13 @@
         "url": "https://spectralbranding.substack.com/p/the-080-ai-brand-audit"
       }
     ],
+    "2026ac": [
+      {
+        "slug": "standalone_who_owns_dove",
+        "title": "We Told 13 AI Models Who Owns Dove. Nothing Moved.",
+        "url": "https://spectralbranding.substack.com/p/we-told-thirteen-machines-who-owns-dove"
+      }
+    ],
     "2026ae": [
       {
         "slug": "standalone_log_is_the_brand",
@@ -422,6 +449,11 @@
         "slug": "standalone_hidden_content_generator",
         "title": "The Hidden Content Generator: Spec-Driven AI",
         "url": "https://spectralbranding.substack.com/p/the-hidden-content-generator"
+      },
+      {
+        "slug": "standalone_role_only_a_bank_can_play",
+        "title": "The Role Only a Bank Can Play",
+        "url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play"
       },
       {
         "slug": "standalone_headless_brand_to_headless_company",
@@ -446,6 +478,11 @@
     ],
     "2026ah": [
       {
+        "slug": "standalone_role_only_a_bank_can_play",
+        "title": "The Role Only a Bank Can Play",
+        "url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play"
+      },
+      {
         "slug": "standalone_headless_brand_to_headless_company",
         "title": "From Headless Brand to Headless Company",
         "url": "https://spectralbranding.substack.com/p/from-headless-brand-to-headless-company"
@@ -464,6 +501,13 @@
         "slug": "standalone_brand_is_one_interface",
         "title": "Brand Is One Interface of the Specification",
         "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      }
+    ],
+    "2026aq": [
+      {
+        "slug": "standalone_who_owns_dove",
+        "title": "We Told 13 AI Models Who Owns Dove. Nothing Moved.",
+        "url": "https://spectralbranding.substack.com/p/we-told-thirteen-machines-who-owns-dove"
       }
     ],
     "2026as": [
