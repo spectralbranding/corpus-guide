@@ -93,8 +93,8 @@
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
           "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
-          "article_url": "https://spectralbranding.substack.com/p/youre-optimizing-someone-elses-objective",
-          "article_title": "You're Optimizing Someone Else's Objective"
+          "article_url": "https://spectralbranding.substack.com/p/how-every-field-resists-its-own-math",
+          "article_title": "How Every Field Resists Its Own Math (Before Adopting It)"
         },
         {
           "key": "2026au",
@@ -186,7 +186,9 @@
             "key": "2026ax",
             "title": "The Brand Spectrometer: A Reproducible Instrument for Cohort-Resolved, Multi-Dimensional Brand-Perception Measurement from Public Artifacts",
             "doi_url": "https://doi.org/10.5281/zenodo.20775963",
-            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods"
+            "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods",
+            "article_url": "https://spectralbranding.substack.com/p/read-the-reflection-dont-simulate-the-respondent",
+            "article_title": "Read the Reflection, Don't Simulate the Respondent"
           }
         ]
       }
@@ -335,7 +337,9 @@
             "key": "2026an",
             "title": "Specification Readiness: Measuring an Architectural Antecedent of Functional Friction and AI Returns",
             "doi_url": "https://doi.org/10.5281/zenodo.20384084",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical",
+            "article_url": "https://spectralbranding.substack.com/p/your-measure-rewards-the-company-that-has-done-nothing",
+            "article_title": "Your Measure Rewards the Company That Did Nothing"
           },
           {
             "key": "2026am",
@@ -924,7 +928,9 @@
           "key": "2026ax",
           "title": "The Brand Spectrometer: A Reproducible Instrument for Cohort-Resolved, Multi-Dimensional Brand-Perception Measurement from Public Artifacts",
           "doi_url": "https://doi.org/10.5281/zenodo.20775963",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/brand-spectrometer-methods",
+          "article_url": "https://spectralbranding.substack.com/p/read-the-reflection-dont-simulate-the-respondent",
+          "article_title": "Read the Reflection, Don't Simulate the Respondent"
         },
         {
           "key": "2026aa",
@@ -1169,7 +1175,9 @@
             "key": "2026an",
             "title": "Specification Readiness: Measuring an Architectural Antecedent of Functional Friction and AI Returns",
             "doi_url": "https://doi.org/10.5281/zenodo.20384084",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness-empirical",
+            "article_url": "https://spectralbranding.substack.com/p/your-measure-rewards-the-company-that-has-done-nothing",
+            "article_title": "Your Measure Rewards the Company That Did Nothing"
           },
           {
             "key": "2026am",
@@ -1515,8 +1523,8 @@
           "title": "Spectral Brand Theory: A Computational Framework for Multi-Dimensional Brand Perception",
           "doi_url": "https://doi.org/10.5281/zenodo.18945912",
           "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/spectral-brand-theory",
-          "article_url": "https://spectralbranding.substack.com/p/youre-optimizing-someone-elses-objective",
-          "article_title": "You're Optimizing Someone Else's Objective"
+          "article_url": "https://spectralbranding.substack.com/p/how-every-field-resists-its-own-math",
+          "article_title": "How Every Field Resists Its Own Math (Before Adopting It)"
         }
       ],
       "gh_deeplinks": [

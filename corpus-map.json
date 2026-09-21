@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 63,
-    "terms": 294,
-    "citation_edges": 481
+    "papers": 64,
+    "terms": 296,
+    "citation_edges": 491
   },
   "papers": [
     {
@@ -848,6 +848,33 @@
           "tier-6-organization"
         ],
         "refines": []
+      }
+    },
+    {
+      "key": "2026be",
+      "title": "Floor-Cleared Brand Velocity: Measuring Multi-Epoch Spectral Velocity Against the Apparatus Floor",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.21192878",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/prism-t-velocity",
+      "thesis": "A raw multi-epoch reading change from an LLM-observer brand instrument confounds real brand motion with model-version apparatus drift. Building on the PRISM-T version floor (a byte-identical pinned panel re-read across model versions isolates apparatus drift) and the spectral-dynamics calculus (velocity as the first time derivative of the eight-dimension reading), this paper measures spectral velocity across two live epochs under a no-rescue floor-clearance rule: a brand is credited with real movement only when its live-panel displacement exceeds the contemporaneous version floor for the same epoch pair. It further derives, and tests, a motion-drift double dissociation — real brand motion loads the artifact-anchored dimensions while apparatus drift loads the prior-dependent dimensions — from a text-based-versus-knowledge-based comprehension mechanism, so the dissociation is a derived identification result rather than an assertion. Both outcomes of the velocity test are publishable: brands demonstrably move beyond apparatus, or a measured upper bound on perceptual velocity relative to instrument drift.",
+      "n_prop_claims": 6,
+      "terms": {
+        "owns": [
+          "floor-cleared-brand-velocity",
+          "motion-drift-dissociation"
+        ],
+        "imports": [
+          "brand-velocity",
+          "non-ergodic-perception",
+          "operator-noise-floor",
+          "perception-decay-time-constant",
+          "spectral-dimensions",
+          "spectral-dynamics",
+          "version-floor"
+        ],
+        "refines": [
+          "brand-velocity"
+        ]
       }
     },
     {
@@ -2324,8 +2351,12 @@
         "owns": [
           "2026z"
         ],
-        "imports": [],
-        "refines": []
+        "imports": [
+          "2026be"
+        ],
+        "refines": [
+          "2026be"
+        ]
       },
       "relations": []
     },
@@ -3492,6 +3523,20 @@
       ]
     },
     {
+      "key": "floor-cleared-brand-velocity",
+      "label": "Floor-cleared brand velocity",
+      "owner": "2026be",
+      "definition": "The spectral velocity $\\lVert\\Delta r\\rVert$ of a brand's eight-dimension reading between two live epochs whose magnitude has cleared the contemporaneous version floor for the same epoch pair (source-cluster bootstrap S/N $= \\lVert\\Delta r_\\text{live}\\rVert / \\text{version\\_floor} > k$): the apparatus-corrected rate of real brand-perception change, distinguished from the raw multi-epoch reading change that confounds brand motion with model-version drift. The dynamic member of the nested-floor / no-rescue architecture — a velocity claim that fails its version floor abstains rather than being rescued.",
+      "papers": {
+        "owns": [
+          "2026be"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "floor-nesting",
       "label": "Floor nesting",
       "owner": "substrate-floor",
@@ -4172,6 +4217,20 @@
       "relations": []
     },
     {
+      "key": "motion-drift-dissociation",
+      "label": "Motion-drift dissociation",
+      "owner": "2026be",
+      "definition": "The double dissociation, across the eight dimensions, between where real brand motion concentrates (the artifact-anchored set {Semiotic, Narrative, Experiential}, driven by what fresh public artifacts display) and where model-version apparatus drift concentrates (the prior-dependent set {Ideological, Cultural, Social, Temporal, Economic}, 2026ba H3): a joint identification signature that separates brand signal from instrument drift more strongly than either floor alone.",
+      "papers": {
+        "owns": [
+          "2026be"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "multi-brand-capacity-diagnostic",
       "label": "Multi-Brand Capacity Diagnostic (MBCD)",
       "owner": "2026ah",
@@ -4227,6 +4286,7 @@
         "imports": [
           "2026ad",
           "2026au",
+          "2026be",
           "2026c",
           "2026d",
           "2026f",
@@ -4352,6 +4412,7 @@
           "2026ba",
           "2026bb",
           "2026bd",
+          "2026be",
           "2026bf"
         ],
         "refines": [
@@ -4582,7 +4643,9 @@
         "owns": [
           "2026aw"
         ],
-        "imports": [],
+        "imports": [
+          "2026be"
+        ],
         "refines": []
       },
       "relations": []
@@ -5645,6 +5708,7 @@
           "2026az",
           "2026ba",
           "2026bb",
+          "2026be",
           "2026bf",
           "2026c",
           "2026d",
@@ -5678,7 +5742,8 @@
           "2026z"
         ],
         "imports": [
-          "2026aw"
+          "2026aw",
+          "2026be"
         ],
         "refines": [
           "2026aw"
@@ -6557,7 +6622,8 @@
           "2026ba"
         ],
         "imports": [
-          "2026ax"
+          "2026ax",
+          "2026be"
         ],
         "refines": []
       },
@@ -7925,6 +7991,66 @@
     {
       "from": "2026bd",
       "to": "2026i",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026a",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026aw",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026ax",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026ay",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026ba",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026d",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026o",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026s",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026v",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026be",
+      "to": "2026z",
       "role": "unclassified",
       "criticality": "supportive"
     },
