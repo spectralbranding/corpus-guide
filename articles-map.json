@@ -5,15 +5,15 @@
   "generated": "Generated projection as of 2026-09-26. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
   "as_of": "2026-09-26",
   "counts": {
-    "published_articles": 46,
-    "articles_linking_papers": 39,
-    "papers_with_articles": 28,
-    "withheld_paper_edges_dropped": 3,
+    "published_articles": 67,
+    "articles_linking_papers": 59,
+    "papers_with_articles": 33,
+    "withheld_paper_edges_dropped": 5,
     "excluded": {
-      "no_url": 89,
-      "no_date": 11,
+      "no_url": 71,
+      "no_date": 8,
       "future_dated": 1,
-      "no_papers": 7
+      "no_papers": 8
     }
   },
   "by_article": [
@@ -31,6 +31,15 @@
       "title": "Tesla Brand Analysis: Strong on 4 Dimensions, Weak on 4",
       "url": "https://spectralbranding.substack.com/p/why-tesla-is-the-strongest-weak-brand",
       "date": "2026-03-17",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
+      "slug": "20_the_deepest_specification",
+      "title": "The Deepest Specification: Your Body Is DNA's Metadata",
+      "url": "https://spectralbranding.substack.com/p/the-deepest-specification",
+      "date": "2026-07-27",
       "covers": [
         "2026a"
       ]
@@ -84,12 +93,33 @@
       ]
     },
     {
+      "slug": "standalone_ai_engineer_transitional_role",
+      "title": "The AI Engineer Is a Transitional Role. Hire Accordingly.",
+      "url": "https://spectralbranding.substack.com/p/the-ai-engineer-is-a-transitional-role",
+      "date": "2026-07-23",
+      "covers": [
+        "2026ag",
+        "2026ao"
+      ]
+    },
+    {
       "slug": "standalone_ai_rated_the_name",
       "title": "Your AI Rated the Text. It Also Rated the Name.",
       "url": "https://spectralbranding.substack.com/p/your-ai-rated-the-text-it-also-rated-the-name",
       "date": "2026-09-18",
       "covers": [
         "2026bp"
+      ]
+    },
+    {
+      "slug": "standalone_ai_reads_the_graph_not_the_prose",
+      "title": "What's the Calories of Your Brand?",
+      "url": "https://spectralbranding.substack.com/p/whats-the-calories-of-your-brand",
+      "date": "2026-07-19",
+      "covers": [
+        "2026ag",
+        "2026ao",
+        "2026ap"
       ]
     },
     {
@@ -118,6 +148,24 @@
         "2026a",
         "2026ag",
         "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_brand_is_the_flavor_not_the_nutrient",
+      "title": "Your Brand Is the Flavor, Not the Nutrient",
+      "url": "https://spectralbranding.substack.com/p/your-brand-is-the-flavor-not-the-nutrient",
+      "date": "2026-09-26",
+      "covers": [
+        "2026e"
+      ]
+    },
+    {
+      "slug": "standalone_brand_relativity",
+      "title": "There Is No Absolute Position of a Brand",
+      "url": "https://spectralbranding.substack.com/p/there-is-no-absolute-position-of-a-brand",
+      "date": "2026-09-12",
+      "covers": [
+        "2026e"
       ]
     },
     {
@@ -189,6 +237,15 @@
       ]
     },
     {
+      "slug": "standalone_cultural_brand_outlives_centuries",
+      "title": "Cultural Brand Outlives Its Founders by Centuries",
+      "url": "https://spectralbranding.substack.com/p/cultural-brand-outlives-its-founders",
+      "date": "2026-07-06",
+      "covers": [
+        "2026ah"
+      ]
+    },
+    {
       "slug": "standalone_customer_loyalty_open_the_box",
       "title": "What 'Customer Loyalty' Actually Means When You Open the Box",
       "url": "https://spectralbranding.substack.com/p/what-customer-loyalty-actually-means",
@@ -198,12 +255,37 @@
       ]
     },
     {
+      "slug": "standalone_field_that_got_there_first",
+      "title": "The Field That Got There First",
+      "url": "https://spectralbranding.substack.com/p/the-field-that-got-there-first",
+      "date": "2026-09-22",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
       "slug": "standalone_floor_under_your_dashboard",
       "title": "The Floor Under Your Dashboard",
       "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard",
       "date": "2026-06-30",
       "covers": [
         "2026ay"
+      ]
+    },
+    {
+      "slug": "standalone_four_branches_from_one_trunk",
+      "title": "Four Branches from One Trunk",
+      "url": "https://spectralbranding.substack.com/p/four-branches-from-one-trunk",
+      "date": "2026-07-30",
+      "covers": []
+    },
+    {
+      "slug": "standalone_geo_optimizes_the_rendering_not_the_source",
+      "title": "GEO Optimizes the Rendering, Not the Source",
+      "url": "https://spectralbranding.substack.com/p/geo-optimizes-the-rendering-not-the-source",
+      "date": "2026-08-20",
+      "covers": [
+        "2026am"
       ]
     },
     {
@@ -263,6 +345,15 @@
       ]
     },
     {
+      "slug": "standalone_marketing_is_an_interface_not_a_department",
+      "title": "Marketing Is an Interface, Not a Department",
+      "url": "https://spectralbranding.substack.com/p/marketing-is-an-interface-not-a-department",
+      "date": "2026-08-06",
+      "covers": [
+        "2026am"
+      ]
+    },
+    {
       "slug": "standalone_marketing_is_push_demand_is_pull",
       "title": "Marketing Is the Push, Demand Is the Pull",
       "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull",
@@ -283,12 +374,51 @@
       ]
     },
     {
+      "slug": "standalone_meaning_authorship",
+      "title": "Sign the Claim, Not the Sentence",
+      "url": "https://spectralbranding.substack.com/p/sign-the-claim-not-the-sentence",
+      "date": "2026-07-29",
+      "covers": [
+        "2026ao"
+      ]
+    },
+    {
+      "slug": "standalone_meaningfulness_vs_meaning",
+      "title": "The Graph Underneath the Prose",
+      "url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose",
+      "date": "2026-07-26",
+      "covers": [
+        "2026ao",
+        "2026ap"
+      ]
+    },
+    {
       "slug": "standalone_measure_rewards_doing_nothing",
       "title": "Your Measure Rewards the Company That Did Nothing",
       "url": "https://spectralbranding.substack.com/p/your-measure-rewards-the-company-that-has-done-nothing",
       "date": "2026-09-16",
       "covers": [
         "2026an"
+      ]
+    },
+    {
+      "slug": "standalone_metric_eats_the_meaning",
+      "title": "When the Metric Eats the Meaning",
+      "url": "https://spectralbranding.substack.com/p/when-the-metric-eats-the-meaning",
+      "date": "2026-08-27",
+      "covers": [
+        "2026e"
+      ]
+    },
+    {
+      "slug": "standalone_no_first_cause",
+      "title": "The Owner Who Was First a Reader",
+      "url": "https://spectralbranding.substack.com/p/the-owner-who-was-first-a-reader",
+      "date": "2026-07-17",
+      "covers": [
+        "2026ag",
+        "2026ah",
+        "2026ao"
       ]
     },
     {
@@ -372,11 +502,70 @@
       ]
     },
     {
+      "slug": "standalone_same_dollar_different_tier",
+      "title": "Same Dollar, Different Tier: The Capital-Allocation Gap",
+      "url": "https://spectralbranding.substack.com/p/same-dollar-different-tier-why-marketing",
+      "date": "2026-07-20",
+      "covers": [
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_sbt_ost_naming",
+      "title": "Who Owns the Meaning? Who Owns the Cloud?",
+      "url": "https://spectralbranding.substack.com/p/who-owns-the-meaning-who-owns-the-cloud",
+      "date": "2026-07-15",
+      "covers": [
+        "2026ag",
+        "2026ah",
+        "2026ao"
+      ]
+    },
+    {
+      "slug": "standalone_succession_is_not_an_exit",
+      "title": "Succession Is Not an Exit — It Is a Different Problem",
+      "url": "https://spectralbranding.substack.com/p/succession-is-not-an-exit-it-is-a",
+      "date": "2026-07-13",
+      "covers": [
+        "2026ag",
+        "2026ah"
+      ]
+    },
+    {
+      "slug": "standalone_taste_as_projection",
+      "title": "Taste Is a Projection. Canon Is an Axis.",
+      "url": "https://spectralbranding.substack.com/p/taste-is-a-projection-canon-is-an-axis",
+      "date": "2026-09-05",
+      "covers": [
+        "2026a"
+      ]
+    },
+    {
       "slug": "standalone_three_types_of_books",
       "title": "The Three Types of Books That AI Will Transform Differently",
       "url": "https://spectralbranding.substack.com/p/the-three-types-of-books-that-ai-will-transform-differently",
       "date": "2026-05-23",
       "covers": []
+    },
+    {
+      "slug": "standalone_two_maths_of_brand_growth",
+      "title": "The Two Maths of Brand Growth Share a Blind Spot",
+      "url": "https://spectralbranding.substack.com/p/the-two-maths-of-brand-growth-share-a-blind-spot",
+      "date": "2026-07-28",
+      "covers": [
+        "2026a",
+        "2026bf"
+      ]
+    },
+    {
+      "slug": "standalone_variance_pump",
+      "title": "The Variance Pump",
+      "url": "https://spectralbranding.substack.com/p/the-variance-pump",
+      "date": "2026-07-24",
+      "covers": [
+        "2026ao"
+      ]
     },
     {
       "slug": "standalone_voice_was_going_to_kill_brands",
@@ -427,6 +616,17 @@
       ]
     },
     {
+      "slug": "standalone_workbench_from_its_own_theory",
+      "title": "Turning a Research Corpus Into a Workbench",
+      "url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory",
+      "date": "2026-07-22",
+      "covers": [
+        "2026ao",
+        "2026ay",
+        "2026u"
+      ]
+    },
+    {
       "slug": "standalone_youre_optimizing_someone_elses_objective",
       "title": "You're Optimizing Someone Else's Objective",
       "url": "https://spectralbranding.substack.com/p/youre-optimizing-someone-elses-objective",
@@ -449,6 +649,11 @@
         "url": "https://spectralbranding.substack.com/p/why-spectral-the-bridge-from-euler-to-brand-signals"
       },
       {
+        "slug": "standalone_field_that_got_there_first",
+        "title": "The Field That Got There First",
+        "url": "https://spectralbranding.substack.com/p/the-field-that-got-there-first"
+      },
+      {
         "slug": "standalone_math_overthinking",
         "title": "How Every Field Resists Its Own Math (Before Adopting It)",
         "url": "https://spectralbranding.substack.com/p/how-every-field-resists-its-own-math"
@@ -464,9 +669,19 @@
         "url": "https://spectralbranding.substack.com/p/brand-vs-demand-is-a-resolution-problem"
       },
       {
+        "slug": "standalone_taste_as_projection",
+        "title": "Taste Is a Projection. Canon Is an Axis.",
+        "url": "https://spectralbranding.substack.com/p/taste-is-a-projection-canon-is-an-axis"
+      },
+      {
         "slug": "standalone_marketing_function_bundle",
         "title": "Marketing Is a Bundle of Four Functions, Not One",
         "url": "https://spectralbranding.substack.com/p/marketing-is-a-bundle-of-four-functions"
+      },
+      {
+        "slug": "20_the_deepest_specification",
+        "title": "The Deepest Specification: Your Body Is DNA's Metadata",
+        "url": "https://spectralbranding.substack.com/p/the-deepest-specification"
       },
       {
         "slug": "02_strongest_weak_brand",
@@ -477,6 +692,11 @@
         "slug": "01_there_is_no_brand_in_itself",
         "title": "What Is Brand Perception? A Multi-Dimensional Framework",
         "url": "https://spectralbranding.substack.com/p/there-is-no-brand-in-itself"
+      },
+      {
+        "slug": "standalone_two_maths_of_brand_growth",
+        "title": "The Two Maths of Brand Growth Share a Blind Spot",
+        "url": "https://spectralbranding.substack.com/p/the-two-maths-of-brand-growth-share-a-blind-spot"
       },
       {
         "slug": "SBT-C4_coo_brand_strategist",
@@ -532,6 +752,11 @@
         "url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play"
       },
       {
+        "slug": "standalone_ai_engineer_transitional_role",
+        "title": "The AI Engineer Is a Transitional Role. Hire Accordingly.",
+        "url": "https://spectralbranding.substack.com/p/the-ai-engineer-is-a-transitional-role"
+      },
+      {
         "slug": "standalone_headless_brand_to_headless_company",
         "title": "From Headless Brand to Headless Company",
         "url": "https://spectralbranding.substack.com/p/from-headless-brand-to-headless-company"
@@ -542,9 +767,34 @@
         "url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve"
       },
       {
+        "slug": "standalone_same_dollar_different_tier",
+        "title": "Same Dollar, Different Tier: The Capital-Allocation Gap",
+        "url": "https://spectralbranding.substack.com/p/same-dollar-different-tier-why-marketing"
+      },
+      {
+        "slug": "standalone_succession_is_not_an_exit",
+        "title": "Succession Is Not an Exit — It Is a Different Problem",
+        "url": "https://spectralbranding.substack.com/p/succession-is-not-an-exit-it-is-a"
+      },
+      {
+        "slug": "standalone_sbt_ost_naming",
+        "title": "Who Owns the Meaning? Who Owns the Cloud?",
+        "url": "https://spectralbranding.substack.com/p/who-owns-the-meaning-who-owns-the-cloud"
+      },
+      {
         "slug": "standalone_brand_is_one_interface",
         "title": "Brand Is One Interface of the Specification",
         "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      },
+      {
+        "slug": "standalone_ai_reads_the_graph_not_the_prose",
+        "title": "What's the Calories of Your Brand?",
+        "url": "https://spectralbranding.substack.com/p/whats-the-calories-of-your-brand"
+      },
+      {
+        "slug": "standalone_no_first_cause",
+        "title": "The Owner Who Was First a Reader",
+        "url": "https://spectralbranding.substack.com/p/the-owner-who-was-first-a-reader"
       },
       {
         "slug": "standalone_marketing_is_push_demand_is_pull",
@@ -553,6 +803,21 @@
       }
     ],
     "2026ah": [
+      {
+        "slug": "standalone_cultural_brand_outlives_centuries",
+        "title": "Cultural Brand Outlives Its Founders by Centuries",
+        "url": "https://spectralbranding.substack.com/p/cultural-brand-outlives-its-founders"
+      },
+      {
+        "slug": "standalone_same_dollar_different_tier",
+        "title": "Same Dollar, Different Tier: The Capital-Allocation Gap",
+        "url": "https://spectralbranding.substack.com/p/same-dollar-different-tier-why-marketing"
+      },
+      {
+        "slug": "standalone_succession_is_not_an_exit",
+        "title": "Succession Is Not an Exit — It Is a Different Problem",
+        "url": "https://spectralbranding.substack.com/p/succession-is-not-an-exit-it-is-a"
+      },
       {
         "slug": "standalone_role_only_a_bank_can_play",
         "title": "The Role Only a Bank Can Play",
@@ -569,6 +834,11 @@
         "url": "https://spectralbranding.substack.com/p/push-systems-lose-energy-pull-systems-conserve"
       },
       {
+        "slug": "standalone_sbt_ost_naming",
+        "title": "Who Owns the Meaning? Who Owns the Cloud?",
+        "url": "https://spectralbranding.substack.com/p/who-owns-the-meaning-who-owns-the-cloud"
+      },
+      {
         "slug": "standalone_marketing_is_push_demand_is_pull",
         "title": "Marketing Is the Push, Demand Is the Pull",
         "url": "https://spectralbranding.substack.com/p/marketing-is-the-push-demand-is-the-pull"
@@ -577,6 +847,23 @@
         "slug": "standalone_brand_is_one_interface",
         "title": "Brand Is One Interface of the Specification",
         "url": "https://spectralbranding.substack.com/p/brand-is-one-interface-of-the-specification"
+      },
+      {
+        "slug": "standalone_no_first_cause",
+        "title": "The Owner Who Was First a Reader",
+        "url": "https://spectralbranding.substack.com/p/the-owner-who-was-first-a-reader"
+      }
+    ],
+    "2026am": [
+      {
+        "slug": "standalone_geo_optimizes_the_rendering_not_the_source",
+        "title": "GEO Optimizes the Rendering, Not the Source",
+        "url": "https://spectralbranding.substack.com/p/geo-optimizes-the-rendering-not-the-source"
+      },
+      {
+        "slug": "standalone_marketing_is_an_interface_not_a_department",
+        "title": "Marketing Is an Interface, Not a Department",
+        "url": "https://spectralbranding.substack.com/p/marketing-is-an-interface-not-a-department"
       }
     ],
     "2026an": [
@@ -584,6 +871,60 @@
         "slug": "standalone_measure_rewards_doing_nothing",
         "title": "Your Measure Rewards the Company That Did Nothing",
         "url": "https://spectralbranding.substack.com/p/your-measure-rewards-the-company-that-has-done-nothing"
+      }
+    ],
+    "2026ao": [
+      {
+        "slug": "standalone_meaning_authorship",
+        "title": "Sign the Claim, Not the Sentence",
+        "url": "https://spectralbranding.substack.com/p/sign-the-claim-not-the-sentence"
+      },
+      {
+        "slug": "standalone_variance_pump",
+        "title": "The Variance Pump",
+        "url": "https://spectralbranding.substack.com/p/the-variance-pump"
+      },
+      {
+        "slug": "standalone_meaningfulness_vs_meaning",
+        "title": "The Graph Underneath the Prose",
+        "url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose"
+      },
+      {
+        "slug": "standalone_ai_engineer_transitional_role",
+        "title": "The AI Engineer Is a Transitional Role. Hire Accordingly.",
+        "url": "https://spectralbranding.substack.com/p/the-ai-engineer-is-a-transitional-role"
+      },
+      {
+        "slug": "standalone_workbench_from_its_own_theory",
+        "title": "Turning a Research Corpus Into a Workbench",
+        "url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory"
+      },
+      {
+        "slug": "standalone_ai_reads_the_graph_not_the_prose",
+        "title": "What's the Calories of Your Brand?",
+        "url": "https://spectralbranding.substack.com/p/whats-the-calories-of-your-brand"
+      },
+      {
+        "slug": "standalone_no_first_cause",
+        "title": "The Owner Who Was First a Reader",
+        "url": "https://spectralbranding.substack.com/p/the-owner-who-was-first-a-reader"
+      },
+      {
+        "slug": "standalone_sbt_ost_naming",
+        "title": "Who Owns the Meaning? Who Owns the Cloud?",
+        "url": "https://spectralbranding.substack.com/p/who-owns-the-meaning-who-owns-the-cloud"
+      }
+    ],
+    "2026ap": [
+      {
+        "slug": "standalone_meaningfulness_vs_meaning",
+        "title": "The Graph Underneath the Prose",
+        "url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose"
+      },
+      {
+        "slug": "standalone_ai_reads_the_graph_not_the_prose",
+        "title": "What's the Calories of Your Brand?",
+        "url": "https://spectralbranding.substack.com/p/whats-the-calories-of-your-brand"
       }
     ],
     "2026aq": [
@@ -619,6 +960,11 @@
         "slug": "standalone_floor_under_your_dashboard",
         "title": "The Floor Under Your Dashboard",
         "url": "https://spectralbranding.substack.com/p/the-floor-under-your-dashboard"
+      },
+      {
+        "slug": "standalone_workbench_from_its_own_theory",
+        "title": "Turning a Research Corpus Into a Workbench",
+        "url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory"
       }
     ],
     "2026az": [
@@ -654,6 +1000,11 @@
         "slug": "standalone_perceptual_profile_growth_mechanism",
         "title": "Growth Amplifies What You Already Mean",
         "url": "https://spectralbranding.substack.com/p/growth-amplifies-what-you-already-mean"
+      },
+      {
+        "slug": "standalone_two_maths_of_brand_growth",
+        "title": "The Two Maths of Brand Growth Share a Blind Spot",
+        "url": "https://spectralbranding.substack.com/p/the-two-maths-of-brand-growth-share-a-blind-spot"
       }
     ],
     "2026bg": [
@@ -687,6 +1038,23 @@
         "slug": "standalone_ai_rated_the_name",
         "title": "Your AI Rated the Text. It Also Rated the Name.",
         "url": "https://spectralbranding.substack.com/p/your-ai-rated-the-text-it-also-rated-the-name"
+      }
+    ],
+    "2026e": [
+      {
+        "slug": "standalone_brand_is_the_flavor_not_the_nutrient",
+        "title": "Your Brand Is the Flavor, Not the Nutrient",
+        "url": "https://spectralbranding.substack.com/p/your-brand-is-the-flavor-not-the-nutrient"
+      },
+      {
+        "slug": "standalone_brand_relativity",
+        "title": "There Is No Absolute Position of a Brand",
+        "url": "https://spectralbranding.substack.com/p/there-is-no-absolute-position-of-a-brand"
+      },
+      {
+        "slug": "standalone_metric_eats_the_meaning",
+        "title": "When the Metric Eats the Meaning",
+        "url": "https://spectralbranding.substack.com/p/when-the-metric-eats-the-meaning"
       }
     ],
     "2026i": [
@@ -735,6 +1103,13 @@
         "slug": "28_crisis_predictor",
         "title": "Which Brands Will Survive a Crisis Before It Happens",
         "url": "https://spectralbranding.substack.com/p/how-to-know-which-brands-will-survive-a-crisis"
+      }
+    ],
+    "2026u": [
+      {
+        "slug": "standalone_workbench_from_its_own_theory",
+        "title": "Turning a Research Corpus Into a Workbench",
+        "url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory"
       }
     ],
     "2026v": [

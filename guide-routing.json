@@ -345,7 +345,9 @@
             "key": "2026am",
             "title": "Specification Readiness and Endogenous Friction: An Information-Theoretic Model of Multi-Interface Organizational Architecture",
             "doi_url": "https://doi.org/10.5281/zenodo.20379981",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness",
+            "article_url": "https://spectralbranding.substack.com/p/geo-optimizes-the-rendering-not-the-source",
+            "article_title": "GEO Optimizes the Rendering, Not the Source"
           },
           {
             "key": "2026h",
@@ -558,8 +560,8 @@
             "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
             "doi_url": "https://doi.org/10.5281/zenodo.19930157",
             "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer",
-            "article_url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play",
-            "article_title": "The Role Only a Bank Can Play"
+            "article_url": "https://spectralbranding.substack.com/p/cultural-brand-outlives-its-founders",
+            "article_title": "Cultural Brand Outlives Its Founders by Centuries"
           },
           {
             "key": "2026al",
@@ -743,8 +745,8 @@
             "title": "Brand as a Modular Layer: Tiered Organizational Architecture, Separability, and Firm Performance in Multi-Brand Strategies",
             "doi_url": "https://doi.org/10.5281/zenodo.19930157",
             "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer",
-            "article_url": "https://spectralbranding.substack.com/p/the-role-only-a-bank-can-play",
-            "article_title": "The Role Only a Bank Can Play"
+            "article_url": "https://spectralbranding.substack.com/p/cultural-brand-outlives-its-founders",
+            "article_title": "Cultural Brand Outlives Its Founders by Centuries"
           }
         ]
       }
@@ -792,7 +794,9 @@
           "key": "2026e",
           "title": "Spectral Metamerism in Brand Perception: Projection Bounds from High-Dimensional Geometry",
           "doi_url": "https://doi.org/10.5281/zenodo.18945352",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r2-spectral-metamerism"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r2-spectral-metamerism",
+          "article_url": "https://spectralbranding.substack.com/p/your-brand-is-the-flavor-not-the-nutrient",
+          "article_title": "Your Brand Is the Flavor, Not the Nutrient"
         }
       ],
       "gh_deeplinks": [
@@ -1183,7 +1187,9 @@
             "key": "2026am",
             "title": "Specification Readiness and Endogenous Friction: An Information-Theoretic Model of Multi-Interface Organizational Architecture",
             "doi_url": "https://doi.org/10.5281/zenodo.20379981",
-            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness"
+            "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness",
+            "article_url": "https://spectralbranding.substack.com/p/geo-optimizes-the-rendering-not-the-source",
+            "article_title": "GEO Optimizes the Rendering, Not the Source"
           },
           {
             "key": "2026h",
@@ -1323,7 +1329,9 @@
             "key": "2026ap",
             "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
             "doi_url": "https://doi.org/10.5281/zenodo.20409701",
-            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical",
+            "article_url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose",
+            "article_title": "The Graph Underneath the Prose"
           },
           {
             "key": "2026aa",
@@ -1399,13 +1407,17 @@
           "key": "2026u",
           "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
           "doi_url": "https://doi.org/10.5281/zenodo.19294864",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository",
+          "article_url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory",
+          "article_title": "Turning a Research Corpus Into a Workbench"
         },
         {
           "key": "2026ap",
           "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
           "doi_url": "https://doi.org/10.5281/zenodo.20409701",
-          "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+          "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical",
+          "article_url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose",
+          "article_title": "The Graph Underneath the Prose"
         }
       ],
       "gh_deeplinks": [
@@ -1463,7 +1475,9 @@
             "key": "2026ao",
             "title": "Spec-Based Research in the Post-AI Era: A Cost-Asymmetry Theory of Meaning and Meaningfulness in Organizational Knowledge Work",
             "doi_url": "https://doi.org/10.5281/zenodo.20409683",
-            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness"
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness",
+            "article_url": "https://spectralbranding.substack.com/p/sign-the-claim-not-the-sentence",
+            "article_title": "Sign the Claim, Not the Sentence"
           },
           {
             "key": "2026ae",
@@ -1694,7 +1708,9 @@
           "key": "2026u",
           "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
           "doi_url": "https://doi.org/10.5281/zenodo.19294864",
-          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository"
+          "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r14-paper-as-repository",
+          "article_url": "https://spectralbranding.substack.com/p/the-workbench-built-from-its-own-theory",
+          "article_title": "Turning a Research Corpus Into a Workbench"
         }
       ],
       "gh_deeplinks": [
@@ -1732,13 +1748,17 @@
             "key": "2026ao",
             "title": "Spec-Based Research in the Post-AI Era: A Cost-Asymmetry Theory of Meaning and Meaningfulness in Organizational Knowledge Work",
             "doi_url": "https://doi.org/10.5281/zenodo.20409683",
-            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness"
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness",
+            "article_url": "https://spectralbranding.substack.com/p/sign-the-claim-not-the-sentence",
+            "article_title": "Sign the Claim, Not the Sentence"
           },
           {
             "key": "2026ap",
             "title": "Same Meaning, Different Prose: Spine Preservation and Rendering Equivalence in Organizational Knowledge Work",
             "doi_url": "https://doi.org/10.5281/zenodo.20409701",
-            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical"
+            "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/meaning-meaningfulness-empirical",
+            "article_url": "https://spectralbranding.substack.com/p/the-graph-underneath-the-prose",
+            "article_title": "The Graph Underneath the Prose"
           }
         ]
       }
