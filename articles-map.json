@@ -2,15 +2,15 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-09-26. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-09-26",
+  "generated": "Generated projection as of 2026-09-29. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-09-29",
   "counts": {
-    "published_articles": 67,
-    "articles_linking_papers": 59,
+    "published_articles": 68,
+    "articles_linking_papers": 60,
     "papers_with_articles": 33,
     "withheld_paper_edges_dropped": 5,
     "excluded": {
-      "no_url": 71,
+      "no_url": 70,
       "no_date": 8,
       "future_dated": 1,
       "no_papers": 8
@@ -523,6 +523,15 @@
       ]
     },
     {
+      "slug": "standalone_services_become_infrastructure",
+      "title": "Services Become Infrastructure. Then Value Moves Up.",
+      "url": "https://spectralbranding.substack.com/p/services-become-infrastructure-then-value-moves-up",
+      "date": "2026-09-28",
+      "covers": [
+        "2026am"
+      ]
+    },
+    {
       "slug": "standalone_succession_is_not_an_exit",
       "title": "Succession Is Not an Exit — It Is a Different Problem",
       "url": "https://spectralbranding.substack.com/p/succession-is-not-an-exit-it-is-a",
@@ -855,6 +864,11 @@
       }
     ],
     "2026am": [
+      {
+        "slug": "standalone_services_become_infrastructure",
+        "title": "Services Become Infrastructure. Then Value Moves Up.",
+        "url": "https://spectralbranding.substack.com/p/services-become-infrastructure-then-value-moves-up"
+      },
       {
         "slug": "standalone_geo_optimizes_the_rendering_not_the_source",
         "title": "GEO Optimizes the Rendering, Not the Source",
