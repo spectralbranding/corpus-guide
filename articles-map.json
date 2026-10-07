@@ -2,17 +2,17 @@
   "schema_version": "0.1.0",
   "title": "Spectral-branding articles map — published article <-> corpus paper",
   "description": "Generated edges between published long-form articles and the corpus papers they reference in-body (by public DOI). Published = a parseable date <= the generation date AND a live canonical_url; social posts excluded; derived from trusted signals (date, url, body references), never from drift-prone tags/status. by_paper lists each paper's articles ordered by closeness (most-relevant first: body mention count, then specificity, then recency); each entry is {slug, title, url}.",
-  "generated": "Generated projection as of 2026-09-29. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
-  "as_of": "2026-09-29",
+  "generated": "Generated projection as of 2026-10-07. Do not hand-edit; regenerated from articles/ + the corpus substrate.",
+  "as_of": "2026-10-07",
   "counts": {
-    "published_articles": 68,
-    "articles_linking_papers": 60,
-    "papers_with_articles": 33,
+    "published_articles": 69,
+    "articles_linking_papers": 61,
+    "papers_with_articles": 34,
     "withheld_paper_edges_dropped": 5,
     "excluded": {
       "no_url": 70,
       "no_date": 8,
-      "future_dated": 1,
+      "future_dated": 0,
       "no_papers": 8
     }
   },
@@ -472,6 +472,15 @@
       "url": "https://spectralbranding.substack.com/p/quality-measures-the-send-not-the-receive",
       "date": "2026-09-17",
       "covers": []
+    },
+    {
+      "slug": "standalone_rate_not_level",
+      "title": "Your Tracker Reports a Position. You Need a Rate.",
+      "url": "https://spectralbranding.substack.com/p/your-brand-tracker-reports-a-position-you-need-a-rate",
+      "date": "2026-09-30",
+      "covers": [
+        "2026z"
+      ]
     },
     {
       "slug": "standalone_reflection_not_respondent",
@@ -1165,6 +1174,13 @@
         "slug": "standalone_ai_shopping_fails_twice",
         "title": "Your AI Shopping Agent Fails Twice",
         "url": "https://spectralbranding.substack.com/p/your-ai-shopping-agent-fails-twice"
+      }
+    ],
+    "2026z": [
+      {
+        "slug": "standalone_rate_not_level",
+        "title": "Your Tracker Reports a Position. You Need a Rate.",
+        "url": "https://spectralbranding.substack.com/p/your-brand-tracker-reports-a-position-you-need-a-rate"
       }
     ]
   }
