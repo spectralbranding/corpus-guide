@@ -1,6 +1,6 @@
 ==================================================
 Validation run: 2026-08-07T08:50:34Z
-Repo: /Users/d/projects/corpus-guide
+Repo: <repo>
 Git SHA: 98b1eda6dcb23b3fb91c398670677ec14bf4ad4b
 ==================================================
 JSON tool: jq
@@ -12,7 +12,7 @@ Note: regeneration happens upstream against the private corpus substrate;
 this repository ships validated projections only.
 ==================================================
 Validation run: 2026-08-07T10:12:28Z
-Repo: /Users/d/projects/corpus-guide
+Repo: <repo>
 Git SHA: 98b1eda6dcb23b3fb91c398670677ec14bf4ad4b
 ==================================================
 JSON tool: jq
@@ -24,7 +24,7 @@ Note: regeneration happens upstream against the private corpus substrate;
 this repository ships validated projections only.
 ==================================================
 Validation run: 2026-08-07T11:04:15Z
-Repo: /Users/d/projects/corpus-guide
+Repo: <repo>
 Git SHA: 98b1eda6dcb23b3fb91c398670677ec14bf4ad4b
 ==================================================
 JSON tool: jq
