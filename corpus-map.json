@@ -13,7 +13,7 @@
   ],
   "counts": {
     "papers": 64,
-    "terms": 296,
+    "terms": 301,
     "citation_edges": 491
   },
   "papers": [
@@ -171,11 +171,16 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19895813",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
       "thesis": "Mergers and acquisitions destroy value at high rates because the field lacks a shared ontology specifying which organizational layers transfer and how failures propagate across them. This paper develops a six-tier ontology of the acquisition target — Owner Intent, Business Model, Business Entity, Product, Process, Organization — each with a distinct governor, specification surface, and transferability mode. The tiers form two oppositely directed hierarchies: a service hierarchy upward (Organization to Intent) and a constraint hierarchy downward (Intent to Organization). The constraint hierarchy fixes integration sequencing; shocks propagate bidirectionally, yielding seven falsifiable failure-propagation propositions. The framework is form-invariant across for-profit, NGO, and cooperative entities via explicit substitution rules (Tiers 2, 4, 5 provisional), and derives a Six-Tier Separability Diagnostic (STSD) as a theoretical implication. The primary contribution is a generalizable theory of organizational separability under ownership change: separability is never costless because constraint architectures are sticky.",
-      "n_prop_claims": 21,
+      "n_prop_claims": 24,
       "terms": {
         "owns": [
           "facet",
+          "ontology-dependent-records",
+          "owner-ontology",
+          "owner-ontology-private-part",
+          "owner-ontology-shareable-part",
           "six-tier-ontology",
+          "stakeholder-ontology",
           "tier-1-owner-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
@@ -246,9 +251,14 @@
           "brand-conviction",
           "constrained-tier-rotation",
           "observer-spectral-profile",
+          "ontology-dependent-records",
+          "owner-ontology",
+          "owner-ontology-private-part",
+          "owner-ontology-shareable-part",
           "perception-cloud",
           "personal-brand-substrate",
           "six-tier-ontology",
+          "stakeholder-ontology",
           "tier-1-owner-intent",
           "tier-4-product"
         ],
@@ -290,7 +300,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20367459",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/capability-as-projection",
       "thesis": "Organizational capability is not a stored stock of resources or routines but a render-time projection of an append-only log of immutable events — the decisions, failures, policies, hires, and artifacts through which the capability was actually produced. The paper specifies three formal objects (a partially ordered event log L, a projection operator pi that reads the log under a query at a render time, and a compatibility function kappa scoring log-merge events such as acquisitions) and derives four propositions about capability transfer: clean log merges preserve projection continuity; snapshot imports without the underlying log diverge within three years; writedown magnitude in failed M&A is jointly determined by raw log incompatibility AND the acquirer's integration-policy choice; and imitators who observe only the projection cannot replicate capability responses to novel queries. The substrate-projection distinction reframes the long-running tautology critique of dynamic capabilities as a category error and generates falsifiable predictions about transfer failure. The contribution is substrate-layer, not a wholesale recasting of the firm.",
-      "n_prop_claims": 14,
+      "n_prop_claims": 18,
       "terms": {
         "owns": [
           "append-only-organizational-log",
@@ -300,7 +310,12 @@
           "snapshot-versus-rendering"
         ],
         "imports": [
-          "six-tier-ontology"
+          "ontology-dependent-records",
+          "owner-ontology",
+          "owner-ontology-shareable-part",
+          "six-tier-ontology",
+          "stakeholder-ontology",
+          "tier-1-owner-intent"
         ],
         "refines": []
       }
@@ -909,7 +924,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.21653102",
       "github_url": "https://github.com/spectralbranding/meaningfulness-papers/tree/main/invention-as-structure",
       "thesis": "Invention is a typed structural operation on a representation — a change of the description itself — realized by four atomic moves: adjoin a dimension, rescale or requantize, re-topologize or re-specify, and glue (pull back) across domains. These moves are selected by a functional combining intrinsic structural signals (minimum description length of the axioms, symmetry and invariance, and consistency or closure) with, when a substrate exists, an often-weak empirical constraint that can be active during generation rather than only downstream. Within representational systems whose compatibility predicate is decidable — formalized and specification domains — the operator set is enumerable and the selection functional is computable, so the generative act is mechanizable, as demonstrated by a running artifact that performs and classifies cross-domain structural recombination. This relocates the \"abductive jump\" that a prevailing position holds to require embodied sensory grounding: the jump is a re-coordinatization under joint constraints, substrate-independent in its content though frequently embodied in its human rendering. The claim is bounded — outside decidable-compatibility domains, where the adjacent possible is not finitely prestatable, the account characterizes the operator types without asserting the space is enumerable or the selection complete.",
-      "n_prop_claims": 10,
+      "n_prop_claims": 15,
       "terms": {
         "owns": [
           "adjoin-dimension",
@@ -987,7 +1002,12 @@
           "tier-fork-operation"
         ],
         "imports": [
+          "ontology-dependent-records",
+          "owner-ontology",
+          "owner-ontology-private-part",
+          "owner-ontology-shareable-part",
           "six-tier-ontology",
+          "stakeholder-ontology",
           "tier-1-owner-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
@@ -1080,7 +1100,12 @@
         ],
         "imports": [
           "constrained-tier-rotation",
+          "ontology-dependent-records",
+          "owner-ontology",
+          "owner-ontology-private-part",
+          "owner-ontology-shareable-part",
           "six-tier-ontology",
+          "stakeholder-ontology",
           "tier-1-owner-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
@@ -1418,7 +1443,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19145205",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/projection-paper",
       "thesis": "Most strategic reorganizations fail to deliver expected performance gains because they intervene at the org-chart surface (T_6), and interventions there achieve effect-sizes geometrically smaller than interventions at deeper tiers — each deeper tier carries content already compressed in transit to the surface. Organizations are formalized as a six-tier projection cascade linking owner intent (T_1), business model (T_2), governance (T_3), architecture (T_4), routines (T_5), and positions (T_6), where each junction is a rank-reducing linear operator Pi_{i->i+1} with rank deficiency r_i >= 0. A unique cascade-equilibrium exists under tier-by-tier Banach contractions (Theorem 1); total information loss is bounded by the sum of local nullities, with equality only when kernels stack independently (Corollary 1). Five major design theories — Galbraith's star, Williamson's governance choice, Mintzberg's configurations, Puranam's microstructure, and Burton-Obel-Hakonsson's computational optimization — are recovered as nested cascade restrictions, so the field's apparent fragmentation is a partial-view artifact rather than ontological disagreement. A position triple p = (P_p, A_p, R_p) decomposes any T_6 position into perceptual content from T_5, authority from T_3, and role expectation from T_1. The apparatus entails four falsifiable propositions (P1 cascade-distance scaling, P2 strict downward propagation of basis rotation under AI deployment, P3 variance amplification, P4 algebraic decoupling) that no single tradition derives in isolation.",
-      "n_prop_claims": 14,
+      "n_prop_claims": 17,
       "terms": {
         "owns": [
           "cascade-equilibrium",
@@ -1427,7 +1452,10 @@
         ],
         "imports": [
           "non-ergodic-perception",
-          "six-tier-ontology"
+          "ontology-dependent-records",
+          "owner-ontology",
+          "six-tier-ontology",
+          "stakeholder-ontology"
         ],
         "refines": []
       }
@@ -3195,7 +3223,7 @@
       "key": "documentation-coverage",
       "label": "Documentation coverage",
       "owner": "succession-rotation",
-      "definition": "The share of ordinary operation that is written down in artifacts independent of any person — procedures, manuals, specifications, quality-system documentation, process encoded in systems. The pre-transition investment that converts person-carried residual into artifact continuity (A), and therefore the one that raises value under removal.",
+      "definition": "The share of ordinary operation that is written down in artifacts independent of any person — procedures, manuals, specifications, quality-system documentation, process encoded in systems. The pre-transition investment that converts person-carried residual into artifact continuity (A), and therefore the one that raises value under removal. It includes the shareable part of the Owner Ontology once that part is written down.",
       "papers": {
         "owns": [
           "2026bm"
@@ -4399,6 +4427,26 @@
       "relations": []
     },
     {
+      "key": "ontology-dependent-records",
+      "label": "ontology-dependent records",
+      "owner": "2026ag",
+      "definition": "Records whose meaning depends on the Owner Ontology, so that a reader outside the firm cannot read them correctly without it. Their share is a readiness measure beside fusion.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026al",
+          "2026bj",
+          "2026bm",
+          "2026m"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "operator-noise-floor",
       "label": "Operator-noise floor",
       "owner": "2026ax",
@@ -4544,6 +4592,68 @@
         ],
         "imports": [
           "2026ay"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "owner-ontology",
+      "label": "Owner Ontology",
+      "owner": "2026ag",
+      "definition": "The stakeholder ontology of the controlling party (the Tier 1 stakeholder): the terms in which Owner Intent is phrased and most of the firm's records are written. Tier 1 content carried by the same principal as Owner Intent, not a seventh tier: the Owner Ontology fixes the terms in which questions about the business are worded, and Owner Intent fixes which questions are asked.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026al",
+          "2026bj",
+          "2026bm",
+          "2026m"
+        ],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "stakeholder-ontology"
+        }
+      ]
+    },
+    {
+      "key": "owner-ontology-private-part",
+      "label": "private part",
+      "owner": "2026ag",
+      "definition": "The part of the Owner Ontology that generates future records: deliberate absences, causal beliefs, sources of the edge, values, and judgement of people. It stays with the owner and passes to a successor only by the owner's choice.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026bj",
+          "2026bm"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "owner-ontology-shareable-part",
+      "label": "shareable part",
+      "owner": "2026ag",
+      "definition": "The part of the Owner Ontology that is the reading key to existing records: the owner's terms as used in the records, verbatim, and the list of ontology-dependent records. It can pass to a buyer or successor as a document.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026al",
+          "2026bj",
+          "2026bm"
         ],
         "refines": []
       },
@@ -5553,7 +5663,7 @@
       "key": "six-tier-ontology",
       "label": "six-tier ontology",
       "owner": "2026ag",
-      "definition": "The ontology that decomposes an organization into six nested specification tiers, always in the order Owner Intent -> Business Model -> Business Entity -> Product -> Process -> Organization. Each tier answers a distinct governing question and transfers differently on sale.",
+      "definition": "The ontology that decomposes an organization into six nested specification tiers, always in the order Owner Intent -> Business Model -> Business Entity -> Product -> Process -> Organization. Each tier answers a distinct governing question and transfers differently on sale. Full form: \"six-tier ontology of a business\". It is the analyst's common language for a business, set apart from a stakeholder ontology, which is the business's own ontology as one named position writes it.",
       "papers": {
         "owns": [
           "2026ag"
@@ -5938,6 +6048,26 @@
       "relations": []
     },
     {
+      "key": "stakeholder-ontology",
+      "label": "stakeholder ontology",
+      "owner": "2026ag",
+      "definition": "A picture of what exists in an activity, what its basic terms mean, what is connected to what, and what is absent, as written from one named position (owner, manager, employee, customer, lender, regulator, buyer, successor), recorded in that position's own words.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026al",
+          "2026bj",
+          "2026bm",
+          "2026m"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "stated-actual-optimization-gap",
       "label": "Stated-actual optimization gap",
       "owner": "2026bd",
@@ -6167,6 +6297,7 @@
           "2026ah",
           "2026ai",
           "2026aj",
+          "2026al",
           "2026am",
           "2026an",
           "2026bj",
@@ -6268,7 +6399,12 @@
         "imports": [],
         "refines": []
       },
-      "relations": []
+      "relations": [
+        {
+          "type": "contrasts",
+          "target": "ontology-dependent-records"
+        }
+      ]
     },
     {
       "key": "tier-5-process",
