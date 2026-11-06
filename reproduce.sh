@@ -22,6 +22,7 @@ cd "$REPO_ROOT"
 
 LOG_FILE="output/logs/validate_run.log"
 mkdir -p output/figures output/tables output/logs
+: > "$LOG_FILE"  # one log per pipeline execution (PUBLIC_MIRROR_STANDARD §5)
 
 log() { echo "$@" | tee -a "$LOG_FILE"; }
 
