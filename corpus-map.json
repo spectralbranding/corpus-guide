@@ -14,7 +14,7 @@
   "counts": {
     "papers": 64,
     "terms": 301,
-    "citation_edges": 491
+    "citation_edges": 492
   },
   "papers": [
     {
@@ -7750,6 +7750,12 @@
       "from": "2026ax",
       "to": "2026bb",
       "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ax",
+      "to": "2026bp",
+      "role": "applies",
       "criticality": "supportive"
     },
     {
