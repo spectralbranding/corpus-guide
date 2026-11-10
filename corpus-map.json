@@ -13,8 +13,8 @@
   ],
   "counts": {
     "papers": 64,
-    "terms": 301,
-    "citation_edges": 494
+    "terms": 303,
+    "citation_edges": 496
   },
   "papers": [
     {
@@ -145,7 +145,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19869871",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/org-as-metadata",
       "thesis": "Structurally distinct organizations can produce value outputs that a given evaluative observer cannot tell apart while executing the same process. This paper names that condition organizational metamerism — an observer-relative, process-relative STATE equivalence (distinct configurations equivalent NOW), not the PATH equivalence that equifinality describes (different histories reaching the same end state). Metamerism is borrowed from color science, where two distinct spectral distributions match for a particular observer under a particular illuminant, and is lifted one level up from the brand-signal metamerism of the corpus's spectral brand theory to whole organizational configurations. The phenomenon rests on a temporal stability hierarchy — value outputs change more slowly than processes, which change more slowly than configurations — explained by an organization-as-metadata mechanism: form is the revisable configuration layer for processes, not the productive logic itself, so it can be re-specified (a schema migration) without altering what is produced, provided the migration is lossless. The size of the metamerism set M(P,O) is a derived quantity: it expands as coordination logic is absorbed into process specifications (falling coordination cost) and contracts as the tacit knowledge intensity of the process rises. The framework yields four testable propositions with explicit confirmation/falsification criteria, most notably that AI-mediated coordination decouples organizational-restructuring frequency from process-change frequency, bounded by tacit knowledge intensity.",
-      "n_prop_claims": 10,
+      "n_prop_claims": 11,
       "terms": {
         "owns": [
           "metamerism-set",
@@ -170,8 +170,8 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.19895813",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
-      "thesis": "Mergers and acquisitions destroy value at high rates because the field lacks a shared ontology specifying which organizational layers transfer and how failures propagate across them. This paper develops a six-tier ontology of the acquisition target — Owner Intent, Business Model, Business Entity, Product, Process, Organization — each with a distinct governor, specification surface, and transferability mode. The tiers form two oppositely directed hierarchies: a service hierarchy upward (Organization to Intent) and a constraint hierarchy downward (Intent to Organization). The constraint hierarchy fixes integration sequencing; shocks propagate bidirectionally, yielding seven falsifiable failure-propagation propositions. The framework is form-invariant across for-profit, NGO, and cooperative entities via explicit substitution rules (Tiers 2, 4, 5 provisional), and derives a Six-Tier Separability Diagnostic (STSD) as a theoretical implication. The primary contribution is a generalizable theory of organizational separability under ownership change: separability is never costless because constraint architectures are sticky.",
-      "n_prop_claims": 24,
+      "thesis": "Mergers and acquisitions destroy value at high rates because the field lacks a shared ontology specifying which organizational layers transfer and how failures propagate across them. This paper develops a six-tier ontology of the acquisition target — Intent, Business Model, Business Entity, Product, Process, Organization — each with a distinct governor, specification surface, and transferability mode. Tier 1 is the intent of each position that deals with the business; the controlling position's intent is replaced at a change of control and the other positions' intents persist. The tiers form two oppositely directed hierarchies: a service hierarchy upward (Organization to Intent) and a constraint hierarchy downward (Intent to Organization). The constraint hierarchy fixes integration sequencing; shocks propagate bidirectionally, yielding seven falsifiable failure-propagation propositions. The framework is form-invariant across for-profit, NGO, and cooperative entities via explicit substitution rules (Tiers 2, 4, 5 provisional), and derives a Six-Tier Separability Diagnostic (STSD) as a theoretical implication. The primary contribution is a generalizable theory of organizational separability under ownership change: separability is never costless because constraint architectures are sticky.",
+      "n_prop_claims": 30,
       "terms": {
         "owns": [
           "facet",
@@ -179,8 +179,10 @@
           "owner-ontology",
           "owner-ontology-private-part",
           "owner-ontology-shareable-part",
+          "position",
           "six-tier-ontology",
           "stakeholder-ontology",
+          "tier-1-intent",
           "tier-1-owner-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
@@ -200,8 +202,8 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.19930157",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/brand-as-modular-layer",
-      "thesis": "Firms differ dramatically in their ability to host multiple brands, recover from brand failure, and organize marketing — yet no theory specifies which organizational layer carries the brand boundary. This paper proposes that brand IS strictly the Tier-4 product specification surface in the six-tier architecture of Zharnikov (2026ag); Tiers 1 (Owner Intent), 2 (Business Model), 3 (Business Entity), 5 (Process), and 6 (Organization) are predominantly brand-agnostic. Three strategic outcomes follow from this single structural fact. Multi-brand capacity scales with Tier-3/5/6 separability rather than Business-Model diversification (P1); failed-brand recovery success scales with preserved brand-agnostic substrate (P2), supplying a mechanism for the equity-transfer-without-creation regularity of Marques et al. (2020); marketing, advertising, and branding are Tier-6 functions that create, operate, and retire Tier-4 instances, so centralization choices are separability choices (P4). The Aaker-Joachimsthaler Brand Relationship Spectrum is operationalized as a continuous Tier-3-visibility-in-Tier-4 parameter V (P7), and axis-specific brand-extension predictions follow on the Cultural and Ideological SBT dimensions (P5). Two diagnostic instruments (Multi-Brand Capacity Diagnostic, Recovery Salvage Matrix) translate the framework for practice. Seven falsifiable propositions unify the brand-portfolio, corporate-rebranding, and marketing-organization literatures under one modularity logic. This is a theory-building contribution; empirical validation is a four-priority roadmap.",
-      "n_prop_claims": 11,
+      "thesis": "Firms differ dramatically in their ability to host multiple brands, recover from brand failure, and organize marketing — yet no theory specifies which organizational layer carries the brand boundary. This paper proposes that brand IS strictly the Tier-4 product specification surface in the six-tier architecture of Zharnikov (2026ag); Tiers 1 (Intent), 2 (Business Model), 3 (Business Entity), 5 (Process), and 6 (Organization) are predominantly brand-agnostic. Three strategic outcomes follow from this single structural fact. Multi-brand capacity scales with Tier-3/5/6 separability rather than Business-Model diversification (P1); failed-brand recovery success scales with preserved brand-agnostic substrate (P2), supplying a mechanism for the equity-transfer-without-creation regularity of Marques et al. (2020); marketing, advertising, and branding create, operate, and retire Tier-4 instances through Tier-5 activity and Tier-6 teams, so centralization choices are separability choices (P4). The Aaker-Joachimsthaler Brand Relationship Spectrum is operationalized as a continuous Tier-3-visibility-in-Tier-4 parameter V (P7), and axis-specific brand-extension predictions follow on the Cultural and Ideological SBT dimensions (P5). Two diagnostic instruments (Multi-Brand Capacity Diagnostic, Recovery Salvage Matrix) translate the framework for practice. Seven falsifiable propositions unify the brand-portfolio, corporate-rebranding, and marketing-organization literatures under one modularity logic. This is a theory-building contribution; empirical validation is a four-priority roadmap.",
+      "n_prop_claims": 12,
       "terms": {
         "owns": [
           "brand-agnostic-brand-bound-decomposition",
@@ -219,7 +221,7 @@
           "six-tier-ontology",
           "spectral-brand-theory",
           "spectral-dimensions",
-          "tier-1-owner-intent",
+          "tier-1-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
           "tier-4-product",
@@ -235,7 +237,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.20069605",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-rotation",
-      "thesis": "Deal outcomes for founder-led branded firms diverge sharply even among principals of comparable quality and brand strength, and that divergence is explained by the proportion of brand conviction that has been externalized from the founder's personal judgment (Tier 1) into an organizational substrate the acquirer can own independently (Tier 4). Brand signal accumulates in the Tier-4 substrate along a logistic trajectory governed by sustained knowledge-externalization effort, a cold-start offset, and sector substitutability; acquirer willingness-to-pay is a piecewise function of Tier-4 share with a separability kink, below which founder-flight risk produces discounts and earnouts and above which the brand commands a premium increasing with sector substitutability. The resulting convex-kinked value geometry — value rising everywhere but with a discontinuous slope at the kink — yields predictions about rotation-stage variance orthogonal to human-capital observables (sharpest in the within-founder longitudinal case) that are unavailable to cross-sectional human-capital or succession-discount theories, grounds the accumulation in Nonaka and Takeuchi's SECI externalization mechanism with four observable proxies, and endogenizes the resource-based view's exogenous resource-mobility assumption for brand assets. The contribution is theoretical: a mechanism-based geometry supplying five falsifiable propositions, not new empirical analysis.",
+      "thesis": "Deal outcomes for founder-led branded firms diverge sharply even among principals of comparable quality and brand strength, and that divergence is explained by the proportion of brand conviction that has been externalized from the founder's tacit judgment into the written part of the Tier-4 brand specification, a substrate the acquirer can own independently. Brand signal accumulates in the written Tier-4 specification along a logistic trajectory governed by sustained knowledge-externalization effort, a cold-start offset, and sector substitutability; acquirer willingness-to-pay is a piecewise function of Tier-4 share with a separability kink, below which founder-flight risk produces discounts and earnouts and above which the brand commands a premium increasing with sector substitutability. The resulting convex-kinked value geometry — value rising everywhere but with a discontinuous slope at the kink — yields predictions about rotation-stage variance orthogonal to human-capital observables (sharpest in the within-founder longitudinal case) that are unavailable to cross-sectional human-capital or succession-discount theories, grounds the accumulation in Nonaka and Takeuchi's SECI externalization mechanism with four observable proxies, and endogenizes the resource-based view's exogenous resource-mobility assumption for brand assets. The contribution is theoretical: a mechanism-based geometry supplying five falsifiable propositions, not new empirical analysis.",
       "n_prop_claims": 12,
       "terms": {
         "owns": [
@@ -271,7 +273,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.20072288",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/tier-allocation",
-      "thesis": "Investment direction within a firm — not merely investment intensity — is the consequential strategic choice. Two firms with identical revenues, margins, and aggregate investment can generate exit multiples of 2x versus 9x because they routed investment to organizational tiers that differ in substrate durability. The paper formalizes cross-tier allocation as a discounted Cobb-Douglas aggregator over a six-tier hierarchy with tier-specific decay rates delta_t (.50/year at the organizational surface down to .05-.10/year at foundational layers) and Jorgensonian per-tier user costs (delta_t + r). Optimizing subject to the rental-rate budget constraint yields the closed-form rule w_t*(r) = alpha_t / (delta_t + r) and the comparative static d w_6*/dr > 0: higher-discount-rate principals optimally over-allocate to the high-decay surface tier. Four propositions link pre-deal surface-tier intensity, governance horizon, cost-of-capital shocks, and capability-rotation stage to M&A outcomes. Part II perturbs the same primitives with two AI-specific shocks per tier — a cost shock gamma_t and a durability shock Delta_t — yielding the generalized rule w_t*(r; gamma, Delta) = alpha_t / [gamma_t * (delta_t^eff + r)] and three further propositions: surface-tier (Tier 6) AI raises short-run earnings yet lowers long-run multiples; a discrete substrate-building threshold exists at Tier 4; and AI's net value effect flips sign with the principal's effective discount rate. The tier — not the division, the capability, or the resource — is the missing architectural unit of allocation.",
+      "thesis": "Investment direction within a firm — not merely investment intensity — is the consequential strategic choice. Two firms with identical revenues, margins, and aggregate investment can generate exit multiples of 2x versus 9x because they routed investment to organizational tiers that differ in substrate durability. The paper formalizes cross-tier allocation as a discounted Cobb-Douglas aggregator over tier-labelled spend items (a spend item whose tier label fixes its persistence), with item-specific decay rates delta_t (.50/year for marketing flow on Tier 2 channels down to .05-.10/year at foundational layers) and Jorgensonian per-item user costs (delta_t + r). Optimizing subject to the rental-rate budget constraint yields the closed-form rule w_t*(r) = alpha_t / (delta_t + r) and the comparative static d w_6*/dr > 0: higher-discount-rate principals optimally over-allocate to the high-decay marketing-flow item. Four propositions link pre-deal marketing-flow intensity, governance horizon, cost-of-capital shocks, and capability-rotation stage to M&A outcomes. Part II perturbs the same primitives with two AI-specific shocks per tier — a cost shock gamma_t and a durability shock Delta_t — yielding the generalized rule w_t*(r; gamma, Delta) = alpha_t / [gamma_t * (delta_t^eff + r)] and three further propositions: AI concentrated in marketing flow raises short-run earnings yet lowers long-run multiples; a discrete substrate-building threshold exists at Tier 4; and AI's net value effect flips sign with the principal's effective discount rate. The tier-labelled spend item — not the division, the capability, or the resource — is the missing architectural unit of allocation; \"organizational tier\" in the title is shorthand for the tier label that item carries.",
       "n_prop_claims": 10,
       "terms": {
         "owns": [
@@ -281,7 +283,7 @@
         ],
         "imports": [
           "six-tier-ontology",
-          "tier-1-owner-intent",
+          "tier-1-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
           "tier-4-product",
@@ -326,7 +328,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.20379981",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/specification-readiness",
-      "thesis": "Alignment friction between an organization and its heterogeneous audiences is endogenous to specification codification, not an exogenous feature of the environment. Organizational output architecture decomposes into three layers: a codified specification substrate encoding commitments across six ontological tiers; an interface layer in which the substrate is rendered to N (canonically six) recipient classes, each characterized by a distinct perception-weight vector w_i; and a function layer whose headcount and spend constitute a measurable tax on specification gaps. Under push regimes, energy loss scales with the cross-entropy between the firm's guessed and the recipient's actual need profile; under pull regimes, consumption-layer AI lets recipients query the substrate directly, collapsing misalignment toward zero as codification completeness rises. Four contributions follow: push-pull cost asymmetry formalized as a structural analog to Shannon cross-entropy; geometric machinery (perception-weight vectors + a cross-class coherence condition) linking substrate to interface rendering; functional friction derived as a consequence of specification investment rather than governance choice; and specification readiness identified as the critical moderator of AI returns, distinguishing Substrate-Operator from Surface-Operator execution. Specification codification is architecturally prior to governance and capability deployment, generating predictions distinct from transaction-cost economics, stakeholder theory, and AI-augmentation scholarship.",
+      "thesis": "Alignment friction between an organization and its heterogeneous audiences is endogenous to specification codification, not an exogenous feature of the environment. Organizational output architecture decomposes into three layers: a codified specification substrate encoding the commitments written at the ontological tiers (commitments that Tier 1 intent gives rise to appear in the lower-tier specifications); an interface layer in which the substrate is rendered to N (canonically six) recipient classes, each characterized by a distinct perception-weight vector w_i; and a function layer whose headcount and spend constitute a measurable tax on specification gaps. Under push regimes, energy loss scales with the cross-entropy between the firm's guessed and the recipient's actual need profile; under pull regimes, consumption-layer AI lets recipients query the substrate directly, collapsing misalignment toward zero as codification completeness rises. Four contributions follow: push-pull cost asymmetry formalized as a structural analog to Shannon cross-entropy; geometric machinery (perception-weight vectors + a cross-class coherence condition) linking substrate to interface rendering; functional friction derived as a consequence of specification investment rather than governance choice; and specification readiness identified as the critical moderator of AI returns, distinguishing Substrate-Operator from Surface-Operator execution. Specification codification is architecturally prior to governance and capability deployment, generating predictions distinct from transaction-cost economics, stakeholder theory, and AI-augmentation scholarship.",
       "n_prop_claims": 10,
       "terms": {
         "owns": [
@@ -338,7 +340,7 @@
         ],
         "imports": [
           "six-tier-ontology",
-          "tier-1-owner-intent",
+          "tier-1-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
           "tier-4-product",
@@ -364,7 +366,7 @@
           "multi-interface-specification-model",
           "six-tier-ontology",
           "specification-readiness",
-          "tier-1-owner-intent",
+          "tier-1-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
           "tier-4-product",
@@ -1008,6 +1010,7 @@
           "owner-ontology-shareable-part",
           "six-tier-ontology",
           "stakeholder-ontology",
+          "tier-1-intent",
           "tier-1-owner-intent",
           "tier-2-business-model",
           "tier-3-business-entity",
@@ -1082,7 +1085,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.21868658",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/succession-rotation",
-      "thesis": "An exit and a succession disturb different mechanisms of persistence in the six-tier stack, so they bind on different tiers. The ontology's published transfer column answers what would arrive in a buyer's possession and is therefore indexed to a counterparty; an event with no counterparty -- the occupant of Tier 1 is replaced, the entity persists, nothing is conveyed -- requires a second, derivable column. Under that column, replacement disturbs only the person-carried residual, and among the tiers it disturbs exactly one, Tier 5, is drawn at the firm's operating frequency rather than at discretion, so its loss cannot be absorbed by deferring anything. In an owner-managed firm the person holding that residual is simultaneously the only one who could document it and the only one who could teach it, so the preparation that raises value under removal and the preparation that raises value under replacement are rivals for one budget. The paper derives this, states the crossover it predicts, supplies a pre-registered design with its power, and reports that the design cannot currently be run because neither construct it requires is measured by the instruments the field has built -- a bounded, instrument-level negative over five frame families, offered as part of the contribution rather than as a limitation.",
+      "thesis": "An exit and a succession disturb different mechanisms of persistence in the six-tier stack, so they bind on different tiers. The ontology's published transfer column answers what would arrive in a buyer's possession and is therefore indexed to a counterparty; an event with no counterparty -- the holder of the controlling position is replaced, the entity persists, nothing is conveyed -- requires a second, derivable column. Under that column, replacement disturbs only the person-carried residual, and among the tiers it disturbs exactly one, Tier 5, is drawn at the firm's operating frequency rather than at discretion, so its loss cannot be absorbed by deferring anything. In an owner-managed firm the person holding that residual is simultaneously the only one who could document it and the only one who could teach it, so the preparation that raises value under removal and the preparation that raises value under replacement are rivals for one budget. The paper derives this, states the crossover it predicts, supplies a pre-registered design with its power, and reports that the design cannot currently be run because neither construct it requires is measured by the instruments the field has built -- a bounded, instrument-level negative over five frame families, offered as part of the contribution rather than as a limitation.",
       "n_prop_claims": 12,
       "terms": {
         "owns": [
@@ -1442,7 +1445,7 @@
       "status": "active",
       "doi_url": "https://doi.org/10.5281/zenodo.19145205",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/projection-paper",
-      "thesis": "Most strategic reorganizations fail to deliver expected performance gains because they intervene at the org-chart surface (T_6), and interventions there achieve effect-sizes geometrically smaller than interventions at deeper tiers — each deeper tier carries content already compressed in transit to the surface. Organizations are formalized as a six-tier projection cascade linking owner intent (T_1), business model (T_2), governance (T_3), architecture (T_4), routines (T_5), and positions (T_6), where each junction is a rank-reducing linear operator Pi_{i->i+1} with rank deficiency r_i >= 0. A unique cascade-equilibrium exists under tier-by-tier Banach contractions (Theorem 1); total information loss is bounded by the sum of local nullities, with equality only when kernels stack independently (Corollary 1). Five major design theories — Galbraith's star, Williamson's governance choice, Mintzberg's configurations, Puranam's microstructure, and Burton-Obel-Hakonsson's computational optimization — are recovered as nested cascade restrictions, so the field's apparent fragmentation is a partial-view artifact rather than ontological disagreement. A position triple p = (P_p, A_p, R_p) decomposes any T_6 position into perceptual content from T_5, authority from T_3, and role expectation from T_1. The apparatus entails four falsifiable propositions (P1 cascade-distance scaling, P2 strict downward propagation of basis rotation under AI deployment, P3 variance amplification, P4 algebraic decoupling) that no single tradition derives in isolation.",
+      "thesis": "Most strategic reorganizations fail to deliver expected performance gains because they intervene at the org-chart surface (T_6), and interventions there achieve effect-sizes geometrically smaller than interventions at deeper tiers — each deeper tier carries content already compressed in transit to the surface. Organizations are formalized as a six-tier projection cascade linking intent (T_1), business model (T_2), business entity and governance (T_3), product architecture (T_4), process routines (T_5), and organization (T_6), where each junction is a rank-reducing linear operator Pi_{i->i+1} with rank deficiency r_i >= 0. A unique cascade-equilibrium exists under tier-by-tier Banach contractions (Theorem 1); total information loss is bounded by the sum of local nullities, with equality only when kernels stack independently (Corollary 1). Five major design theories — Galbraith's star, Williamson's governance choice, Mintzberg's configurations, Puranam's microstructure, and Burton-Obel-Hakonsson's computational optimization — are recovered as nested cascade restrictions, so the field's apparent fragmentation is a partial-view artifact rather than ontological disagreement. A position triple p = (P_p, A_p, R_p) decomposes any T_6 position into perceptual content from T_5, authority from T_3, and role expectation from the controlling intent at T_1, written into T_6 culture. The apparatus entails four falsifiable propositions (P1 cascade-distance scaling, P2 strict downward propagation of basis rotation under AI deployment, P3 variance amplification, P4 algebraic decoupling) that no single tradition derives in isolation.",
       "n_prop_claims": 17,
       "terms": {
         "owns": [
@@ -1455,7 +1458,12 @@
           "ontology-dependent-records",
           "owner-ontology",
           "six-tier-ontology",
-          "stakeholder-ontology"
+          "stakeholder-ontology",
+          "tier-2-business-model",
+          "tier-3-business-entity",
+          "tier-4-product",
+          "tier-5-process",
+          "tier-6-organization"
         ],
         "refines": []
       }
@@ -3505,7 +3513,7 @@
       "key": "facet",
       "label": "facet",
       "owner": "2026ag",
-      "definition": "An intrinsic constituent of a tier - what the tier is made of (its culture, data, rules, quality standard, or spec surfaces), as distinct from the tier itself (a stratum) and from an angle (how a tier is read). Additive OST/SBT construct reconciled from the manda five-term method vocabulary 2026-08-01; it does NOT replace \"layer\", which keeps its canonical corpus senses (including the colloquial synonym for Tier). Its specification depth, where applicable, is the native L0-L5 cascade. RU canonical form: Gran (Грань).",
+      "definition": "Observer-relative: the part of the business that one position reads, namely the commitments in force on a date that the position authors, holds, accepts or receives records of. It is not an intrinsic constituent of a tier; culture, for example, is Tier 6 content and not a constituent of every tier. Distinct from the tier itself (a stratum). Additive OST/SBT construct reconciled from the manda five-term method vocabulary 2026-08-01; it does NOT replace \"layer\", which keeps its canonical corpus senses (including the colloquial synonym for Tier). Its specification depth, where applicable, is the native L0-L5 cascade. RU canonical form: Gran (Грань).",
       "papers": {
         "owns": [
           "2026ag"
@@ -4601,7 +4609,7 @@
       "key": "owner-ontology",
       "label": "Owner Ontology",
       "owner": "2026ag",
-      "definition": "The stakeholder ontology of the controlling party (the Tier 1 stakeholder): the terms in which Owner Intent is phrased and most of the firm's records are written. Tier 1 content carried by the same principal as Owner Intent, not a seventh tier: the Owner Ontology fixes the terms in which questions about the business are worded, and Owner Intent fixes which questions are asked.",
+      "definition": "The stakeholder ontology of the controlling position: the terms in which Owner Intent is phrased and most of the firm's records are written. Tier 1 content carried by the same principal as Owner Intent, not a seventh tier: the Owner Ontology fixes the terms in which questions about the business are worded, and Owner Intent fixes which questions are asked.",
       "papers": {
         "owns": [
           "2026ag"
@@ -4957,10 +4965,24 @@
       "relations": []
     },
     {
+      "key": "position",
+      "label": "position",
+      "owner": "2026ag",
+      "definition": "A standpoint from which a subject and an intent are formed: the analyst's or a party's. A party's position is the one from which it deals with the business (owner, lender, employees, union, customers, the state, a potential buyer). Tiers are ordered by rank in the constraint hierarchy, not by position.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "position-triple",
       "label": "Position Triple",
       "owner": "2026m",
-      "definition": "The formal decomposition of any position as p = (P_p, A_p, R_p), where perceptual content inherits from routines, authority inherits from governance, and role expectation inherits from cultural commitments.",
+      "definition": "The formal decomposition of any position as p = (P_p, A_p, R_p), where perceptual content inherits from routines, authority inherits from governance, and role expectation descends from the controlling intent and is written into Tier 6 culture.",
       "papers": {
         "owns": [
           "2026m"
@@ -5119,7 +5141,7 @@
       "key": "projection-cascade",
       "label": "Projection Cascade",
       "owner": "2026m",
-      "definition": "A six-tier sequence of rank-reducing linear projection operators linking owner intent, business model, governance, architecture, routines, and positions, in which each junction carries a rank deficiency that bounds downstream information loss.",
+      "definition": "A six-tier sequence of rank-reducing linear projection operators linking intent, business model, business entity and governance, product architecture, process routines, and organization, in which each junction carries a rank deficiency that bounds downstream information loss.",
       "papers": {
         "owns": [
           "2026m"
@@ -5535,7 +5557,7 @@
       "key": "rotation-effort-intensity",
       "label": "Rotation effort intensity (e)",
       "owner": "2026ai",
-      "definition": "The firm's per-period investment in the knowledge-externalization loop that converts founder-bound Tier-1 brand signal into Tier-4 organizational substrate.",
+      "definition": "The firm's per-period investment in the knowledge-externalization loop that converts the tacit, founder-held part of the Tier-4 brand specification into written Tier-4 organizational substrate.",
       "papers": {
         "owns": [
           "2026ai"
@@ -5663,7 +5685,7 @@
       "key": "six-tier-ontology",
       "label": "six-tier ontology",
       "owner": "2026ag",
-      "definition": "The ontology that decomposes an organization into six nested specification tiers, always in the order Owner Intent -> Business Model -> Business Entity -> Product -> Process -> Organization. Each tier answers a distinct governing question and transfers differently on sale. Full form: \"six-tier ontology of a business\". It is the analyst's common language for a business, set apart from a stakeholder ontology, which is the business's own ontology as one named position writes it.",
+      "definition": "The ontology that decomposes an organization into six nested specification tiers, always in the order Intent -> Business Model -> Business Entity -> Product -> Process -> Organization. Each tier answers a distinct governing question and transfers differently on sale. Full form: \"six-tier ontology of a business\". It is the analyst's common language for a business, set apart from a stakeholder ontology, which is the business's own ontology as one named position writes it. Position-symmetric (every position has the same row: its intent at Tier 1, its commitments at Tiers 2-6) but not observer-free: the analyst's position configures it. Each position's Tier 1 content is its Intent and its stakeholder ontology; the position reads the six tiers in that ontology.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6051,7 +6073,7 @@
       "key": "stakeholder-ontology",
       "label": "stakeholder ontology",
       "owner": "2026ag",
-      "definition": "A picture of what exists in an activity, what its basic terms mean, what is connected to what, and what is absent, as written from one named position (owner, manager, employee, customer, lender, regulator, buyer, successor), recorded in that position's own words.",
+      "definition": "A picture of what exists in an activity, what its basic terms mean, what is connected to what, and what is absent, as written from one named position (owner, manager, employee, customer, lender, regulator, buyer, successor), recorded in that position's own words. It is Tier 1 content of its position.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6208,7 +6230,7 @@
       "key": "succession-constrained-rotation",
       "label": "Succession-constrained rotation",
       "owner": "succession-rotation",
-      "definition": "Tier rotation constrained by the person-carried Tier-5 residual under Tier-1 replacement: the case where the occupant of Tier 1 is replaced, the entity persists, and nothing is conveyed, so the preparation that raises value under removal and the preparation that raises value under replacement are different investments competing for one budget.",
+      "definition": "Tier rotation constrained by the person-carried Tier-5 residual under replacement of the controlling intent: the case where the holder of the controlling position is replaced, the entity persists, and nothing is conveyed, so the preparation that raises value under removal and the preparation that raises value under replacement are different investments competing for one budget.",
       "papers": {
         "owns": [
           "2026bm"
@@ -6285,33 +6307,54 @@
       ]
     },
     {
-      "key": "tier-1-owner-intent",
-      "label": "Tier 1 (Owner Intent)",
+      "key": "tier-1-intent",
+      "label": "Tier 1 (Intent)",
       "owner": "2026ag",
-      "definition": "Why the organization exists. Governed by founder / board chair / dominant shareholder; implicit or off-table in most professional-CEO companies. Transfers nothing directly, only its imprint on lower tiers.",
+      "definition": "The intent regarding the business of each position that deals with it (owner, lender, employees, union, customers, the state, a potential buyer): its purpose, what it wants from the business, its horizon and its exit criteria. Tier 1 contains parameters of positions, never parameters of the business. Position-bound: at a change of control the controlling intent is replaced and the other positions' intents persist. Each position's stakeholder ontology is Tier 1 content of that position.",
       "papers": {
         "owns": [
           "2026ag"
         ],
         "imports": [
           "2026ah",
-          "2026ai",
           "2026aj",
-          "2026al",
           "2026am",
           "2026an",
-          "2026bj",
-          "2026bm"
+          "2026bj"
         ],
         "refines": []
       },
       "relations": []
     },
     {
+      "key": "tier-1-owner-intent",
+      "label": "Owner Intent",
+      "owner": "2026ag",
+      "definition": "The intent of the controlling position: the instance of Tier 1 (Intent) that the business's bodies adopt by decision. The owner's special status is control, a Tier 3 field. Replaced, not transferred, at a change of control.",
+      "papers": {
+        "owns": [
+          "2026ag"
+        ],
+        "imports": [
+          "2026ai",
+          "2026al",
+          "2026bj",
+          "2026bm"
+        ],
+        "refines": []
+      },
+      "relations": [
+        {
+          "type": "specializes",
+          "target": "tier-1-intent"
+        }
+      ]
+    },
+    {
       "key": "tier-2-business-model",
       "label": "Tier 2 (Business Model)",
       "owner": "2026ag",
-      "definition": "How value flows into resources. Governed by the CEO (founder-CEOs collapse Tier 1 into Tier 2). Conceptually replicable; not legally owned.",
+      "definition": "How value flows into resources. Governed by the CEO (a founder-CEO holds the controlling position and the chief-executive place). Conceptually replicable; not legally owned. Customer concentration is a Tier 2 parameter.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6322,7 +6365,8 @@
           "2026am",
           "2026an",
           "2026bj",
-          "2026bm"
+          "2026bm",
+          "2026m"
         ],
         "refines": []
       },
@@ -6332,7 +6376,7 @@
       "key": "tier-3-business-entity",
       "label": "Tier 3 (Business Entity)",
       "owner": "2026ag",
-      "definition": "What is legally registered and saleable (IP, trademarks, contracts, corporate-legal personality). Governed by General Counsel / corporate treasury. Transfers by document. Often absent from AI-strategy meetings.",
+      "definition": "What is legally registered and saleable (IP, trademarks, contracts, corporate-legal personality). Governed by General Counsel / corporate treasury. Transfers by document. Often absent from AI-strategy meetings. Includes control (residual decision rights fixed by the legal form: charter, cap table) and the registered rights to use a sign (classes, territory).",
       "papers": {
         "owns": [
           "2026ag"
@@ -6343,7 +6387,8 @@
           "2026am",
           "2026an",
           "2026bj",
-          "2026bm"
+          "2026bm",
+          "2026m"
         ],
         "refines": []
       },
@@ -6367,7 +6412,7 @@
       "key": "tier-4-product",
       "label": "Tier 4 (Product)",
       "owner": "2026ag",
-      "definition": "What is delivered to whom; includes the brand surface (per Brand-as-Tier-4). CMO governs the brand sub-spec; CTO the technical sub-spec (canonical collision at Tier 4). Transfers if specified; not if tacit.",
+      "definition": "What is delivered to whom; includes the brand's specification only (the sign, its form and the rules for its use, and its dimensions as specified), per Brand-as-Tier-4. Campaigns and PR are flow on Tier 2 channels; the perception the emissions produce lies outside the six tiers. CMO governs the brand sub-spec; CTO the technical sub-spec (canonical collision at Tier 4). Transfers if specified; not if tacit.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6381,7 +6426,8 @@
           "2026bd",
           "2026bi",
           "2026bj",
-          "2026bm"
+          "2026bm",
+          "2026m"
         ],
         "refines": []
       },
@@ -6391,7 +6437,7 @@
       "key": "tier-4-share",
       "label": "Tier-4 share (s)",
       "owner": "2026ai",
-      "definition": "The proportion s in [0,1] of a brand's total observable signal residing in a substrate an acquirer can hold independently of any individual.",
+      "definition": "The written share s in [0,1] of the Tier-4 brand specification: the part held in a substrate an acquirer can hold independently of any individual. The remainder 1 - s is held tacitly by the founder.",
       "papers": {
         "owns": [
           "2026ai"
@@ -6423,7 +6469,8 @@
           "2026bd",
           "2026bi",
           "2026bj",
-          "2026bm"
+          "2026bm",
+          "2026m"
         ],
         "refines": []
       },
@@ -6433,7 +6480,7 @@
       "key": "tier-6-organization",
       "label": "Tier 6 (Organization)",
       "owner": "2026ag",
-      "definition": "Who does the producing. Governed by CHRO (sometimes COO). Transfers only partially (retention contracts at best).",
+      "definition": "The people, roles, culture, tacit knowledge and relational networks that execute the Process; the Tier 6 part of marketing is the department's people. Governed by CHRO (sometimes COO). Transfers only partially (retention contracts at best).",
       "papers": {
         "owns": [
           "2026ag"
@@ -6446,7 +6493,8 @@
           "2026bd",
           "2026bi",
           "2026bj",
-          "2026bm"
+          "2026bm",
+          "2026m"
         ],
         "refines": []
       },
@@ -6512,7 +6560,7 @@
       "key": "tier-independence-overestimation",
       "label": "Tier-independence overestimation problem",
       "owner": "2026aj",
-      "definition": "The error of attributing durable-stock value to a target whose revenue-generating assets are constitutively flow-dependent (high Tier-6), producing goodwill premiums that exceed the substrate that actually transfers.",
+      "definition": "The error of attributing durable-stock value to a target whose revenue-generating assets are constitutively flow-dependent (high marketing flow on Tier 2 channels), producing goodwill premiums that exceed the substrate that actually transfers.",
       "papers": {
         "owns": [
           "2026aj"
@@ -6526,7 +6574,7 @@
       "key": "tier-rotation",
       "label": "Tier rotation",
       "owner": "2026ai",
-      "definition": "The deliberate, multi-decade migration of brand signal from a founder-bound Tier-1 substrate into an institutionally separable Tier-4 product-brand substrate via knowledge externalization.",
+      "definition": "The deliberate, multi-decade migration of brand signal within the Tier-4 specification from the tacit, founder-held part to the written, institutionally separable part, via knowledge externalization.",
       "papers": {
         "owns": [
           "2026ai"
@@ -7220,6 +7268,12 @@
     },
     {
       "from": "2026ag",
+      "to": "2026e",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026ag",
       "to": "2026h",
       "role": "applies",
       "criticality": "critical"
@@ -7229,6 +7283,12 @@
       "to": "2026m",
       "role": "applies",
       "criticality": "critical"
+    },
+    {
+      "from": "2026ag",
+      "to": "2026x",
+      "role": "unclassified",
+      "criticality": "supportive"
     },
     {
       "from": "2026ah",
