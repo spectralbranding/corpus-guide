@@ -13,7 +13,7 @@
   ],
   "counts": {
     "papers": 64,
-    "terms": 303,
+    "terms": 305,
     "citation_edges": 496
   },
   "papers": [
@@ -171,9 +171,10 @@
       "doi_url": "https://doi.org/10.5281/zenodo.19895813",
       "github_url": "https://github.com/spectralbranding/orgschema-papers/tree/main/six-tier-ontology",
       "thesis": "Mergers and acquisitions destroy value at high rates because the field lacks a shared ontology specifying which organizational layers transfer and how failures propagate across them. This paper develops a six-tier ontology of the acquisition target — Intent, Business Model, Business Entity, Product, Process, Organization — each with a distinct governor, specification surface, and transferability mode. Tier 1 is the intent of each position that deals with the business; the controlling position's intent is replaced at a change of control and the other positions' intents persist. The tiers form two oppositely directed hierarchies: a service hierarchy upward (Organization to Intent) and a constraint hierarchy downward (Intent to Organization). The constraint hierarchy fixes integration sequencing; shocks propagate bidirectionally, yielding seven falsifiable failure-propagation propositions. The tier structure is form-invariant across for-profit, NGO, cooperative, and state-owned entities: explicit substitution rules change what each tier holds, not the tiers or their order (Tiers 2, 4, 5 and the state-owned column provisional), and the framework derives a Six-Tier Separability Diagnostic (STSD) as a theoretical implication. The primary contribution is a generalizable theory of organizational separability under ownership change: separability is never costless because constraint architectures are sticky.",
-      "n_prop_claims": 30,
+      "n_prop_claims": 39,
       "terms": {
         "owns": [
+          "carrier-floor",
           "facet",
           "ontology-dependent-records",
           "owner-ontology",
@@ -188,7 +189,8 @@
           "tier-3-business-entity",
           "tier-4-product",
           "tier-5-process",
-          "tier-6-organization"
+          "tier-6-organization",
+          "tier-tempo"
         ],
         "imports": [
           "acquirer-operating-posture"
@@ -2470,6 +2472,20 @@
       "papers": {
         "owns": [
           "2026al"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "carrier-floor",
+      "label": "carrier floor",
+      "owner": "2026ag",
+      "definition": "The shortest cycle the carrier of a tier allows. People learn and agree at human speed, law sets procedural minimums, and a written artifact changes at machine speed. An assumption of the six-tier paper; it was not found in print.",
+      "papers": {
+        "owns": [
+          "2026ag"
         ],
         "imports": [],
         "refines": []
@@ -4968,7 +4984,7 @@
       "key": "position",
       "label": "position",
       "owner": "2026ag",
-      "definition": "A standpoint from which a subject and an intent are formed: the analyst's or a party's. A party's position is the one from which it deals with the business (owner, lender, employees, union, customers, the state, a potential buyer). Tiers are ordered by rank in the constraint hierarchy, not by position.",
+      "definition": "A standpoint from which a subject and an intent are formed: the analyst's or a party's. A party's position is the one from which it deals with the business (owner, lender, employees, union, customers, the state, a potential buyer). A collective can hold a position: the people a business organizes can come to hold goals as a collective, and that collective's intent is Tier 1 content of its position, carried in the Tier 6 culture; the business itself has no intent of its own. Tiers are ordered by rank in the constraint hierarchy, not by position.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6354,7 +6370,7 @@
       "key": "tier-2-business-model",
       "label": "Tier 2 (Business Model)",
       "owner": "2026ag",
-      "definition": "How value flows into resources. Governed by the CEO (a founder-CEO holds the controlling position and the chief-executive place). Conceptually replicable; not legally owned. Customer concentration is a Tier 2 parameter.",
+      "definition": "How value flows into resources. Governed by the CEO (a founder-CEO holds the controlling position and the chief-executive place). Conceptually replicable; not legally owned. Customer concentration is a Tier 2 parameter. The business model is the exchange through which each position contributes to the business and is paid in its own valuation; the customer is distinguished as the position whose acceptance releases the inflow that pays the others.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6376,7 +6392,7 @@
       "key": "tier-3-business-entity",
       "label": "Tier 3 (Business Entity)",
       "owner": "2026ag",
-      "definition": "What is legally registered and saleable (IP, trademarks, contracts, corporate-legal personality). Governed by General Counsel / corporate treasury. Transfers by document. Often absent from AI-strategy meetings. Includes control (residual decision rights fixed by the legal form: charter, cap table) and the registered rights to use a sign (classes, territory).",
+      "definition": "What is legally registered and saleable (IP, trademarks, contracts, corporate-legal personality). Governed by General Counsel / corporate treasury. Transfers by document. Often absent from AI-strategy meetings. Includes control (residual decision rights fixed by the legal form: charter, cap table) and the registered rights to use a sign (classes, territory). It also has a guarantee role: law makes commitments whose content sits on other tiers hold against third parties, beside the recording-document role of the assignment rule. The guarantee role is not generalized to every commitment of a business.",
       "papers": {
         "owns": [
           "2026ag"
@@ -6611,6 +6627,20 @@
       "papers": {
         "owns": [
           "2026aj"
+        ],
+        "imports": [],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "tier-tempo",
+      "label": "tier tempo",
+      "owner": "2026ag",
+      "definition": "How often a tier completes a decided change, stated against a named reference clock (the calendar, the environment's cycle, another tier, or a party's cycle). A decided change on a tier cannot finish before the longest chain of re-acceptances required from the parties that hold commitments on that tier, nor faster than the tier's carrier floor allows. The claim is a lower bound set by the longest chain, not the product of the number of re-acceptances and the time each takes; it counts decided change and not drift. Distinct from temporal-stability-hierarchy, which orders levels of organizational abstraction by stability.",
+      "papers": {
+        "owns": [
+          "2026ag"
         ],
         "imports": [],
         "refines": []
