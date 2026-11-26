@@ -12,9 +12,9 @@
     "5. Ground the answer in the widened set; state any paper you could not resolve."
   ],
   "counts": {
-    "papers": 64,
-    "terms": 305,
-    "citation_edges": 496
+    "papers": 65,
+    "terms": 307,
+    "citation_edges": 501
   },
   "papers": [
     {
@@ -1044,6 +1044,7 @@
         "imports": [
           "link-time-compatibility-check",
           "operator-role",
+          "paper-spec",
           "rendering-equivalence",
           "spine"
         ],
@@ -1594,6 +1595,25 @@
       }
     },
     {
+      "key": "2026t",
+      "title": "Paper as Specification: A Machine-Readable Standard for Scientific Claims",
+      "status": "active",
+      "doi_url": "https://doi.org/10.5281/zenodo.19210037",
+      "github_url": "https://github.com/spectralbranding/sbt-papers/tree/main/r13-paper-as-specification",
+      "thesis": null,
+      "n_prop_claims": 25,
+      "terms": {
+        "owns": [
+          "paper-spec",
+          "verification-as-specification-crisis"
+        ],
+        "imports": [
+          "spectral-brand-theory"
+        ],
+        "refines": []
+      }
+    },
+    {
       "key": "2026u",
       "title": "Research as Repository: Infrastructure for Transparent, Attributed, and Machine-Readable Scholarly Communication",
       "status": "active",
@@ -1612,6 +1632,7 @@
           "substrate-as-repository"
         ],
         "imports": [
+          "paper-spec",
           "six-tier-ontology",
           "spectral-brand-theory",
           "spine",
@@ -4684,6 +4705,23 @@
       "relations": []
     },
     {
+      "key": "paper-spec",
+      "label": "Paper Spec",
+      "owner": "2026t",
+      "definition": "An open, human-writable, machine-readable YAML standard that captures a paper's claims, methodology, acceptance criteria, results, dependencies, contradictions, and limitations in a companion paper.yaml file without replacing the paper itself.",
+      "papers": {
+        "owns": [
+          "2026t"
+        ],
+        "imports": [
+          "2026bk",
+          "2026u"
+        ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
       "key": "peer-alignment-event",
       "label": "Peer alignment event",
       "owner": "2026u",
@@ -5819,6 +5857,7 @@
           "2026p",
           "2026r",
           "2026s",
+          "2026t",
           "2026u",
           "2026v",
           "2026w",
@@ -6790,6 +6829,20 @@
         "imports": [
           "2026bn"
         ],
+        "refines": []
+      },
+      "relations": []
+    },
+    {
+      "key": "verification-as-specification-crisis",
+      "label": "Verification crisis as specification crisis",
+      "owner": "2026t",
+      "definition": "The diagnosis that science's generation-verification gap is fundamentally a lack of structured specification, following the historical generation-specification cycle pattern where each generation breakthrough was resolved by a specification breakthrough rather than faster consumption.",
+      "papers": {
+        "owns": [
+          "2026t"
+        ],
+        "imports": [],
         "refines": []
       },
       "relations": []
@@ -8414,6 +8467,12 @@
     },
     {
       "from": "2026bk",
+      "to": "2026t",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bk",
       "to": "2026u",
       "role": "unclassified",
       "criticality": "supportive"
@@ -8505,6 +8564,12 @@
     {
       "from": "2026bn",
       "to": "2026m",
+      "role": "unclassified",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026bn",
+      "to": "2026t",
       "role": "unclassified",
       "criticality": "supportive"
     },
@@ -9543,6 +9608,24 @@
     {
       "from": "2026s",
       "to": "2026r",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026a",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026i",
+      "role": "applies",
+      "criticality": "supportive"
+    },
+    {
+      "from": "2026t",
+      "to": "2026u",
       "role": "applies",
       "criticality": "supportive"
     },
